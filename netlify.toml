@@ -1,0 +1,4 @@
+[build]
+command = "hugo"
+publish = "public"
+environment = { HUGO_VERSION = "0.115.3" } # Use the latest version or the version required by PaperMod
