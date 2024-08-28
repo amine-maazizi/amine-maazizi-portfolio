@@ -1,0 +1,41 @@
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+    
+    /* Light Theme Colors */
+    --theme: #F5F7FA; /* Background - Very Light Gray */
+    --entry: #E9EDF3; /* Entry - Slightly Darker Gray for Sections */
+    --primary: #1F4E79; /* Primary - Professional Blue for Text and Headlines */
+    --secondary: #606F7B; /* Secondary - Softer Gray for Subtext */
+    --tertiary: #D1D5DB; /* Tertiary - Mid-tone Gray for Subtle Accents */
+    --content: #1F4E79; /* Content - Consistent with Primary for Text */
+    --code-block-bg: #E9EDF3; /* Code Block Background - Very Light Gray */
+    --code-bg: #F0F2F5; /* Code Background - Slightly Darker Gray */
+    --border: #D1D5DB; /* Border - Light Gray for Borders */
+}
+
+.dark {
+    /* Dark Theme Colors */
+    --theme: #1B1F24; /* Dark Mode Background - Dark Slate Gray */
+    --entry: #2C3138; /* Entry - Slightly Lighter Gray for Sections */
+    --primary: #A5C8FF; /* Primary - Light Blue for Text and Headlines */
+    --secondary: #D1D5DB; /* Secondary - Light Gray for Subtext */
+    --tertiary: #3B3F44; /* Tertiary - Darker Gray for Subtle Accents */
+    --content: #A5C8FF; /* Content - Consistent with Primary for Text */
+    --code-block-bg: #2C3138; /* Code Block Background - Slightly Lighter Gray */
+    --code-bg: #1B1F24; /* Code Background - Darker Gray for Contrast */
+    --border: #3B3F44; /* Border - Darker Gray for Borders */
+}
+
+.list {
+    background: var(--code-bg);
+}
+
+.dark.list {
+    background: var(--theme);
+}

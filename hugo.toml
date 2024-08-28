@@ -1,0 +1,125 @@
+baseURL = 'https://amine-maazizi-portfolio.org/'
+theme = "PaperMod"
+DefaultContentLanguage = "en"
+languageCode = "en-us"
+
+[languages]
+  [languages.en]
+    title = "Amine Maazizi's Portfolio"
+    weight = 1
+    languageName = "English"
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "Portfolio of Amine Maazizi, AI Engineering student and Automation specialist"
+      # Profile Mode Configuration
+      [languages.en.params.profileMode]
+        enabled = true
+        title = "Amine Maazizi"
+        subtitle = "AI Engineering student and Automation specialist"
+        imageTitle = "Profile Picture of Amine Maazizi"
+        imageUrl = "images/profile.png" 
+        imageWidth = 325
+        imageHeight = -1
+
+  [languages.fr]
+    title = "Portfolio d'Amine Maazizi"
+    weight = 2
+    languageName = "Français"
+    contentDir = "content/fr"
+    [languages.fr.params]
+      description = "Portfolio d'Amine Maazizi, étudiant en ingénierie de l'IA et spécialiste de l'automatisation"
+      # Configuration du mode profil
+      [languages.fr.params.profileMode]
+        enabled = true
+        title = "Amine Maazizi"
+        subtitle = "Étudiant en ingénierie de l'IA et spécialiste de l'automatisation"
+        imageTitle = "Photo de profil d'Amine Maazizi"
+        imageUrl = "images/profile.png" 
+        imageWidth = 325
+        imageHeight = -1
+
+# Social Icons Configuration (applies to all languages)
+[[params.socialIcons]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/amine-maazizi-190266235/"
+[[params.socialIcons]]
+  name = "GitHub"
+  url = "https://github.com/amine-maazizi"
+[[params.socialIcons]]
+  name = "Gmail"
+  url = "mailto:aminema1000@gmail.com"
+
+# Menu Configuration for Multilingual Support
+[menu]
+
+  # English Menu
+  [[languages.en.menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[languages.en.menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[languages.en.menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+
+  [[languages.en.menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 4
+
+  [[languages.en.menu.main]]
+    name = "Experience"
+    url = "/experience/"
+    weight = 5
+
+  [[languages.en.menu.main]]
+    name = "Education"
+    url = "/education/"
+    weight = 6
+
+  [[languages.en.menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 7
+
+  # French Menu
+  [[languages.fr.menu.main]]
+    name = "Accueil"
+    url = "/"
+    weight = 1
+
+  [[languages.fr.menu.main]]
+    name = "À Propos"
+    url = "/a-propos/"
+    weight = 2
+
+  [[languages.fr.menu.main]]
+    name = "Projets"
+    url = "/projets/"
+    weight = 3
+
+  [[languages.fr.menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 4
+
+  [[languages.fr.menu.main]]
+    name = "Expérience"
+    url = "/experience/"
+    weight = 5
+
+  [[languages.fr.menu.main]]
+    name = "Éducation"
+    url = "/education/"
+    weight = 6
+
+  [[languages.fr.menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 7
