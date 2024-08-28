@@ -1,4 +1,4 @@
-baseURL = 'https://amine-maazizi-portfolio.org/'
+baseURL = 'https://amine-maazizi-portfolio.netlify.app/'
 theme = "PaperMod"
 DefaultContentLanguage = "en"
 languageCode = "en-us"
