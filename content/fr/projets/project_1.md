@@ -109,12 +109,14 @@ Voici quelques captures d'écran illustrant l'application en action :
 
 Pour un package complet incluant toutes les fonctionnalités ci-dessus, le coût total estimé varie entre **325 $ et 900 $**, avec un délai d'achèvement approximatif de **4 à 6 semaines**, incluant les révisions et les tests. Ci-dessous le détail :
 
-| Service                             | Tarification             | Délai      | Révisions                                      |
-|-------------------------------------|--------------------------|------------|------------------------------------------------|
+| Service                             | Tarification              | Délai      | Révisions                                      |
+|-------------------------------------|---------------------------|------------|------------------------------------------------|
 | Génération de Rapports              | $75 - $200 par installation | 1 semaine  | Comprend jusqu'à 2 révisions pour ajustements des données |
-| Automatisation des Documents        | $100 - $250 par type     | 1 semaine  | Comprend jusqu'à 2 modifications de template   |
+| Automatisation des Documents        | $100 - $250 par type      | 1 semaine  | Comprend jusqu'à 2 modifications de template   |
 | Automatisation des Communications   | $50 - $150 par installation | 1 semaine  | Jusqu'à 3 révisions pour ajustements des emails |
 | Intégration et Synchronisation des Données | $100 - $300 par intégration | 1 semaine | Jusqu'à 2 révisions pour ajustements mineurs  |
+| **Maintenance**                     | $30 - $100 par mois       | Continu    | Couvre les mises à jour régulières et les améliorations mineures des fonctionnalités |
+
 
 ## Contactez-moi
 

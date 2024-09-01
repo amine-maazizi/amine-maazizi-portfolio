@@ -105,12 +105,14 @@ Below are some screenshots showcasing the application in action:
 
 For a comprehensive package including all features mentioned, the estimated total cost ranges from **$325 to $900**, with an approximate completion time of **4-6 weeks**, including revisions and testing. Below is a breakdown:
 
-| Service                            | Pricing                  | Time Frame | Revisions                                      |
-|------------------------------------|--------------------------|------------|------------------------------------------------|
-| Report Generation                  | $75 - $200 per setup     | 1 week     | Includes up to 2 revisions for data adjustments|
-| Document Automation                | $100 - $250 per type     | 1 week     | Includes up to 2 template modifications        |
-| Communication Automation           | $50 - $150 per setup     | 1 week     | Up to 3 revisions for email adjustments        |
-| Data Integration and Synchronization| $100 - $300 per integration | 1 week  | Up to 2 revisions for minor adjustments        |
+| Service                             | Pricing                   | Time Frame | Revisions                                      |
+|-------------------------------------|---------------------------|------------|------------------------------------------------|
+| Report Generation                   | $75 - $200 per setup      | 1 week     | Includes up to 2 revisions for data adjustments|
+| Document Automation                 | $100 - $250 per type      | 1 week     | Includes up to 2 template modifications        |
+| Communication Automation            | $50 - $150 per setup      | 1 week     | Up to 3 revisions for email adjustments        |
+| Data Integration and Synchronization| $100 - $300 per integration| 1 week   | Up to 2 revisions for minor adjustments        |
+| **Maintenance**                     | $30 - $100 per month      | Ongoing    | Covers routine updates and minor feature enhancements|
+
 
 ## Contact Me
 
