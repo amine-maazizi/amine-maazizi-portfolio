@@ -1,6 +1,6 @@
 baseURL = 'https://amine-maazizi-portfolio.netlify.app/'
 theme = "PaperMod"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "fr"
 languageCode = "en-us"
 
 [languages]
