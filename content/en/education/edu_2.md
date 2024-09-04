@@ -6,6 +6,10 @@ endDate: current
 
 I am currently a second-year computer science major at ENSTA Paris, specializing in information and communication technologies.
 
+## School Highlights
+- Established in 1741, ENSTA Paris is the oldest engineering school in France.
+- Consistently ranked among the top 5 engineering schools in France, holding the 2nd position in the 2023 Classement Étudiant.
+
 ### Learned
 
 - **First Year**: Generalist engineering curriculum covering applied mathematics, physics, mechanics, and engineering tools (MATLAB, systems engineering, signal processing, algorithms, and programming).

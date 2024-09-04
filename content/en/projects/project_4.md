@@ -1,54 +1,84 @@
 ---
-title: "AI-Powered Marketing Content Generator"
-date: 2024-08-28
-description: "A tool that automates the creation of personalized marketing content using AI-driven language models."
-tags: ["AI", "Marketing Automation", "NLP", "Content Generation"]
-image: "/images/projects/marketing-generator.png"
+title: "Case Study: Arabic Document Summarization and Report Generation Solution"
+date: 2024-09-03
 draft: false
+description: "An application that automates OCR on Arabic documents, uses LLMs with prompt engineering, and generates well-formatted PDF reports with extracted data and summaries."
+cover:
+    image: "images/project_4/solution_thumbnail.png"
+tags: ["OCR", "AI", "NLP", "Document Processing", "Python"]
+categories: ["Projects"]
 ---
 
 ## Overview
 
-Created an AI-driven marketing content generator that produces personalized email and social media content, targeting specific customer segments to improve engagement and conversion rates.
+The Arabic Document Summarization and Report Generation Application is a tailored solution designed for the Direction of Technical Affairs and Relations with Profession. This application automates the extraction of key data from Arabic documents using OCR and advanced LLMs, subsequently generating well-structured PDF reports. The system addresses the client's needs for efficient, accurate, and automated processing of unstructured text data, significantly reducing manual workload and enhancing data accessibility.
 
-## Objectives
+## Problematique of the Client
 
-- Automate 75% of content creation for marketing campaigns.
-- Increase customer engagement by 30% with personalized content.
-- Save 50% of the time spent on manual content creation.
+The client, the Director of the Direction of Technical Affairs and Relations with Profession, required a streamlined method for handling vast amounts of Arabic documents that contained crucial information such as circulars, reports, and official letters. The manual extraction and summarization of these documents were cumbersome, prone to errors, and resource-intensive. The challenge was to develop an automated solution that could accurately extract specific data points, generate concise summaries, and compile this information into professional, easy-to-read reports.
+
+## Steps Towards Solving the Problem
+
+1. **Requirement Gathering**: Collaborated with the client to outline key extraction needs, such as document dates, numbers, and subject lines, along with the format for the final reports.
+   
+2. **Design and Development**:
+   - Designed the application to include an OCR module capable of processing Arabic text.
+   - Integrated LLMs with prompt engineering to extract relevant details and generate summaries.
+   - Developed a templating system using HTML for report formatting, with PDF conversion capabilities for final output.
+
+3. **Implementation**:
+   - Implemented the OCR functionality using Tesseract for accurate text extraction.
+   - Employed GPT-4 models to handle data extraction and summarization based on crafted prompts that guided the model to identify specific sections and infer missing subjects when necessary.
+   - Utilized Jinja2 and pdfkit for generating well-structured PDF reports from the processed data.
+
+4. **Testing and Optimization**: Conducted extensive testing to validate the accuracy of the OCR and LLM outputs, refining prompts and improving the template design based on client feedback.
+
+5. **Deployment and Training**: Delivered the solution and provided training sessions to the client's team, ensuring seamless integration into their existing workflows.
 
 ## Key Features
 
-- **AI-Driven Content Generation**: Uses GPT-3 to generate unique content for different customer segments.
-- **Integration with Marketing Tools**: Directly integrates with Mailchimp and other platforms for seamless content deployment.
-- **Analytics and Feedback Loop**: Tracks performance metrics and adjusts content based on engagement data.
+- **Arabic OCR Processing**: Converts scanned Arabic documents into editable text, ensuring high accuracy in recognizing various scripts and formats.
+- **Advanced Data Extraction**: Uses GPT-4 with specialized prompts to extract dates, document numbers, and subjects, even inferring missing information when necessary.
+- **Content Summarization**: Automatically generates concise summaries of document content, highlighting key points and relevant details.
+- **Automated Report Generation**: Compiles extracted data and summaries into a professionally formatted PDF report using customizable HTML templates.
+
+## Detailed Workflow
+
+### 1. **Data Extraction**
+- Utilizes Tesseract OCR to digitize Arabic text from scanned documents, preparing it for further analysis.
+
+### 2. **LLM Processing**
+- Employs GPT-4 models to extract key data points and generate summaries using prompt engineering techniques to ensure accurate and contextually relevant outputs.
+
+### 3. **Report Generation**
+- Renders the extracted data and summaries into HTML templates with Jinja2, and converts them to PDFs using pdfkit, resulting in clean, professional reports.
 
 ## Technologies Used
 
-- **Programming Languages**: Python
-- **NLP Tools**: OpenAI GPT-3, Hugging Face Transformers
-- **Platforms**: Zapier, Mailchimp API
+### Backend:
+- **Python**:
+  - **Tesseract OCR**: For extracting text from Arabic documents.
+  - **OpenAI GPT-4**: For data extraction and summarization through prompt engineering.
+  - **Jinja2**: For creating HTML templates to format the report content dynamically.
+  - **pdfkit & wkhtmltopdf**: For converting HTML templates into PDF reports.
 
-## Pricing, Time Frame, and Revisions
+### Frontend:
+- **HTML/CSS**: Used in the templating of reports for visual consistency and professional appearance.
 
-| Service                         | Pricing                | Time Frame | Revisions                                 |
-|---------------------------------|------------------------|------------|--------------------------------------------|
-| Content Generator Setup         | $500 - $1000 per setup | 1.5-2 weeks| Includes up to 3 content iterations         |
+## Pricing and Time Estimates
 
-## Screenshots
+For a comprehensive package similar to this solution, the estimated cost and time requirements are detailed below:
 
-![Marketing Content Generator](images/projects/marketing-generator.png)  
-*Dashboard showing generated marketing content and performance metrics.*
+| Service                            | Pricing                      | Time Frame  | Revisions                                         |
+|------------------------------------|------------------------------|-------------|---------------------------------------------------|
+| **Report Generation**              | $75 - $200 per setup         | 1 week      | Includes up to 2 revisions for data adjustments   |
+| **Document Automation**            | $100 - $250 per type         | 1 week      | Includes up to 2 template modifications           |
+| **Document Processing Workflow**   | $500 - $1000 per setup       | 2-4 weeks   | Up to 3 revisions for data extraction accuracy    |
 
-## Future Improvements
+### Total Estimate:
+- **Estimated Cost**: $675 - $1,450 depending on specific requirements and complexity.
+- **Estimated Time**: 4-6 weeks including development, testing, and deployment.
 
-- Add voice-based content creation for podcasts and audiobooks.
-- Integrate advanced sentiment analysis to refine content based on audience reactions.
+## Contact
 
-## Conclusion
-
-This project showcases the potential of AI to revolutionize marketing by generating engaging, personalized content, reducing the time and effort required for manual creation, and improving campaign effectiveness.
-
-## Repository
-
-- [GitHub Repository](https://github.com/yourusername/marketing-generator)
+For more information or to discuss your project requirements, [contact us here](../../contact).
