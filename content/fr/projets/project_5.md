@@ -1,6 +1,6 @@
 ---
 title: "Modèle de Support Client pour E-commerce"
-date: 2024-09-26
+date: 2024-09-06
 draft: false
 description: "Un modèle LLaMA 3 70 affiné pour gérer les requêtes courantes du support client des plateformes e-commerce en utilisant le langage naturel."
 cover: 

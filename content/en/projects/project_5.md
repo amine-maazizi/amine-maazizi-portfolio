@@ -1,6 +1,6 @@
 ---
 title: "E-commerce Customer Support Language Model"
-date: 2024-09-26
+date: 2024-09-06
 draft: false
 description: "A fine-tuned LLaMA 3 70 model designed to handle common customer support queries for e-commerce platforms using natural language."
 cover: 
