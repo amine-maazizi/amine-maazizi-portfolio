@@ -12,8 +12,8 @@ Deploying a chatbot to handle customer service queries, provide instant response
 ## Technologies Used
 Python, Hugging Face Transformers, Rasa, OpenAI API, Stable Baselines3.
 
-## Pricing, Time Frame, and Revisions
+<!-- ## Pricing, Time Frame, and Revisions
 
 | Service                        | Pricing                | Time Frame | Revisions                              |
 |--------------------------------|------------------------|------------|-----------------------------------------|
-| AI Customer Support Bot        | $700 - $1500 per bot   | 2-4 weeks  | Includes up to 3 revisions for tuning   |
+| AI Customer Support Bot        | $700 - $1500 per bot   | 2-4 weeks  | Includes up to 3 revisions for tuning   | -->

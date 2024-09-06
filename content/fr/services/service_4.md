@@ -12,8 +12,8 @@ Créer des modèles de factures automatisés qui se remplissent automatiquement 
 ## Technologies Utilisées
 Suite Microsoft Office, Google Workspace, Python, API DocuSign.
 
-## Tarification, Délais, et Révisions
+<!-- ## Tarification, Délais, et Révisions
 
 | Service                     | Tarification         | Délais     | Révisions                              |
 |-----------------------------|----------------------|------------|----------------------------------------|
-| Automatisation des Documents | 100 $ - 250 $ par type | 1 semaine  | Inclut jusqu'à 2 modifications de modèles |
+| Automatisation des Documents | 100 $ - 250 $ par type | 1 semaine  | Inclut jusqu'à 2 modifications de modèles | -->

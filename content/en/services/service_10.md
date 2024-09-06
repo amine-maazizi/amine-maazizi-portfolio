@@ -12,8 +12,8 @@ Automating the generation of internal knowledge bases and retrieving information
 ## Technologies Used
 Python, Hugging Face Transformers, OpenAI API.
 
-## Pricing, Time Frame, and Revisions
+<!-- ## Pricing, Time Frame, and Revisions
 
 | Service                      | Pricing                | Time Frame | Revisions                               |
 |------------------------------|------------------------|------------|------------------------------------------|
-| Knowledge Management System  | $700 - $1500 per system | 2-4 weeks  | Up to 2 revisions for retrieval accuracy |
+| Knowledge Management System  | $700 - $1500 per system | 2-4 weeks  | Up to 2 revisions for retrieval accuracy | -->

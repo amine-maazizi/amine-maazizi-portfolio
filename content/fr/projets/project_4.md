@@ -65,7 +65,7 @@ Le client, le Directeur de la Direction des Affaires Techniques et des Relations
 ### Frontend:
 - **HTML/CSS** : Utilisé dans la modélisation des rapports pour une cohérence visuelle et une apparence professionnelle.
 
-## Estimations de Prix et de Temps
+<!-- ## Estimations de Prix et de Temps
 
 Pour un package complet similaire à cette solution, les coûts estimés et les délais sont détaillés ci-dessous :
 
@@ -77,7 +77,7 @@ Pour un package complet similaire à cette solution, les coûts estimés et les 
 
 ### Estimation Totale :
 - **Coût Estimé** : 675 $ - 1 450 $ selon les exigences spécifiques et la complexité.
-- **Temps Estimé** : 4-6 semaines incluant développement, tests, et déploiement.
+- **Temps Estimé** : 4-6 semaines incluant développement, tests, et déploiement. -->
 
 ## Contact
 

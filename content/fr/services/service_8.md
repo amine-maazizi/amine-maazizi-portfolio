@@ -12,8 +12,8 @@ Générer automatiquement des rapports d'analyse à partir des données de vente
 ## Technologies Utilisées
 Python, Jupyter, Hugging Face, Pandas, Scikit-Learn, Matplotlib.
 
-## Tarification, Délais, et Révisions
+<!-- ## Tarification, Délais, et Révisions
 
 | Service                        | Tarification           | Délais     | Révisions                                 |
 |--------------------------------|------------------------|------------|--------------------------------------------|
-| Automatisation des Insights de Données | 600 $ - 1200 $ par configuration | 2-4 semaines | Jusqu'à 2 révisions pour ajustements du modèle |
+| Automatisation des Insights de Données | 600 $ - 1200 $ par configuration | 2-4 semaines | Jusqu'à 2 révisions pour ajustements du modèle | -->

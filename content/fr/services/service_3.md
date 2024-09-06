@@ -12,8 +12,8 @@ Mettre en place une séquence d'emails de suivi automatisée pour les prospects 
 ## Technologies Utilisées
 Mailchimp, SendGrid, Python, JavaScript, Zapier.
 
-## Tarification, Délais, et Révisions
+<!-- ## Tarification, Délais, et Révisions
 
 | Service                     | Tarification        | Délais     | Révisions                               |
 |-----------------------------|---------------------|------------|-----------------------------------------|
-| Automatisation des Communications | 50 $ - 150 $ par configuration | 1 semaine  | Jusqu'à 3 révisions pour ajustements des emails |
+| Automatisation des Communications | 50 $ - 150 $ par configuration | 1 semaine  | Jusqu'à 3 révisions pour ajustements des emails | -->

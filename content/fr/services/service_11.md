@@ -12,8 +12,8 @@ Développer des programmes de formation dynamiques qui s'adaptent aux performanc
 ## Technologies Utilisées
 Python, Machine Learning, Apprentissage par Renforcement, plateformes LMS.
 
-## Tarification, Délais, et Révisions
+<!-- ## Tarification, Délais, et Révisions
 
 | Service                                 | Tarification             | Délais      | Révisions                                                        |
 |-----------------------------------------|---------------------------|-------------|------------------------------------------------------------------|
-| Formation et Développement Personnalisés | 500 $ - 1200 $ par configuration | 2-3 semaines | Inclut jusqu'à 2 révisions pour le contenu de formation ou les ajustements du programme |
+| Formation et Développement Personnalisés | 500 $ - 1200 $ par configuration | 2-3 semaines | Inclut jusqu'à 2 révisions pour le contenu de formation ou les ajustements du programme | -->

@@ -12,8 +12,8 @@ Automatically extracting key contract terms and alerting stakeholders about upco
 ## Technologies Used
 Python, Natural Language Processing, OpenAI GPT, Legal AI tools.
 
-## Pricing, Time Frame, and Revisions
+<!-- ## Pricing, Time Frame, and Revisions
 
 | Service                         | Pricing                | Time Frame | Revisions                                      |
 |---------------------------------|------------------------|------------|-------------------------------------------------|
-| Contract Analysis Workflow      | $800 - $1500 per workflow | 2-4 weeks  | Up to 2 revisions for improving extraction accuracy |
+| Contract Analysis Workflow      | $800 - $1500 per workflow | 2-4 weeks  | Up to 2 revisions for improving extraction accuracy | -->

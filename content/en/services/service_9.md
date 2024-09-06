@@ -11,9 +11,9 @@ Automating the creation of monthly blog posts tailored to specific customer segm
 
 ## Technologies Used
 Python, OpenAI GPT, Hugging Face Transformers.
-
+<!-- 
 ## Pricing, Time Frame, and Revisions
 
 | Service                          | Pricing                  | Time Frame | Revisions                                 |
 |----------------------------------|--------------------------|------------|--------------------------------------------|
-| Content Generation Package       | $500 - $1000 per package | 1-2 weeks  | Includes up to 3 content revisions         |
+| Content Generation Package       | $500 - $1000 per package | 1-2 weeks  | Includes up to 3 content revisions         | -->

@@ -15,6 +15,25 @@ With the **Automated Invoice and Report Generation System**, automate error-pron
 
 The **Automated Invoice and Report Generation System** is a robust desktop application designed to streamline and automate the process of generating invoices and reports. Focusing on enhancing productivity and reducing manual workload, this system is ideal for businesses aiming for greater accuracy and efficiency in document management. The application features a straightforward yet powerful expanding and collapsing navbar UI that provides easy navigation and access to various functions.
 
+## Gallery
+
+Below are some screenshots showcasing the application in action:
+
+![Features](/images/project_1/features.PNG)
+*Explore the application's key features with a user-friendly interface.*
+
+![Automation](/images/project_1/automations.PNG)
+*Navigate the automation section with an intuitive interface.*
+
+![Settings](/images/project_1/settings.PNG)
+*Customize folder paths, email settings, scheduling options, and more.*
+
+![Reports Overview](/images/project_1/report_example.PNG)
+*View examples of generated reports.*
+
+![Invoice Overview](/images/project_1/invoice_example.PNG)
+*View examples of generated invoices.*
+
 ## Objectives
 
 - **Automate** the generation of invoices and reports to minimize manual data entry and reduce errors.
@@ -82,25 +101,7 @@ The application offers four main automation services:
   - **Electron**: Powers the cross-platform desktop application, integrating the frontend and backend.
   - **HTML/CSS**: For application interfaces and templates of invoices and reports.
 
-## Gallery
-
-Below are some screenshots showcasing the application in action:
-
-![Features](/images/project_1/features.PNG)
-*Explore the application's key features with a user-friendly interface.*
-
-![Automation](/images/project_1/automations.PNG)
-*Navigate the automation section with an intuitive interface.*
-
-![Settings](/images/project_1/settings.PNG)
-*Customize folder paths, email settings, scheduling options, and more.*
-
-![Reports Overview](/images/project_1/report_example.PNG)
-*View examples of generated reports.*
-
-![Invoice Overview](/images/project_1/invoice_example.PNG)
-*View examples of generated invoices.*
-
+<!-- 
 ## Estimated Total Cost and Time Frame
 
 For a comprehensive package including all features mentioned, the estimated total cost ranges from **$325 to $900**, with an approximate completion time of **4-6 weeks**, including revisions and testing. Below is a breakdown:
@@ -111,7 +112,7 @@ For a comprehensive package including all features mentioned, the estimated tota
 | Document Automation                 | $100 - $250 per type      | 1 week     | Includes up to 2 template modifications        |
 | Communication Automation            | $50 - $150 per setup      | 1 week     | Up to 3 revisions for email adjustments        |
 | Data Integration and Synchronization| $100 - $300 per integration| 1 week   | Up to 2 revisions for minor adjustments        |
-| **Maintenance**                     | $30 - $100 per month      | Ongoing    | Covers routine updates and minor feature enhancements|
+| **Maintenance**                     | $30 - $100 per month      | Ongoing    | Covers routine updates and minor feature enhancements| -->
 
 
 ## Contact Me

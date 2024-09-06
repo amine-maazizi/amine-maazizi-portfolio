@@ -12,8 +12,8 @@ Intégrer un CRM avec une plateforme de marketing par email pour synchroniser au
 ## Technologies Utilisées
 Python, intégrations d'API, services RESTful, JSON, Zapier, Microsoft Power Automate.
 
-## Tarification, Délais, et Révisions
+<!-- ## Tarification, Délais, et Révisions
 
 | Service                             | Tarification         | Délais     | Révisions                                |
 |-------------------------------------|----------------------|------------|------------------------------------------|
-| Intégration et Synchronisation de Données | 100 $ - 300 $ par intégration | 1 semaine  | Jusqu'à 2 révisions pour ajustements mineurs |
+| Intégration et Synchronisation de Données | 100 $ - 300 $ par intégration | 1 semaine  | Jusqu'à 2 révisions pour ajustements mineurs | -->

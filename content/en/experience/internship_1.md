@@ -6,8 +6,10 @@ endDate: 2024-08-10
 
 ## Internship at the Ministry of Equipment and Water
 
+> I completed my first-year operator internship at **ENSTA Paris** within the **Directorate of Technical Affairs and Relations with the Profession** at the **Ministry of Equipment and Water** in Morocco.
+
 ### Key Responsibilities
 
-- Assisted in operational tasks within the Directorate of Technical Affairs and Professional Relations.
-- Developed an automation platform to streamline and optimize repetitive tasks, particularly for price index data entry.
-- Fine-tuned a GPT-4 model specifically for the topic of price revision in Morocco's BTP (Building and Public Works) public markets, enhancing the accuracy and efficiency of data analysis.
+- Participated in daily operations within the Directorate of Technical Affairs and Relations with Professionals.
+- Developed an automation platform to optimize repetitive tasks, including data entry for the price index.
+- Fine-tuned a GPT-4 model specifically for the revision of prices in the context of public works contracts in Morocco, enhancing the accuracy and efficiency of data analysis.

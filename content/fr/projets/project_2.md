@@ -17,6 +17,22 @@ Le **Système de Gestion des Indices de Prix** a été développé durant mon st
 
 Les responsables du DATRP rencontraient des difficultés dans la gestion et la mise à jour des indices de prix des matériaux de construction en raison d'un processus manuel et chronophage de création de canevas de valeurs à partir des fichiers Excel. Cela entraînait non seulement des inefficacités mais augmentait également le risque d'inexactitudes et d'erreurs dans les données, impactant la fiabilité des rapports de révision des prix et les processus de prise de décision.
 
+## Galerie
+
+Voici quelques captures d'écran montrant l'application en action :
+
+![Tableau de Bord](/images/project_2/dashboard.png)
+*Le tableau de bord principal montrant les indicateurs clés et les options de navigation.*
+
+![Importation Excel](/images/project_2/importer.png)
+*Interface d'importation des données Excel avec validation et aperçu des données.*
+
+![Chatbot](/images/project_2/answer.png)
+*Module de chatbot expérimental assistant dans les requêtes de révision des prix.*
+
+![Gestion des Utilisateurs](/images/project_2/inscription.png)
+*Gestion sécurisée des utilisateurs pour la gestion des différents niveaux d'accès.*
+
 ## Étapes pour Résoudre le Problème
 
 1. **Analyse des Besoins :** Réalisation d'une analyse détaillée du flux de travail existant pour comprendre les points de blocage et les besoins spécifiques des responsables du DATRP en matière de gestion des indices de prix.
@@ -69,22 +85,8 @@ Ce projet intègre plusieurs services clés de mon portefeuille, notamment :
 ### Frontend :
 - **HTML/CSS/JavaScript :** HTML, CSS et JS utilisés pour l'interface frontend, gardant l'expérience utilisateur simple et efficace.
 
-## Galerie
 
-Voici quelques captures d'écran montrant l'application en action :
-
-![Tableau de Bord](/images/project_2/dashboard.png)
-*Le tableau de bord principal montrant les indicateurs clés et les options de navigation.*
-
-![Importation Excel](/images/project_2/importer.png)
-*Interface d'importation des données Excel avec validation et aperçu des données.*
-
-![Chatbot](/images/project_2/answer.png)
-*Module de chatbot expérimental assistant dans les requêtes de révision des prix.*
-
-![Gestion des Utilisateurs](/images/project_2/inscription.png)
-*Gestion sécurisée des utilisateurs pour la gestion des différents niveaux d'accès.*
-
+<!-- 
 ### Coût Total Estimé et Délai
 
 Pour un package complet incluant toutes les fonctionnalités et services décrits, le coût total estimé varie de **1 250 $ à 2 700 $**, avec un délai de réalisation approximatif de **5 à 8 semaines**, incluant les révisions et les tests.
@@ -98,7 +100,7 @@ Voici une répartition détaillée des services inclus :
 | Formation Personnalisée et Développement | 500 $ - 1 200 $ par installation | 2-3 semaines | Inclut jusqu'à 2 révisions pour le contenu de la formation ou les ajustements du programme |
 | **Hébergement et Maintenance**        | 50 $ - 150 $ par mois    | En continu  | Inclut les mises à jour de routine et le support |
 
-Ces tarifs incluent tous les services et fonctionnalités nécessaires pour assurer un système entièrement fonctionnel et robuste adapté aux besoins du DATRP du Ministère de l'Équipement et de l'Eau.
+Ces tarifs incluent tous les services et fonctionnalités nécessaires pour assurer un système entièrement fonctionnel et robuste adapté aux besoins du DATRP du Ministère de l'Équipement et de l'Eau. -->
 
 ## Contactez-moi
 

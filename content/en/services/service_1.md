@@ -12,8 +12,8 @@ Integrating a CRM with an email marketing platform to automatically synchronize 
 ## Technologies Used
 Python, API integrations, RESTful services, JSON, Zapier, Microsoft Power Automate.
 
-## Pricing, Time Frame, and Revisions
+<!-- ## Pricing, Time Frame, and Revisions
 
 | Service                            | Pricing              | Time Frame | Revisions                               |
 |------------------------------------|----------------------|------------|------------------------------------------|
-| Data Integration and Synchronization | $100 - $300 per integration | 1 week     | Up to 2 revisions for minor adjustments  |
+| Data Integration and Synchronization | $100 - $300 per integration | 1 week     | Up to 2 revisions for minor adjustments  | -->

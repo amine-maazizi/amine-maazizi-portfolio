@@ -12,8 +12,8 @@ Setting up an automated follow-up email sequence for leads who sign up via a web
 ## Technologies Used
 Mailchimp, SendGrid, Python, JavaScript, Zapier.
 
-## Pricing, Time Frame, and Revisions
+<!-- ## Pricing, Time Frame, and Revisions
 
 | Service                    | Pricing             | Time Frame | Revisions                              |
 |----------------------------|---------------------|------------|-----------------------------------------|
-| Communication Automation   | $50 - $150 per setup | 1 week     | Up to 3 revisions for email adjustments |
+| Communication Automation   | $50 - $150 per setup | 1 week     | Up to 3 revisions for email adjustments | -->

@@ -12,8 +12,8 @@ Automating the extraction of key data points from contracts and updating a CRM s
 ## Technologies Used
 Python, TensorFlow, PyTorch, OpenCV, OCR tools like Tesseract, GPT-3.
 
-## Pricing, Time Frame, and Revisions
+<!-- ## Pricing, Time Frame, and Revisions
 
 | Service                        | Pricing                  | Time Frame | Revisions                                      |
 |--------------------------------|--------------------------|------------|-------------------------------------------------|
-| Document Processing Workflow   | $500 - $1000 per setup   | 2-4 weeks  | Up to 3 revisions for data extraction accuracy  |
+| Document Processing Workflow   | $500 - $1000 per setup   | 2-4 weeks  | Up to 3 revisions for data extraction accuracy  | -->

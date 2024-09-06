@@ -12,8 +12,8 @@ Analyser les données historiques des capteurs des équipements de fabrication p
 ## Technologies Utilisées
 Python, TensorFlow, PyTorch, outils d'analyse de séries temporelles, bibliothèques de visualisation de données.
 
-## Tarification, Délais, et Révisions
+<!-- ## Tarification, Délais, et Révisions
 
 | Service                          | Tarification            | Délais     | Révisions                                  |
 |----------------------------------|-------------------------|------------|---------------------------------------------|
-| Solution de Maintenance Prédictive | 800 $ - 2000 $ par configuration | 3-6 semaines | Jusqu'à 2 révisions pour l'optimisation du modèle |
+| Solution de Maintenance Prédictive | 800 $ - 2000 $ par configuration | 3-6 semaines | Jusqu'à 2 révisions pour l'optimisation du modèle | -->

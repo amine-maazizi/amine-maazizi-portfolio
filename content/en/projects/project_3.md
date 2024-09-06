@@ -21,6 +21,23 @@ categories: ["Projects"]
 - **Visualize**: Present data insights through interactive and informative visualizations on a web-based dashboard.
 - **Report**: Generate detailed reports that summarize key findings and trends, helping users make data-driven decisions.
 
+## Gallery
+
+Below are some screenshots showcasing the application in action:
+
+![Top products](/images/project_3/top.PNG)
+*The main dashboard showcasing top selling articles.*
+
+![Statistics](/images/project_3/stats.PNG)
+*Displays key statistics extracted from the scraped data.*
+
+![Pricings Plot](/images/project_3/pricings.png)
+*Plot showing the correlation between pricing and ratings.*
+
+![Data](/images/project_3/data.png)
+*CSV file of the scraped data.*
+<!-- 
+
 ## Key Features
 
 - **Automated Web Scraping**: Utilizes Selenium and Beautiful Soup to extract data from Amazon’s best sellers page, including product names, prices, ratings, reviews, and links.
@@ -67,21 +84,6 @@ categories: ["Projects"]
 - **Plotly.js**: Used for creating interactive data visualizations within the dashboard.
 - **HTML/CSS/JavaScript**: Utilizes vanilla HTML, CSS
 
-## Gallery
-
-Below are some screenshots showcasing the application in action:
-
-![Top products](/images/project_3/top.PNG)
-*The main dashboard showcasing top selling articles.*
-
-![Statistics](/images/project_3/stats.PNG)
-*Displays key statistics extracted from the scraped data.*
-
-![Pricings Plot](/images/project_3/pricings.png)
-*Plot showing the correlation between pricing and ratings.*
-
-![Data](/images/project_3/data.png)
-*CSV file of the scraped data.*
 
 ## Pricing and Time Estimates
 
@@ -93,7 +95,7 @@ For a comprehensive package including all the features and services described, t
 | **Report Generation**                | $75 - $200 per setup     | 1 week      | Includes up to 2 revisions for data adjustments|
 | **Web Scraping**                     | $150 - $300 per setup    | 1-2 weeks   | Up to 2 revisions for extraction parameters    |
 | **Data Integration and Synchronization** | $100 - $300 per integration | 1 week | Up to 2 revisions for minor adjustments       |
-| **Customization and Support**        | $50 - $100 per month     | Ongoing     | Covers routine updates and minor feature enhancements |
+| **Customization and Support**        | $50 - $100 per month     | Ongoing     | Covers routine updates and minor feature enhancements | -->
 
 ## Contact Me
 

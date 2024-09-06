@@ -12,8 +12,8 @@ Generating weekly sales performance reports by pulling data from multiple sales 
 ## Technologies Used
 Python, Pandas, Excel VBA, Google Sheets API, SQL.
 
-## Pricing, Time Frame, and Revisions
+<!-- ## Pricing, Time Frame, and Revisions
 
 | Service                  | Pricing              | Time Frame | Revisions                                        |
 |--------------------------|----------------------|------------|--------------------------------------------------|
-| Report Generation        | $75 - $200 per setup | 1 week     | Includes up to 2 revisions for data adjustments  |
+| Report Generation        | $75 - $200 per setup | 1 week     | Includes up to 2 revisions for data adjustments  | -->

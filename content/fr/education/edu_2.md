@@ -4,7 +4,7 @@ date: 2023-09-01
 endDate: actuel
 ---
 
-Je suis actuellement en deuxième année de spécialisation en informatique à l'ENSTA Paris, avec un focus sur les technologies de l'information et de la communication.
+> Je suis actuellement en deuxième année de spécialisation en informatique à l'ENSTA Paris, avec un focus sur les technologies de l'information et de la communication.
 
 ## Points Forts de l'École
 - Fondée en 1741, l'ENSTA Paris est la plus ancienne école d'ingénieurs de France.

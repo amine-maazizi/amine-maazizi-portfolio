@@ -12,8 +12,8 @@ Automatically generating insights reports from sales data to help executives mak
 ## Technologies Used
 Python, Jupyter, Hugging Face, Pandas, Scikit-Learn, Matplotlib.
 
-## Pricing, Time Frame, and Revisions
+<!-- ## Pricing, Time Frame, and Revisions
 
 | Service                        | Pricing                | Time Frame | Revisions                               |
 |--------------------------------|------------------------|------------|------------------------------------------|
-| Data Insights Automation       | $600 - $1200 per setup | 2-4 weeks  | Up to 2 revisions for model adjustments  |
+| Data Insights Automation       | $600 - $1200 per setup | 2-4 weeks  | Up to 2 revisions for model adjustments  | -->

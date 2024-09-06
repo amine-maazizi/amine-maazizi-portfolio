@@ -12,8 +12,8 @@ Extraire automatiquement les termes clés d'un contrat et alerter les parties pr
 ## Technologies Utilisées
 Python, Traitement du Langage Naturel (NLP), OpenAI GPT, outils d'IA juridique.
 
-## Tarification, Délais, et Révisions
+<!-- ## Tarification, Délais, et Révisions
 
 | Service                         | Tarification            | Délais     | Révisions                                       |
 |---------------------------------|-------------------------|------------|--------------------------------------------------|
-| Workflow d'Analyse de Contrat   | 800 $ - 1500 $ par workflow | 2-4 semaines | Jusqu'à 2 révisions pour améliorer l'exactitude de l'extraction |
+| Workflow d'Analyse de Contrat   | 800 $ - 1500 $ par workflow | 2-4 semaines | Jusqu'à 2 révisions pour améliorer l'exactitude de l'extraction | -->

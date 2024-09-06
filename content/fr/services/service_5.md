@@ -11,9 +11,9 @@ Automatiser l'extraction des points de données clés des contrats et mettre à 
 
 ## Technologies Utilisées
 Python, TensorFlow, PyTorch, OpenCV, outils OCR comme Tesseract, GPT-3.
-
+<!-- 
 ## Tarification, Délais, et Révisions
 
 | Service                      | Tarification            | Délais      | Révisions                                     |
 |------------------------------|-------------------------|-------------|-----------------------------------------------|
-| Workflow de Traitement de Documents | 500 $ - 1000 $ par configuration | 2-4 semaines | Jusqu'à 3 révisions pour l'exactitude de l'extraction des données |
+| Workflow de Traitement de Documents | 500 $ - 1000 $ par configuration | 2-4 semaines | Jusqu'à 3 révisions pour l'exactitude de l'extraction des données | -->

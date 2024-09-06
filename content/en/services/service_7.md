@@ -12,8 +12,8 @@ Analyzing historical sensor data from manufacturing equipment to predict failure
 ## Technologies Used
 Python, TensorFlow, PyTorch, Time-Series Analysis tools, data visualization libraries.
 
-## Pricing, Time Frame, and Revisions
+<!-- ## Pricing, Time Frame, and Revisions
 
 | Service                            | Pricing                | Time Frame | Revisions                               |
 |------------------------------------|------------------------|------------|------------------------------------------|
-| Predictive Maintenance Solution    | $800 - $2000 per setup | 3-6 weeks  | Up to 2 revisions for model optimization |
+| Predictive Maintenance Solution    | $800 - $2000 per setup | 3-6 weeks  | Up to 2 revisions for model optimization | -->

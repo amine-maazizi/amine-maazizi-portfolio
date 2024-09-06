@@ -12,8 +12,8 @@ S'intégrer aux outils de visioconférence pour automatiser la capture des minut
 ## Technologies Utilisées
 Python, API OpenAI, outils de reconnaissance vocale (Speech-to-Text), Traitement du Langage Naturel (NLP), intégrations Zapier.
 
-## Tarification, Délais, et Révisions
+<!-- ## Tarification, Délais, et Révisions
 
 | Service                          | Tarification           | Délais     | Révisions                                       |
 |----------------------------------|------------------------|------------|-------------------------------------------------|
-| Automatisation des Réunions et Notes | 500 $ - 1000 $ par configuration | 1-2 semaines | Inclut jusqu'à 3 révisions pour l'exactitude et la clarté |
+| Automatisation des Réunions et Notes | 500 $ - 1000 $ par configuration | 1-2 semaines | Inclut jusqu'à 3 révisions pour l'exactitude et la clarté | -->

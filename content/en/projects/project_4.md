@@ -13,7 +13,7 @@ categories: ["Projects"]
 
 The Arabic Document Summarization and Report Generation Application is a tailored solution designed for the Direction of Technical Affairs and Relations with Profession. This application automates the extraction of key data from Arabic documents using OCR and advanced LLMs, subsequently generating well-structured PDF reports. The system addresses the client's needs for efficient, accurate, and automated processing of unstructured text data, significantly reducing manual workload and enhancing data accessibility.
 
-## Problematique of the Client
+## Problematic of the Client
 
 The client, the Director of the Direction of Technical Affairs and Relations with Profession, required a streamlined method for handling vast amounts of Arabic documents that contained crucial information such as circulars, reports, and official letters. The manual extraction and summarization of these documents were cumbersome, prone to errors, and resource-intensive. The challenge was to develop an automated solution that could accurately extract specific data points, generate concise summaries, and compile this information into professional, easy-to-read reports.
 
@@ -64,7 +64,7 @@ The client, the Director of the Direction of Technical Affairs and Relations wit
 
 ### Frontend:
 - **HTML/CSS**: Used in the templating of reports for visual consistency and professional appearance.
-
+<!-- 
 ## Pricing and Time Estimates
 
 For a comprehensive package similar to this solution, the estimated cost and time requirements are detailed below:
@@ -77,7 +77,7 @@ For a comprehensive package similar to this solution, the estimated cost and tim
 
 ### Total Estimate:
 - **Estimated Cost**: $675 - $1,450 depending on specific requirements and complexity.
-- **Estimated Time**: 4-6 weeks including development, testing, and deployment.
+- **Estimated Time**: 4-6 weeks including development, testing, and deployment. -->
 
 ## Contact
 

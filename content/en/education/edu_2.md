@@ -4,7 +4,7 @@ date: 2023-09-01
 endDate: current
 ---
 
-I am currently a second-year computer science major at ENSTA Paris, specializing in information and communication technologies.
+> I am currently a second-year computer science major at ENSTA Paris, specializing in information and communication technologies.
 
 ## School Highlights
 - Established in 1741, ENSTA Paris is the oldest engineering school in France.

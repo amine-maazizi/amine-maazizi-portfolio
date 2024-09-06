@@ -13,6 +13,22 @@ categories: ["Projets"]
 
 **TrendViz** est un tableau de bord analytique conçu pour extraire et analyser les données de la liste des meilleures ventes d'électronique d'Amazon. Ce projet automatise le scraping web, le nettoyage des données et les visualisations perspicaces, offrant aux utilisateurs un outil puissant pour explorer les tendances du marché et les préférences des consommateurs. Conçu avec un accent sur la précision, l'efficacité et l'interactivité, TrendViz transforme les données brutes en insights exploitables via une interface web conviviale.
 
+## Galerie
+
+Voici quelques captures d'écran montrant l'application en action :
+
+![Top produits](/images/project_3/top.PNG)
+*Le tableau de bord principal présentant les articles les plus vendus.*
+
+![Statistiques](/images/project_3/stats.PNG)
+*Affiche les statistiques clés extraites des données scrappées.*
+
+![Graphique des prix](/images/project_3/pricings.png)
+*Graphique montrant la corrélation entre les prix et les évaluations.*
+
+![Données](/images/project_3/data.png)
+*Fichier CSV des données scrappées.*
+
 ## Objectifs
 
 - **Extraire** : Automatiser l'extraction des données de la page des meilleures ventes d'électronique d'Amazon, capturant des informations clés sur les produits telles que le nom, le prix, les évaluations et le nombre de commentaires.
@@ -67,23 +83,9 @@ categories: ["Projets"]
 - **Plotly.js** : Utilisé pour créer des visualisations de données interactives au sein du tableau de bord.
 - **HTML/CSS/JavaScript** : Utilise HTML, CSS et JavaScript pour créer une interface réactive et conviviale.
 
-## Galerie
 
-Voici quelques captures d'écran montrant l'application en action :
 
-![Top produits](/images/project_3/top.PNG)
-*Le tableau de bord principal présentant les articles les plus vendus.*
-
-![Statistiques](/images/project_3/stats.PNG)
-*Affiche les statistiques clés extraites des données scrappées.*
-
-![Graphique des prix](/images/project_3/pricings.png)
-*Graphique montrant la corrélation entre les prix et les évaluations.*
-
-![Données](/images/project_3/data.png)
-*Fichier CSV des données scrappées.*
-
-## Estimations de Prix et de Temps
+<!-- ## Estimations de Prix et de Temps
 
 Pour un package complet incluant toutes les fonctionnalités et services décrits, le coût total estimé varie de **$925 à $2,000**, avec un délai de réalisation approximatif de **5 à 8 semaines**, y compris les révisions et les tests.
 
@@ -93,7 +95,7 @@ Pour un package complet incluant toutes les fonctionnalités et services décrit
 | **Génération de Rapports**                | $75 - $200 par configuration     | 1 semaine      | Comprend jusqu'à 2 révisions pour ajustements des données|
 | **Scraping Web**                     | $150 - $300 par configuration    | 1-2 semaines   | Jusqu'à 2 révisions pour les paramètres d'extraction    |
 | **Intégration et Synchronisation des Données** | $100 - $300 par intégration | 1 semaine | Jusqu'à 2 révisions pour ajustements mineurs       |
-| **Personnalisation et Support**        | $50 - $100 par mois     | Continu     | Couvre les mises à jour de routine et les améliorations mineures |
+| **Personnalisation et Support**        | $50 - $100 par mois     | Continu     | Couvre les mises à jour de routine et les améliorations mineures | -->
 
 ## Contactez-moi
 

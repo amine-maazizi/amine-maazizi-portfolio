@@ -12,8 +12,8 @@ Creating automated templates for invoices that auto-populate with customer data 
 ## Technologies Used
 Microsoft Office Suite, Google Workspace, Python, DocuSign API.
 
-## Pricing, Time Frame, and Revisions
+<!-- ## Pricing, Time Frame, and Revisions
 
 | Service                      | Pricing               | Time Frame | Revisions                             |
 |------------------------------|-----------------------|------------|----------------------------------------|
-| Document Automation          | $100 - $250 per type  | 1 week     | Includes up to 2 template modifications |
+| Document Automation          | $100 - $250 per type  | 1 week     | Includes up to 2 template modifications | -->

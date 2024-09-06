@@ -12,8 +12,8 @@ Developing dynamic training programs that adapt to employee performance and prov
 ## Technologies Used
 Python, Machine Learning, Reinforcement Learning, LMS platforms.
 
-## Pricing, Time Frame, and Revisions
+<!-- ## Pricing, Time Frame, and Revisions
 
 | Service                               | Pricing                 | Time Frame | Revisions                                          |
 |---------------------------------------|-------------------------|------------|-----------------------------------------------------|
-| Personalized Training and Development | $500 - $1200 per setup  | 2-3 weeks  | Includes up to 2 revisions for training content or program adjustments |
+| Personalized Training and Development | $500 - $1200 per setup  | 2-3 weeks  | Includes up to 2 revisions for training content or program adjustments | -->

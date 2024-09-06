@@ -12,8 +12,8 @@ Automatiser la création d'articles de blog mensuels adaptés à des segments de
 ## Technologies Utilisées
 Python, OpenAI GPT, Hugging Face Transformers.
 
-## Tarification, Délais, et Révisions
+<!-- ## Tarification, Délais, et Révisions
 
 | Service                          | Tarification            | Délais     | Révisions                                 |
 |----------------------------------|-------------------------|------------|--------------------------------------------|
-| Forfait de Génération de Contenu | 500 $ - 1000 $ par forfait | 1-2 semaines | Inclut jusqu'à 3 révisions de contenu       |
+| Forfait de Génération de Contenu | 500 $ - 1000 $ par forfait | 1-2 semaines | Inclut jusqu'à 3 révisions de contenu       | -->

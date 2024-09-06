@@ -12,8 +12,8 @@ Générer des rapports hebdomadaires de performance des ventes en extrayant des 
 ## Technologies Utilisées
 Python, Pandas, Excel VBA, API Google Sheets, SQL.
 
-## Tarification, Délais, et Révisions
+<!-- ## Tarification, Délais, et Révisions
 
 | Service                 | Tarification          | Délais     | Révisions                                        |
 |-------------------------|-----------------------|------------|--------------------------------------------------|
-| Génération de Rapports  | 75 $ - 200 $ par configuration | 1 semaine  | Inclut jusqu'à 2 révisions pour ajustements de données |
+| Génération de Rapports  | 75 $ - 200 $ par configuration | 1 semaine  | Inclut jusqu'à 2 révisions pour ajustements de données | -->

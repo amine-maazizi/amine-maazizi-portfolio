@@ -15,6 +15,25 @@ Avec le **Système Automatisé de Génération de Factures et de Rapports**, aut
 
 Le **Système Automatisé de Génération de Factures et de Rapports** est une application de bureau robuste conçue pour simplifier et automatiser le processus de génération de factures et de rapports. Avec un objectif d'optimisation de la productivité et de réduction de la charge de travail manuelle, ce système est idéal pour les entreprises cherchant à améliorer la précision et l'efficacité dans la gestion de leurs documents. L'application présente une interface simple mais puissante avec une barre de navigation extensible et rétractable pour faciliter l'accès aux différentes fonctionnalités.
 
+## Galerie
+
+Voici quelques captures d'écran illustrant l'application en action :
+
+![Fonctionnalités](/images/project_1/features.PNG)
+*Explorez les principales fonctionnalités de l'application avec une interface conviviale.*
+
+![Automatisation](/images/project_1/automations.PNG)
+*Interface intuitive de la section d'automatisation.*
+
+![Paramètres](/images/project_1/settings.PNG)
+*Personnalisez les chemins des dossiers, les paramètres de messagerie, les options de planification, et plus encore.*
+
+![Aperçu des Rapports](/images/project_1/report_example.PNG)
+*Exemple de rapports générés.*
+
+![Aperçu des Factures](/images/project_1/invoice_example.PNG)
+*Exemple de factures générées.*
+
 ## Objectifs
 
 - **Automatiser** la génération de factures et de rapports pour minimiser la saisie manuelle de données et réduire les erreurs.
@@ -86,26 +105,8 @@ L'application propose quatre principaux services d'automatisation accessibles vi
 - **Node.js**:
   - Utilisée pour gérer les processus backend et l'intégration avec Electron.
 
-## Galerie
 
-Voici quelques captures d'écran illustrant l'application en action :
-
-![Fonctionnalités](/images/project_1/features.PNG)
-*Explorez les principales fonctionnalités de l'application avec une interface conviviale.*
-
-![Automatisation](/images/project_1/automations.PNG)
-*Interface intuitive de la section d'automatisation.*
-
-![Paramètres](/images/project_1/settings.PNG)
-*Personnalisez les chemins des dossiers, les paramètres de messagerie, les options de planification, et plus encore.*
-
-![Aperçu des Rapports](/images/project_1/report_example.PNG)
-*Exemple de rapports générés.*
-
-![Aperçu des Factures](/images/project_1/invoice_example.PNG)
-*Exemple de factures générées.*
-
-## Estimation du Coût Total et Délai
+<!-- ## Estimation du Coût Total et Délai
 
 Pour un package complet incluant toutes les fonctionnalités ci-dessus, le coût total estimé varie entre **325 $ et 900 $**, avec un délai d'achèvement approximatif de **4 à 6 semaines**, incluant les révisions et les tests. Ci-dessous le détail :
 
@@ -116,7 +117,7 @@ Pour un package complet incluant toutes les fonctionnalités ci-dessus, le coût
 | Automatisation des Communications   | $50 - $150 par installation | 1 semaine  | Jusqu'à 3 révisions pour ajustements des emails |
 | Intégration et Synchronisation des Données | $100 - $300 par intégration | 1 semaine | Jusqu'à 2 révisions pour ajustements mineurs  |
 | **Maintenance**                     | $30 - $100 par mois       | Continu    | Couvre les mises à jour régulières et les améliorations mineures des fonctionnalités |
-
+ -->
 
 ## Contactez-moi
 

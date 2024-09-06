@@ -31,6 +31,22 @@ DATRP officials faced challenges with managing and updating price indices for co
 
 6. **Testing and Iteration:** Conducted thorough testing of the application to identify and resolve any issues, followed by iterative improvements based on feedback from DATRP officials.
 
+## Gallery
+
+Below are some screenshots showcasing the application in action:
+
+![Dashboard](/images/project_2/dashboard.png)
+*The main dashboard showcasing key metrics and navigation options.*
+
+![Excel Import](/images/project_2/importer.png)
+*Excel data importing interface with data validation and preview.*
+
+![Chatbot](/images/project_2/answer.png)
+*Experimental chatbot module assisting with price revision queries.*
+
+![User Management](/images/project_2/inscription.png)
+*Secure user management for handling different levels of access.*
+
 ## Objectives
 
 - **Streamline Price Index Management:** Simplify the process of updating and managing price indices through a centralized platform.
@@ -69,25 +85,10 @@ This project integrates several key services from my portfolio, including:
 ### Frontend:
 - **HTML/CSS/JavaScript:** Vanilla HTML, CSS, and JS used for the frontend interface, keeping the user experience simple and effective.
 
-## Gallery
 
-Below are some screenshots showcasing the application in action:
+<!-- ### Estimated Total Cost and Time Frame -->
 
-![Dashboard](/images/project_2/dashboard.png)
-*The main dashboard showcasing key metrics and navigation options.*
-
-![Excel Import](/images/project_2/importer.png)
-*Excel data importing interface with data validation and preview.*
-
-![Chatbot](/images/project_2/answer.png)
-*Experimental chatbot module assisting with price revision queries.*
-
-![User Management](/images/project_2/inscription.png)
-*Secure user management for handling different levels of access.*
-
-### Estimated Total Cost and Time Frame
-
-For a comprehensive package including all the features and services described, the estimated total cost ranges from **$1,250 to $2,700**, with an approximate completion time of **5-8 weeks**, including revisions and testing.
+<!-- For a comprehensive package including all the features and services described, the estimated total cost ranges from **$1,250 to $2,700**, with an approximate completion time of **5-8 weeks**, including revisions and testing.
 
 Below is a detailed breakdown of the services included:
 
@@ -98,7 +99,7 @@ Below is a detailed breakdown of the services included:
 | Personalized Training and Development | $500 - $1,200 per setup | 2-3 weeks | Includes up to 2 revisions for training content or program adjustments |
 | **Hosting and Maintenance**        | $50 - $150 per month    | Ongoing     | Includes routine updates and support            |
 
-This pricing includes all necessary services and features to ensure a fully functional and robust system tailored to the needs of the DATRP of the Ministry of Equipment and Water.
+This pricing includes all necessary services and features to ensure a fully functional and robust system tailored to the needs of the DATRP of the Ministry of Equipment and Water. -->
 
 ## Contact Me
 
