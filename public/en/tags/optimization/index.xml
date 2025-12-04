@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Optimization on Amine Maazizi | Research Student</title>
+    <link>http://localhost:1313/en/tags/optimization/</link>
+    <description>Recent content in Optimization on Amine Maazizi | Research Student</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computational Framework for Shape Matching with Mechanical Constraints</title>
+      <link>http://localhost:1313/en/projects/shape_matching/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/shape_matching/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Developed an optimized framework for geometric shape matching incorporating biomechanical constraints derived from Helfrich energy and linear elasticity theory.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mechanical Constraints&lt;/strong&gt;: Integrated Helfrich-based and linear elasticity constraints for physically realistic shape matching&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Optimization&lt;/strong&gt;: Enhanced stability and convergence using the &lt;strong&gt;BFGS Quasi-Newton algorithm&lt;/strong&gt; with Armijo line search&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Interactive Design&lt;/strong&gt;: Designed an interactive module for manual adjustment of mesh forces, enabling piecewise initialization of forces&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;technical-details&#34;&gt;Technical Details&lt;/h2&gt;
+&lt;p&gt;The framework addresses the challenge of matching biological membrane shapes while respecting physical constraints that govern membrane mechanics.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

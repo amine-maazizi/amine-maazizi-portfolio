@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Visualisation on Amine Maazizi | Étudiant-Chercheur</title>
+    <link>http://localhost:1313/tags/visualisation/</link>
+    <description>Recent content in Visualisation on Amine Maazizi | Étudiant-Chercheur</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/visualisation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TrendViz : Tableau de bord analytique des meilleures ventes d&#39;Amazon</title>
+      <link>http://localhost:1313/projets/project_3/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/project_3/</guid>
+      <description>Un tableau de bord complet qui automatise l&amp;#39;extraction et l&amp;#39;analyse des données des meilleures ventes d&amp;#39;électronique sur Amazon, offrant des insights précieux grâce à des visualisations interactives et des rapports détaillés.</description>
+    </item>
+  </channel>
+</rss>

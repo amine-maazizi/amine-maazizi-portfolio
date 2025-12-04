@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Document Processing on Amine Maazizi | Research Student</title>
+    <link>http://localhost:1313/en/tags/document-processing/</link>
+    <description>Recent content in Document Processing on Amine Maazizi | Research Student</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/document-processing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Case Study: Arabic Document Summarization and Report Generation Solution</title>
+      <link>http://localhost:1313/en/projects/project_4/</link>
+      <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/project_4/</guid>
+      <description>An application that automates OCR on Arabic documents, uses LLMs with prompt engineering, and generates well-formatted PDF reports with extracted data and summaries.</description>
+    </item>
+  </channel>
+</rss>

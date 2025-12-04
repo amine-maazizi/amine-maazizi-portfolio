@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="fr" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Système Automatisé de Génération de Factures et de Rapports | Amine Maazizi | Étudiant-Chercheur</title>
+<meta name="keywords" content="Automatisation, Génération de Factures, Génération de Rapports, Electron, Python, Flask">
+<meta name="description" content="Une application de bureau conçue pour automatiser la génération de factures et de rapports avec une interface conviviale et des fonctionnalités d&#39;automatisation avancées.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projets/project_1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cac0557b96f2858efec5981114b7018699482c11802dbe72ba864b09323d3a8d.css" integrity="sha256-ysBVe5byhY7&#43;xZgRFLcBhplILBGALb5yuoZLCTI9Oo0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="fr" href="http://localhost:1313/projets/project_1/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Amine Maazizi | Étudiant-Chercheur (Alt + H)">Amine Maazizi | Étudiant-Chercheur</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="http://localhost:1313/en/" title="English"
+                            aria-label="English">En</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Accueil">
+                    <span>Accueil</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/a-propos/" title="À Propos">
+                    <span>À Propos</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projets/" title="Recherche">
+                    <span>Recherche</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/experience/" title="Expérience">
+                    <span>Expérience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/education/" title="Éducation">
+                    <span>Éducation</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Système Automatisé de Génération de Factures et de Rapports
+    </h1>
+    <div class="post-description">
+      Une application de bureau conçue pour automatiser la génération de factures et de rapports avec une interface conviviale et des fonctionnalités d&#39;automatisation avancées.
+    </div>
+    <div class="post-meta"><span title='2024-09-01 00:00:00 +0000 UTC'>septembre 1, 2024</span>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://localhost:1313/images/project_1/dashboard.PNG" alt="">
+        
+</figure>
+  <div class="post-content"><h2 id="aperçu">Aperçu<a hidden class="anchor" aria-hidden="true" href="#aperçu">#</a></h2>
+<p>Avec le <strong>Système Automatisé de Génération de Factures et de Rapports</strong>, automatisez les tâches fastidieuses et sujettes aux erreurs d&rsquo;un simple clic.</p>
+<p>Le <strong>Système Automatisé de Génération de Factures et de Rapports</strong> est une application de bureau robuste conçue pour simplifier et automatiser le processus de génération de factures et de rapports. Avec un objectif d&rsquo;optimisation de la productivité et de réduction de la charge de travail manuelle, ce système est idéal pour les entreprises cherchant à améliorer la précision et l&rsquo;efficacité dans la gestion de leurs documents. L&rsquo;application présente une interface simple mais puissante avec une barre de navigation extensible et rétractable pour faciliter l&rsquo;accès aux différentes fonctionnalités.</p>
+<h2 id="galerie">Galerie<a hidden class="anchor" aria-hidden="true" href="#galerie">#</a></h2>
+<p>Voici quelques captures d&rsquo;écran illustrant l&rsquo;application en action :</p>
+<p><img loading="lazy" src="/images/project_1/features.PNG" alt="Fonctionnalités"  />
+
+<em>Explorez les principales fonctionnalités de l&rsquo;application avec une interface conviviale.</em></p>
+<p><img loading="lazy" src="/images/project_1/automations.PNG" alt="Automatisation"  />
+
+<em>Interface intuitive de la section d&rsquo;automatisation.</em></p>
+<p><img loading="lazy" src="/images/project_1/settings.PNG" alt="Paramètres"  />
+
+<em>Personnalisez les chemins des dossiers, les paramètres de messagerie, les options de planification, et plus encore.</em></p>
+<p><img loading="lazy" src="/images/project_1/report_example.PNG" alt="Aperçu des Rapports"  />
+
+<em>Exemple de rapports générés.</em></p>
+<p><img loading="lazy" src="/images/project_1/invoice_example.PNG" alt="Aperçu des Factures"  />
+
+<em>Exemple de factures générées.</em></p>
+<h2 id="objectifs">Objectifs<a hidden class="anchor" aria-hidden="true" href="#objectifs">#</a></h2>
+<ul>
+<li><strong>Automatiser</strong> la génération de factures et de rapports pour minimiser la saisie manuelle de données et réduire les erreurs.</li>
+<li><strong>Fournir de la Flexibilité</strong> grâce à des paramètres personnalisables, des fonctionnalités de planification, et des modèles adaptables pour répondre à divers besoins commerciaux.</li>
+<li><strong>Assurer la Précision des Données</strong> grâce à des techniques complètes de validation et de traitement des données, réduisant les erreurs humaines.</li>
+</ul>
+<h2 id="fonctionnalités-clés">Fonctionnalités Clés<a hidden class="anchor" aria-hidden="true" href="#fonctionnalités-clés">#</a></h2>
+<ul>
+<li><strong>Automatisation des Factures et Rapports</strong> : Génération de factures professionnelles et de rapports détaillés en un clic, réduisant ainsi l&rsquo;effort manuel.</li>
+<li><strong>Validation des Données</strong> : Valide les données importées pour vérifier les incohérences, les valeurs manquantes ou les erreurs de formatage, garantissant que tous les documents générés sont précis et professionnels.</li>
+<li><strong>Planification</strong> : Permet aux utilisateurs d&rsquo;automatiser la génération et l&rsquo;envoi de factures et de rapports à des moments spécifiés (quotidien, hebdomadaire, mensuel, ou selon les besoins). Cette fonctionnalité garantit que les documents sont toujours préparés et envoyés à temps sans intervention manuelle.</li>
+<li><strong>Interface Simple et Intuitive</strong> : Une interface conviviale conçue avec Electron, dotée d&rsquo;une barre de navigation intuitive et extensible.</li>
+<li><strong>Options de Personnalisation</strong> : Configurez facilement les chemins des dossiers, les paramètres de messagerie, les heures de planification, et les emails des managers pour adapter l&rsquo;application aux besoins spécifiques de l&rsquo;entreprise.</li>
+<li><strong>Intégration avec un Backend Python</strong> : Utilise Flask et d&rsquo;autres modules Python pour le traitement des données, la validation et la génération de documents, assurant une opération fluide et évolutive.</li>
+</ul>
+<h2 id="flux-de-travail-détailé">Flux de Travail Détailé<a hidden class="anchor" aria-hidden="true" href="#flux-de-travail-détailé">#</a></h2>
+<h3 id="1-aperçu-des-paramètres">1. <strong>Aperçu des Paramètres</strong><a hidden class="anchor" aria-hidden="true" href="#1-aperçu-des-paramètres">#</a></h3>
+<p>Les paramètres de l&rsquo;application sont divisés en plusieurs sections, chacune jouant un rôle crucial dans la personnalisation des processus d&rsquo;automatisation :</p>
+<ul>
+<li>
+<p><strong>Dossiers de Destination</strong> : Permet aux utilisateurs de spécifier où les factures et les rapports seront générés et stockés, assurant une gestion organisée des documents.</p>
+</li>
+<li>
+<p><strong>Paramètres de Messagerie</strong> : Configurez les détails du serveur SMTP, l&rsquo;email de l&rsquo;expéditeur et le mot de passe, permettant l&rsquo;envoi automatique des factures et rapports par email. Les paramètres incluent également la définition des modèles de contenu des emails, qui peuvent être adaptés pour répondre aux normes de communication spécifiques.</p>
+</li>
+<li>
+<p><strong>Liste des Managers</strong> : Les utilisateurs peuvent maintenir une liste d&rsquo;emails des managers qui recevront les rapports générés, assurant que tous les intervenants critiques sont informés avec les dernières données, améliorant la transparence et la communication au sein de l&rsquo;entreprise.</p>
+</li>
+<li>
+<p><strong>Paramètres d&rsquo;Importation des Données</strong> : Cette section permet aux utilisateurs de charger des fichiers de données (par exemple, des feuilles de calcul Excel) que l&rsquo;application utilisera pour générer les factures et les rapports. Une fois chargées, les données sont validées pour assurer leur précision et cohérence, réduisant ainsi les risques d&rsquo;erreurs pendant la génération des documents.</p>
+</li>
+</ul>
+<h3 id="2-fonctionnalités-du-tableau-de-bord">2. <strong>Fonctionnalités du Tableau de Bord</strong><a hidden class="anchor" aria-hidden="true" href="#2-fonctionnalités-du-tableau-de-bord">#</a></h3>
+<p>Le tableau de bord offre un aperçu des indicateurs clés et affiche des informations cruciales :</p>
+<ul>
+<li>
+<p><strong>Temps Restant pour la Prochaine Automatisation</strong> : Cette fonctionnalité montre le compte à rebours jusqu&rsquo;à la prochaine tâche d&rsquo;automatisation planifiée (ex : génération de factures ou envoi de rapports), tenant les utilisateurs informés des actions à venir.</p>
+</li>
+<li>
+<p><strong>Aperçu des Données</strong> : Permet aux utilisateurs de vérifier les données importées, leur permettant de s&rsquo;assurer de leur exactitude et complétude avant de lancer les processus d&rsquo;automatisation.</p>
+</li>
+</ul>
+<h3 id="3-services-principaux-d">3. <strong>Services Principaux d&rsquo;Automatisation</strong><a hidden class="anchor" aria-hidden="true" href="#3-services-principaux-d">#</a></h3>
+<p>L&rsquo;application propose quatre principaux services d&rsquo;automatisation accessibles via l&rsquo;interface utilisateur :</p>
+<ul>
+<li>
+<p><strong>Génération de Factures</strong> : Crée des factures professionnelles basées sur les données importées. Les utilisateurs peuvent déclencher la génération de factures manuellement ou la configurer pour qu&rsquo;elle s&rsquo;exécute automatiquement à des heures planifiées.</p>
+</li>
+<li>
+<p><strong>Génération de Rapports</strong> : Produit des rapports détaillés qui résument les informations et les indicateurs de performance clés. Les rapports peuvent être générés à la demande ou programmés pour s&rsquo;exécuter périodiquement.</p>
+</li>
+<li>
+<p><strong>Envoi de Factures aux Entreprises</strong> : Envoie automatiquement les factures générées aux entreprises respectives via email, en utilisant les paramètres de messagerie configurés dans l&rsquo;application.</p>
+</li>
+<li>
+<p><strong>Envoi de Rapports aux Managers de l&rsquo;Entreprise</strong> : Assure que les managers reçoivent les derniers rapports en automatisant le processus d&rsquo;envoi par email, basé sur la liste des emails des managers configurée dans les paramètres.</p>
+</li>
+</ul>
+<h2 id="technologies-utilisées">Technologies Utilisées<a hidden class="anchor" aria-hidden="true" href="#technologies-utilisées">#</a></h2>
+<h3 id="backend">Backend:<a hidden class="anchor" aria-hidden="true" href="#backend">#</a></h3>
+<ul>
+<li><strong>Python</strong> :
+<ul>
+<li><strong>Flask</strong> : Framework web pour la construction de l&rsquo;interface utilisateur et la gestion des processus backend.</li>
+<li><strong>Flask-CORS</strong> : Gère les requêtes cross-origin de manière sécurisée, facilitant les interactions API.</li>
+<li><strong>Pandas</strong> : Pour l&rsquo;extraction, le traitement et la manipulation des données.</li>
+<li><strong>openpyxl</strong> : Gère les opérations sur les fichiers Excel, permettant l&rsquo;importation et l&rsquo;exportation de données.</li>
+<li><strong>Jinja2</strong> : Moteur de templates utilisé pour générer des documents HTML dynamiques pour les PDF.</li>
+<li><strong>PDFKit</strong> : Pour le rendu et la manipulation des PDF pour les rapports et les factures.</li>
+<li><strong>SendGrid</strong> : API pour l&rsquo;automatisation de la communication et de la livraison des emails.</li>
+<li><strong>Schedule</strong> : Gère la planification des tâches pour automatiser les tâches répétitives comme la génération de rapports et l&rsquo;envoi d&rsquo;emails.</li>
+</ul>
+</li>
+</ul>
+<h3 id="frontend">Frontend:<a hidden class="anchor" aria-hidden="true" href="#frontend">#</a></h3>
+<ul>
+<li><strong>Node.js</strong> :
+<ul>
+<li><strong>Electron</strong> : Alimente l&rsquo;application de bureau multiplateforme, intégrant le frontend et le backend.</li>
+<li><strong>HTML/CSS</strong> : Pour les interfaces d&rsquo;application et les modèles de factures et rapports.</li>
+</ul>
+</li>
+</ul>
+<h3 id="api-restful">API Restful<a hidden class="anchor" aria-hidden="true" href="#api-restful">#</a></h3>
+<ul>
+<li><strong>Node.js</strong>:
+<ul>
+<li>Utilisée pour gérer les processus backend et l&rsquo;intégration avec Electron.</li>
+</ul>
+</li>
+</ul>
+<h2 id="contactez-moi">Contactez-moi<a hidden class="anchor" aria-hidden="true" href="#contactez-moi">#</a></h2>
+<p><a href="/contact/">Page de Contact</a> — Contactez-moi pour plus d&rsquo;informations ou pour planifier une démonstration.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/automatisation/">Automatisation</a></li>
+      <li><a href="http://localhost:1313/tags/g%C3%A9n%C3%A9ration-de-factures/">Génération De Factures</a></li>
+      <li><a href="http://localhost:1313/tags/g%C3%A9n%C3%A9ration-de-rapports/">Génération De Rapports</a></li>
+      <li><a href="http://localhost:1313/tags/electron/">Electron</a></li>
+      <li><a href="http://localhost:1313/tags/python/">Python</a></li>
+      <li><a href="http://localhost:1313/tags/flask/">Flask</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Amine Maazizi | Étudiant-Chercheur</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

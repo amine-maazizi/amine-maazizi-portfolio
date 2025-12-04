@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Automated Invoice and Report Generation System | Amine Maazizi | Research Student</title>
+<meta name="keywords" content="Automation, Invoice Generation, Report Generation, Electron, Python, Flask">
+<meta name="description" content="A desktop application designed to automate the generation of invoices and reports with a user-friendly interface and advanced automation features.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/en/projects/project_1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2990740e45c371b74997ad539bbb8e0c36e620bfa40bbdfefe1eb1172c973e5e.css" integrity="sha256-KZB0DkXDcbdJl61Tm7uODDbmIL&#43;kC73&#43;/h6xFyyXPl4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/en/projects/project_1/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/en/" accesskey="h" title="Amine Maazizi | Research Student (Alt + H)">Amine Maazizi | Research Student</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="http://localhost:1313/" title="Français"
+                            aria-label="Français">Fr</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/en/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/projects/" title="Research">
+                    <span>Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/experience/" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/education/" title="Education">
+                    <span>Education</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Automated Invoice and Report Generation System
+    </h1>
+    <div class="post-description">
+      A desktop application designed to automate the generation of invoices and reports with a user-friendly interface and advanced automation features.
+    </div>
+    <div class="post-meta"><span title='2024-09-01 00:00:00 +0000 UTC'>September 1, 2024</span>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://localhost:1313/images/project_1/dashboard.PNG" alt="">
+        
+</figure>
+  <div class="post-content"><h2 id="overview">Overview<a hidden class="anchor" aria-hidden="true" href="#overview">#</a></h2>
+<p>With the <strong>Automated Invoice and Report Generation System</strong>, automate error-prone and time-consuming work with the click of a button.</p>
+<p>The <strong>Automated Invoice and Report Generation System</strong> is a robust desktop application designed to streamline and automate the process of generating invoices and reports. Focusing on enhancing productivity and reducing manual workload, this system is ideal for businesses aiming for greater accuracy and efficiency in document management. The application features a straightforward yet powerful expanding and collapsing navbar UI that provides easy navigation and access to various functions.</p>
+<h2 id="gallery">Gallery<a hidden class="anchor" aria-hidden="true" href="#gallery">#</a></h2>
+<p>Below are some screenshots showcasing the application in action:</p>
+<p><img loading="lazy" src="/images/project_1/features.PNG" alt="Features"  />
+
+<em>Explore the application&rsquo;s key features with a user-friendly interface.</em></p>
+<p><img loading="lazy" src="/images/project_1/automations.PNG" alt="Automation"  />
+
+<em>Navigate the automation section with an intuitive interface.</em></p>
+<p><img loading="lazy" src="/images/project_1/settings.PNG" alt="Settings"  />
+
+<em>Customize folder paths, email settings, scheduling options, and more.</em></p>
+<p><img loading="lazy" src="/images/project_1/report_example.PNG" alt="Reports Overview"  />
+
+<em>View examples of generated reports.</em></p>
+<p><img loading="lazy" src="/images/project_1/invoice_example.PNG" alt="Invoice Overview"  />
+
+<em>View examples of generated invoices.</em></p>
+<h2 id="objectives">Objectives<a hidden class="anchor" aria-hidden="true" href="#objectives">#</a></h2>
+<ul>
+<li><strong>Automate</strong> the generation of invoices and reports to minimize manual data entry and reduce errors.</li>
+<li><strong>Provide Flexibility</strong> with customizable settings, scheduling features, and adaptable templates to suit various business needs.</li>
+<li><strong>Ensure Data Accuracy</strong> through comprehensive data validation and processing techniques, reducing human error.</li>
+</ul>
+<h2 id="key-features">Key Features<a hidden class="anchor" aria-hidden="true" href="#key-features">#</a></h2>
+<ul>
+<li><strong>Invoice and Report Automation</strong>: Generate professional invoices and detailed reports with just a click, significantly reducing manual effort.</li>
+<li><strong>Data Validation</strong>: Validate imported data to check for inconsistencies, missing values, or formatting errors, ensuring that all generated documents maintain business credibility.</li>
+<li><strong>Scheduling</strong>: Automate the generation and sending of invoices and reports at specified times, such as daily, weekly, or monthly. This feature ensures timely preparation and dispatch of documents without manual intervention.</li>
+<li><strong>Simple and Intuitive UI</strong>: A user-friendly interface designed with Electron, featuring an intuitive expanding and collapsing navbar.</li>
+<li><strong>Customization Options</strong>: Configure folder paths, email settings, scheduling times, and manager emails to tailor the application to specific business needs.</li>
+<li><strong>Integration with Python Backend</strong>: Utilizes Flask and Python modules for data processing, validation, and document generation, ensuring smooth operation and scalability.</li>
+</ul>
+<h2 id="detailed-workflow">Detailed Workflow<a hidden class="anchor" aria-hidden="true" href="#detailed-workflow">#</a></h2>
+<h3 id="1-settings-overview">1. <strong>Settings Overview</strong><a hidden class="anchor" aria-hidden="true" href="#1-settings-overview">#</a></h3>
+<p>The application settings are divided into several sections, each serving a critical role in customizing the automation processes:</p>
+<ul>
+<li>
+<p><strong>Destination Folders</strong>: Specify where invoices and reports will be generated and stored, ensuring organized document management.</p>
+</li>
+<li>
+<p><strong>Email Settings</strong>: Configure the SMTP server details, sender email, and password, enabling automatic email dispatch of invoices and reports. Customize email content templates to align with specific communication standards.</p>
+</li>
+<li>
+<p><strong>Manager List</strong>: Maintain a list of manager emails to receive generated reports, ensuring that stakeholders stay informed with the latest data, enhancing communication within the firm.</p>
+</li>
+<li>
+<p><strong>Data Import Settings</strong>: Load and validate data files (e.g., Excel spreadsheets) used for generating invoices and reports. This step reduces errors during document generation by ensuring the accuracy and consistency of the data.</p>
+</li>
+</ul>
+<h3 id="2-dashboard-functionality">2. <strong>Dashboard Functionality</strong><a hidden class="anchor" aria-hidden="true" href="#2-dashboard-functionality">#</a></h3>
+<p>The dashboard provides an overview of key metrics and displays critical information:</p>
+<ul>
+<li>
+<p><strong>Time Left for Next Automation</strong>: Shows the countdown until the next scheduled task, keeping users informed of upcoming actions.</p>
+</li>
+<li>
+<p><strong>Data Preview</strong>: Allows users to verify imported data before running automation processes, ensuring accuracy and completeness.</p>
+</li>
+</ul>
+<h3 id="3-core-automation-services">3. <strong>Core Automation Services</strong><a hidden class="anchor" aria-hidden="true" href="#3-core-automation-services">#</a></h3>
+<p>The application offers four main automation services:</p>
+<ul>
+<li>
+<p><strong>Generating Invoices</strong>: Creates professional invoices based on the imported data. Invoices can be generated manually or set to run automatically at scheduled times.</p>
+</li>
+<li>
+<p><strong>Generating Reports</strong>: Produces detailed reports that summarize data insights and key performance indicators, available on-demand or scheduled periodically.</p>
+</li>
+<li>
+<p><strong>Sending Invoices to Companies</strong>: Automatically dispatches generated invoices to companies via email, using the configured settings.</p>
+</li>
+<li>
+<p><strong>Sending Reports to Firm Managers</strong>: Ensures managers receive the latest reports by automating email delivery based on the configured manager list.</p>
+</li>
+</ul>
+<h2 id="technologies-used">Technologies Used<a hidden class="anchor" aria-hidden="true" href="#technologies-used">#</a></h2>
+<h3 id="backend">Backend:<a hidden class="anchor" aria-hidden="true" href="#backend">#</a></h3>
+<ul>
+<li><strong>Python</strong>:
+<ul>
+<li><strong>Flask</strong>: Web framework for building the user interface and handling backend processes.</li>
+<li><strong>Flask-CORS</strong>: Manages cross-origin requests securely.</li>
+<li><strong>Pandas</strong>: For data extraction, processing, and manipulation.</li>
+<li><strong>openpyxl</strong>: Handles Excel file operations.</li>
+<li><strong>Jinja2</strong>: Templating engine for generating dynamic HTML documents for PDFs.</li>
+<li><strong>PDFKit</strong>: For rendering and manipulating PDFs for reports and invoices.</li>
+<li><strong>SendGrid</strong>: API for automating email communication and delivery.</li>
+<li><strong>Schedule</strong>: Manages job scheduling for automation tasks.</li>
+</ul>
+</li>
+</ul>
+<h3 id="frontend">Frontend:<a hidden class="anchor" aria-hidden="true" href="#frontend">#</a></h3>
+<ul>
+<li><strong>Node.js</strong>:
+<ul>
+<li><strong>Electron</strong>: Powers the cross-platform desktop application, integrating the frontend and backend.</li>
+<li><strong>HTML/CSS</strong>: For application interfaces and templates of invoices and reports.</li>
+</ul>
+</li>
+</ul>
+<h2 id="contact-me">Contact Me<a hidden class="anchor" aria-hidden="true" href="#contact-me">#</a></h2>
+<p><a href="/en/contact/">Contact Page</a> — Reach out for more information or to schedule a demo.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/en/tags/automation/">Automation</a></li>
+      <li><a href="http://localhost:1313/en/tags/invoice-generation/">Invoice Generation</a></li>
+      <li><a href="http://localhost:1313/en/tags/report-generation/">Report Generation</a></li>
+      <li><a href="http://localhost:1313/en/tags/electron/">Electron</a></li>
+      <li><a href="http://localhost:1313/en/tags/python/">Python</a></li>
+      <li><a href="http://localhost:1313/en/tags/flask/">Flask</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/en/">Amine Maazizi | Research Student</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

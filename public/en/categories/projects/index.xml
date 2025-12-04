@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Amine Maazizi | Research Student</title>
+    <link>http://localhost:1313/en/categories/projects/</link>
+    <description>Recent content in Projects on Amine Maazizi | Research Student</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E-commerce Customer Support Language Model</title>
+      <link>http://localhost:1313/en/projects/project_5/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/project_5/</guid>
+      <description>A fine-tuned LLaMA 3 70 model designed to handle common customer support queries for e-commerce platforms using natural language.</description>
+    </item>
+    <item>
+      <title>Case Study: Arabic Document Summarization and Report Generation Solution</title>
+      <link>http://localhost:1313/en/projects/project_4/</link>
+      <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/project_4/</guid>
+      <description>An application that automates OCR on Arabic documents, uses LLMs with prompt engineering, and generates well-formatted PDF reports with extracted data and summaries.</description>
+    </item>
+    <item>
+      <title>TrendViz: Amazon Best Sellers Analytics Dashboard</title>
+      <link>http://localhost:1313/en/projects/project_3/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/project_3/</guid>
+      <description>A comprehensive dashboard that automates the extraction and analysis of Amazon&amp;#39;s best-selling electronics data, providing valuable insights through interactive visualizations and detailed reports.</description>
+    </item>
+    <item>
+      <title>Automated Invoice and Report Generation System</title>
+      <link>http://localhost:1313/en/projects/project_1/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/project_1/</guid>
+      <description>A desktop application designed to automate the generation of invoices and reports with a user-friendly interface and advanced automation features.</description>
+    </item>
+    <item>
+      <title>Price Index Management System</title>
+      <link>http://localhost:1313/en/projects/project_2/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/project_2/</guid>
+      <description>Case Study : An internal web application developed with Django to manage and update price indices for construction materials in the public works sector.</description>
+    </item>
+  </channel>
+</rss>

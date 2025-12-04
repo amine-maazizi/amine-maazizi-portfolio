@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Expérience on Amine Maazizi | Chercheur-Étudiant</title>
+    <link>http://localhost:1313/fr/experience/</link>
+    <description>Recent content in Expérience on Amine Maazizi | Chercheur-Étudiant</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stagiaire de Recherche — Institut Pasteur</title>
+      <link>http://localhost:1313/fr/experience/research_pasteur/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/experience/research_pasteur/</guid>
+      <description>&lt;h2 id=&#34;stagiaire-de-recherche--collaborateur&#34;&gt;Stagiaire de Recherche / Collaborateur&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Institut Pasteur&lt;/strong&gt; | Unité d&amp;rsquo;Analyse d&amp;rsquo;Images Biologiques&lt;br&gt;
+&lt;em&gt;Paris, France — Juin 2025 – Présent&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;projet--modèles-de-correspondance-de-formes-pour-la-morphogenèse-membranaire&#34;&gt;Projet : Modèles de Correspondance de Formes pour la Morphogenèse Membranaire&lt;/h3&gt;
+&lt;p&gt;Développement de méthodes computationnelles à l&amp;rsquo;intersection du deep learning géométrique et de la biophysique pour analyser la dynamique de courbure membranaire.&lt;/p&gt;
+&lt;h3 id=&#34;contributions-principales&#34;&gt;Contributions Principales&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Modèles de Correspondance&lt;/strong&gt; : Développement d&amp;rsquo;algorithmes intégrant des contraintes biomécaniques (énergie de Helfrich) pour l&amp;rsquo;analyse de courbure membranaire&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Collaborateur de Recherche — NAIST</title>
+      <link>http://localhost:1313/fr/experience/research_naist/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/experience/research_naist/</guid>
+      <description>&lt;h2 id=&#34;collaborateur-de-recherche&#34;&gt;Collaborateur de Recherche&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Nara Institute of Science and Technology (NAIST)&lt;/strong&gt; | CARE Laboratory
+&lt;em&gt;Japon (Télétravail) — Octobre 2024 – Décembre 2024&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;projet--deep-learning-géométrique-pour-la-génération-de-contenu-3d&#34;&gt;Projet : Deep Learning Géométrique pour la Génération de Contenu 3D&lt;/h3&gt;
+&lt;p&gt;Réalisation d&amp;rsquo;une revue de littérature sur les approches de Deep Learning Géométrique pour la génération de modèles 3D en Réalité Virtuelle.&lt;/p&gt;
+&lt;h3 id=&#34;contributions-principales&#34;&gt;Contributions Principales&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Revue de Littérature&lt;/strong&gt; : Compilation d&amp;rsquo;une analyse structurée des solutions de DL géométrique pour la génération 3D à partir d&amp;rsquo;entrées multimodales (texte, images, nuages de points)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stagiaire Développement — Ministère de l&#39;Équipement et de l&#39;Eau</title>
+      <link>http://localhost:1313/fr/experience/stage_1/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/experience/stage_1/</guid>
+      <description>&lt;h2 id=&#34;stagiaire-en-développement-logiciel&#34;&gt;Stagiaire en Développement Logiciel&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Ministère de l&amp;rsquo;Équipement et de l&amp;rsquo;Eau&lt;/strong&gt; | Direction des Affaires Techniques&lt;br&gt;
+&lt;em&gt;Rabat, Maroc — Juillet 2024 – Août 2024&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;projet--chatbot-interne-pour-lautomatisation-des-processus&#34;&gt;Projet : Chatbot Interne pour l&amp;rsquo;Automatisation des Processus&lt;/h3&gt;
+&lt;p&gt;Développement d&amp;rsquo;un système de chatbot intelligent pour automatiser les requêtes administratives et le remplissage de formulaires.&lt;/p&gt;
+&lt;h3 id=&#34;contributions-principales&#34;&gt;Contributions Principales&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Plateforme d&amp;rsquo;Automatisation&lt;/strong&gt; : Construction d&amp;rsquo;un chatbot automatisant les requêtes et le remplissage de formulaires, réduisant la charge de travail manuelle d&amp;rsquo;environ &lt;strong&gt;50%&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Développeur de Jeux Freelance</title>
+      <link>http://localhost:1313/fr/experience/freelance/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/experience/freelance/</guid>
+      <description>&lt;h2 id=&#34;développeur-de-jeux-freelance&#34;&gt;Développeur de Jeux Freelance&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Fiverr, Upwork, Freelancer.com&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Janvier 2022 – Décembre 2024&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;présentation&#34;&gt;Présentation&lt;/h3&gt;
+&lt;p&gt;Conception et livraison de jeux 2D/3D et d&amp;rsquo;outils interactifs avec Unity et Godot, en collaboration avec des clients internationaux.&lt;/p&gt;
+&lt;h3 id=&#34;types-de-projets&#34;&gt;Types de Projets&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement de jeux 2D et 3D&lt;/li&gt;
+&lt;li&gt;Outils interactifs et simulations&lt;/li&gt;
+&lt;li&gt;Optimisation des mécaniques de jeu bas niveau&lt;/li&gt;
+&lt;li&gt;Réseautage multijoueur&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Unity&lt;/code&gt; &lt;code&gt;Godot&lt;/code&gt; &lt;code&gt;C#&lt;/code&gt; &lt;code&gt;GDScript&lt;/code&gt; &lt;code&gt;Game Design&lt;/code&gt; &lt;code&gt;Modélisation 3D&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rendering on Amine Maazizi | Research Student</title>
+    <link>http://localhost:1313/en/tags/rendering/</link>
+    <description>Recent content in Rendering on Amine Maazizi | Research Student</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/rendering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C/C&#43;&#43; Rendering Engines Collection</title>
+      <link>http://localhost:1313/en/projects/rendering_engines/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/rendering_engines/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A polished and optimized collection of rendering engines implementing various graphics techniques from first principles.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;engines-included&#34;&gt;Engines Included&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Raycasting Engine&lt;/strong&gt;: Classic raycasting implementation for pseudo-3D rendering&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Raytracing Engine&lt;/strong&gt;: Physically-based ray tracing with reflection, refraction, and global illumination&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Voxel Engine&lt;/strong&gt;: Volumetric rendering for voxel-based worlds with efficient spatial data structures&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Rasterizer&lt;/strong&gt;: Software rasterization pipeline implementing the full graphics pipeline&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;technical-highlights&#34;&gt;Technical Highlights&lt;/h2&gt;
+&lt;p&gt;Each engine is implemented in pure C/C++ with a focus on performance optimization and clean, educational code structure.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>TrendViz : Tableau de bord analytique des meilleures ventes d&#39;Amazon | Amine Maazizi | Étudiant-Chercheur</title>
+<meta name="keywords" content="Analyse de Données, Scraping Web, Visualisation, Python, Flask, Plotly">
+<meta name="description" content="Un tableau de bord complet qui automatise l&#39;extraction et l&#39;analyse des données des meilleures ventes d&#39;électronique sur Amazon, offrant des insights précieux grâce à des visualisations interactives et des rapports détaillés.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projets/project_3/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cac0557b96f2858efec5981114b7018699482c11802dbe72ba864b09323d3a8d.css" integrity="sha256-ysBVe5byhY7&#43;xZgRFLcBhplILBGALb5yuoZLCTI9Oo0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="fr" href="http://localhost:1313/projets/project_3/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Amine Maazizi | Étudiant-Chercheur (Alt + H)">Amine Maazizi | Étudiant-Chercheur</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="http://localhost:1313/en/" title="English"
+                            aria-label="English">En</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Accueil">
+                    <span>Accueil</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/a-propos/" title="À Propos">
+                    <span>À Propos</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projets/" title="Recherche">
+                    <span>Recherche</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/experience/" title="Expérience">
+                    <span>Expérience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/education/" title="Éducation">
+                    <span>Éducation</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      TrendViz : Tableau de bord analytique des meilleures ventes d&#39;Amazon
+    </h1>
+    <div class="post-description">
+      Un tableau de bord complet qui automatise l&#39;extraction et l&#39;analyse des données des meilleures ventes d&#39;électronique sur Amazon, offrant des insights précieux grâce à des visualisations interactives et des rapports détaillés.
+    </div>
+    <div class="post-meta"><span title='2024-09-02 00:00:00 +0000 UTC'>septembre 2, 2024</span>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://localhost:1313/images/project_3/ratings.PNG" alt="">
+        
+</figure>
+  <div class="post-content"><h2 id="aperçu">Aperçu<a hidden class="anchor" aria-hidden="true" href="#aperçu">#</a></h2>
+<p><strong>TrendViz</strong> est un tableau de bord analytique conçu pour extraire et analyser les données de la liste des meilleures ventes d&rsquo;électronique d&rsquo;Amazon. Ce projet automatise le scraping web, le nettoyage des données et les visualisations perspicaces, offrant aux utilisateurs un outil puissant pour explorer les tendances du marché et les préférences des consommateurs. Conçu avec un accent sur la précision, l&rsquo;efficacité et l&rsquo;interactivité, TrendViz transforme les données brutes en insights exploitables via une interface web conviviale.</p>
+<h2 id="galerie">Galerie<a hidden class="anchor" aria-hidden="true" href="#galerie">#</a></h2>
+<p>Voici quelques captures d&rsquo;écran montrant l&rsquo;application en action :</p>
+<p><img loading="lazy" src="/images/project_3/top.PNG" alt="Top produits"  />
+
+<em>Le tableau de bord principal présentant les articles les plus vendus.</em></p>
+<p><img loading="lazy" src="/images/project_3/stats.PNG" alt="Statistiques"  />
+
+<em>Affiche les statistiques clés extraites des données scrappées.</em></p>
+<p><img loading="lazy" src="/images/project_3/pricings.png" alt="Graphique des prix"  />
+
+<em>Graphique montrant la corrélation entre les prix et les évaluations.</em></p>
+<p><img loading="lazy" src="/images/project_3/data.png" alt="Données"  />
+
+<em>Fichier CSV des données scrappées.</em></p>
+<h2 id="objectifs">Objectifs<a hidden class="anchor" aria-hidden="true" href="#objectifs">#</a></h2>
+<ul>
+<li><strong>Extraire</strong> : Automatiser l&rsquo;extraction des données de la page des meilleures ventes d&rsquo;électronique d&rsquo;Amazon, capturant des informations clés sur les produits telles que le nom, le prix, les évaluations et le nombre de commentaires.</li>
+<li><strong>Nettoyer</strong> : Traiter et nettoyer les données extraites pour assurer leur précision et cohérence pour une analyse significative.</li>
+<li><strong>Analyser</strong> : Réaliser une analyse complète des attributs des produits pour identifier les tendances, les modèles et les corrélations.</li>
+<li><strong>Visualiser</strong> : Présenter les insights des données à travers des visualisations interactives et informatives sur un tableau de bord web.</li>
+<li><strong>Rapporter</strong> : Générer des rapports détaillés qui résument les principales conclusions et tendances, aidant les utilisateurs à prendre des décisions basées sur les données.</li>
+</ul>
+<h2 id="caractéristiques-principales">Caractéristiques Principales<a hidden class="anchor" aria-hidden="true" href="#caractéristiques-principales">#</a></h2>
+<ul>
+<li><strong>Scraping Web Automatisé</strong> : Utilise Selenium et Beautiful Soup pour extraire des données de la page des meilleures ventes d&rsquo;Amazon, y compris les noms des produits, les prix, les évaluations, les avis et les liens.</li>
+<li><strong>Identification des Meilleurs Produits</strong> : Met en avant les produits les plus fréquents et les plus populaires parmi les meilleures ventes.</li>
+<li><strong>Analyse de la Plage de Prix</strong> : Fournit un aperçu statistique des prix des produits, y compris les valeurs minimales, maximales, moyennes et médianes.</li>
+<li><strong>Insights sur les Évaluations et les Avis</strong> : Analyse les évaluations moyennes, identifie les produits les mieux et les moins bien notés, et examine la distribution du nombre de commentaires.</li>
+<li><strong>Analyse de Corrélation</strong> : Explore les relations entre le prix des produits, la popularité (avis) et les évaluations pour révéler des insights.</li>
+<li><strong>Visualisations Interactives</strong> : Offre des graphiques et des diagrammes interactifs pour une exploration détaillée et engageante des tendances des données.</li>
+<li><strong>Interface Conviviale</strong> : Propose un design propre et moderne avec une disposition intuitive qui améliore l&rsquo;expérience utilisateur.</li>
+<li><strong>Scraping Web</strong> : Extrait efficacement les données les plus récentes d&rsquo;Amazon sans intervention manuelle, assurant que le tableau de bord reflète les dynamiques actuelles du marché.</li>
+</ul>
+<h2 id="workflow-détaillé">Workflow Détaillé<a hidden class="anchor" aria-hidden="true" href="#workflow-détaillé">#</a></h2>
+<h3 id="1-extraction-des-données">1. <strong>Extraction des Données</strong><a hidden class="anchor" aria-hidden="true" href="#1-extraction-des-données">#</a></h3>
+<ul>
+<li>Le système utilise Selenium pour la navigation automatisée et Beautiful Soup pour le parsing du HTML afin d&rsquo;extraire les détails des produits tels que les noms, les prix, les évaluations et les liens de la page des meilleures ventes d&rsquo;Amazon.</li>
+</ul>
+<h3 id="2-nettoyage-des-données">2. <strong>Nettoyage des Données</strong><a hidden class="anchor" aria-hidden="true" href="#2-nettoyage-des-données">#</a></h3>
+<ul>
+<li>Un script de nettoyage des données traite les données brutes en gérant les valeurs manquantes, en standardisant les formats, en supprimant les doublons et en convertissant les types de données pour une analyse précise.</li>
+</ul>
+<h3 id="3-analyse-des-données">3. <strong>Analyse des Données</strong><a hidden class="anchor" aria-hidden="true" href="#3-analyse-des-données">#</a></h3>
+<ul>
+<li>Analyse les métriques clés, y compris les meilleurs produits, les statistiques de la plage de prix, les évaluations moyennes et le nombre de commentaires.</li>
+<li>Corrèle divers points de données, tels que prix vs popularité et évaluations vs nombre de commentaires, pour révéler des insights.</li>
+</ul>
+<h3 id="4-visualisation-des-données">4. <strong>Visualisation des Données</strong><a hidden class="anchor" aria-hidden="true" href="#4-visualisation-des-données">#</a></h3>
+<ul>
+<li>Utilise Plotly.js pour créer des diagrammes de dispersion interactifs, des histogrammes et d&rsquo;autres éléments visuels permettant aux utilisateurs d&rsquo;explorer les tendances des données directement depuis le tableau de bord.</li>
+</ul>
+<h3 id="5-rapports-du-tableau-de-bord">5. <strong>Rapports du Tableau de Bord</strong><a hidden class="anchor" aria-hidden="true" href="#5-rapports-du-tableau-de-bord">#</a></h3>
+<ul>
+<li>Affiche les conclusions sur un tableau de bord web basé sur Flask avec des sections dédiées à chaque aspect de l&rsquo;analyse, tels que les meilleurs produits, les statistiques de prix et les insights de corrélation.</li>
+<li>Le tableau de bord est conçu pour être facile à utiliser, permettant aux utilisateurs de naviguer dans les différentes sections et d&rsquo;interagir avec les visualisations de données.</li>
+</ul>
+<h3 id="6-interaction-utilisateur">6. <strong>Interaction Utilisateur</strong><a hidden class="anchor" aria-hidden="true" href="#6-interaction-utilisateur">#</a></h3>
+<ul>
+<li>Les utilisateurs peuvent explorer différentes sections du tableau de bord pour voir les insights et les tendances, avec des fonctionnalités leur permettant d&rsquo;approfondir les points de données spécifiques pour une analyse plus poussée.</li>
+</ul>
+<h2 id="technologies-utilisées">Technologies Utilisées<a hidden class="anchor" aria-hidden="true" href="#technologies-utilisées">#</a></h2>
+<h3 id="backend">Backend:<a hidden class="anchor" aria-hidden="true" href="#backend">#</a></h3>
+<ul>
+<li><strong>Python</strong>:
+<ul>
+<li><strong>Selenium &amp; Beautiful Soup</strong> : Pour le scraping web pour collecter des données d&rsquo;Amazon.</li>
+<li><strong>Pandas</strong> : Gère le traitement, le nettoyage et l&rsquo;analyse des données.</li>
+<li><strong>Flask</strong> : Alimente l&rsquo;application web, servant le tableau de bord et gérant la logique backend.</li>
+<li><strong>Jinja2</strong> : Moteur de templates pour rendre HTML dynamiquement en fonction des résultats d&rsquo;analyse de données.</li>
+</ul>
+</li>
+</ul>
+<h3 id="frontend">Frontend:<a hidden class="anchor" aria-hidden="true" href="#frontend">#</a></h3>
+<ul>
+<li><strong>Plotly.js</strong> : Utilisé pour créer des visualisations de données interactives au sein du tableau de bord.</li>
+<li><strong>HTML/CSS/JavaScript</strong> : Utilise HTML, CSS et JavaScript pour créer une interface réactive et conviviale.</li>
+</ul>
+<h2 id="contactez-moi">Contactez-moi<a hidden class="anchor" aria-hidden="true" href="#contactez-moi">#</a></h2>
+<p><a href="/contact/">Page de Contact</a> — Contactez-moi pour plus d&rsquo;informations ou pour planifier une démonstration.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/analyse-de-donn%C3%A9es/">Analyse De Données</a></li>
+      <li><a href="http://localhost:1313/tags/scraping-web/">Scraping Web</a></li>
+      <li><a href="http://localhost:1313/tags/visualisation/">Visualisation</a></li>
+      <li><a href="http://localhost:1313/tags/python/">Python</a></li>
+      <li><a href="http://localhost:1313/tags/flask/">Flask</a></li>
+      <li><a href="http://localhost:1313/tags/plotly/">Plotly</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Amine Maazizi | Étudiant-Chercheur</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

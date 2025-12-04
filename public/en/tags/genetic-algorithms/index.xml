@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Genetic Algorithms on Amine Maazizi | Research Student</title>
+    <link>http://localhost:1313/en/tags/genetic-algorithms/</link>
+    <description>Recent content in Genetic Algorithms on Amine Maazizi | Research Student</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/genetic-algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flocky Bird — Autonomous Flappy Bird via Genetic Algorithm</title>
+      <link>http://localhost:1313/en/projects/flocky_bird/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/flocky_bird/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Implemented an autonomous Flappy Bird agent trained using genetic algorithms to learn optimal gameplay strategies.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href=&#34;https://github.com/amine-maazizi&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Game Implementation&lt;/strong&gt;: Built a Pygame version of Flappy Bird as the training environment&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Neural Controller&lt;/strong&gt;: Designed a simple fully connected neural network to control the bird&amp;rsquo;s actions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Evolutionary Training&lt;/strong&gt;: Trained the network using a genetic algorithm with selection, crossover, and mutation operators&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;The agent learns to navigate through pipes autonomously, demonstrating the effectiveness of evolutionary strategies for game AI.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Parallel Computing on Amine Maazizi | Research Student</title>
+    <link>http://localhost:1313/en/tags/parallel-computing/</link>
+    <description>Recent content in Parallel Computing on Amine Maazizi | Research Student</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/parallel-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Parallelized Boid Simulation (MPI, Python)</title>
+      <link>http://localhost:1313/en/projects/boid_simulation/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/boid_simulation/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Implemented a parallelized flocking dynamics simulation using the classic boid algorithm with MPI for distributed computing.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href=&#34;https://github.com/amine-maazizi&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Boid Rules&lt;/strong&gt;: Implemented standard flocking behaviors including separation, alignment, and cohesion&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MPI Parallelization&lt;/strong&gt;: Distributed computation across multiple processes for efficient simulation of large agent populations&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Scalability&lt;/strong&gt;: Designed for scaling to thousands of agents through spatial partitioning&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;technical-details&#34;&gt;Technical Details&lt;/h2&gt;
+&lt;p&gt;The simulation leverages MPI for inter-process communication, enabling efficient parallel updates of agent positions and velocities while maintaining coherent flock behavior.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

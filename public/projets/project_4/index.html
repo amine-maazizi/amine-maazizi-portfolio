@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Étude de Cas : Solution de Résumé et Génération de Rapports pour les Documents Arabes | Amine Maazizi | Étudiant-Chercheur</title>
+<meta name="keywords" content="OCR, IA, NLP, Traitement de Documents, Python">
+<meta name="description" content="Une application qui automatise l&#39;OCR sur les documents arabes, utilise des LLMs avec de l&#39;ingénierie de prompts, et génère des rapports PDF bien formatés avec des données extraites et des résumés.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projets/project_4/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cac0557b96f2858efec5981114b7018699482c11802dbe72ba864b09323d3a8d.css" integrity="sha256-ysBVe5byhY7&#43;xZgRFLcBhplILBGALb5yuoZLCTI9Oo0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="fr" href="http://localhost:1313/projets/project_4/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Amine Maazizi | Étudiant-Chercheur (Alt + H)">Amine Maazizi | Étudiant-Chercheur</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="http://localhost:1313/en/" title="English"
+                            aria-label="English">En</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Accueil">
+                    <span>Accueil</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/a-propos/" title="À Propos">
+                    <span>À Propos</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projets/" title="Recherche">
+                    <span>Recherche</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/experience/" title="Expérience">
+                    <span>Expérience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/education/" title="Éducation">
+                    <span>Éducation</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Étude de Cas : Solution de Résumé et Génération de Rapports pour les Documents Arabes
+    </h1>
+    <div class="post-description">
+      Une application qui automatise l&#39;OCR sur les documents arabes, utilise des LLMs avec de l&#39;ingénierie de prompts, et génère des rapports PDF bien formatés avec des données extraites et des résumés.
+    </div>
+    <div class="post-meta"><span title='2024-09-03 00:00:00 +0000 UTC'>septembre 3, 2024</span>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://localhost:1313/images/project_4/solution_thumbnail.png" alt="">
+        
+</figure>
+  <div class="post-content"><h2 id="aperçu">Aperçu<a hidden class="anchor" aria-hidden="true" href="#aperçu">#</a></h2>
+<p>L&rsquo;application de Résumé et Génération de Rapports pour les Documents Arabes est une solution sur mesure conçue pour la Direction des Affaires Techniques et des Relations avec la Profession. Cette application automatise l&rsquo;extraction de données clés à partir de documents arabes en utilisant l&rsquo;OCR et des LLMs avancés, générant ensuite des rapports PDF bien structurés. Le système répond aux besoins du client pour un traitement efficace, précis et automatisé des données textuelles non structurées, réduisant considérablement la charge de travail manuelle et améliorant l&rsquo;accessibilité des données.</p>
+<h2 id="problématique-du-client">Problématique du Client<a hidden class="anchor" aria-hidden="true" href="#problématique-du-client">#</a></h2>
+<p>Le client, le Directeur de la Direction des Affaires Techniques et des Relations avec la Profession, avait besoin d&rsquo;une méthode simplifiée pour gérer de grandes quantités de documents arabes contenant des informations cruciales telles que des circulaires, des rapports et des lettres officielles. L&rsquo;extraction et le résumé manuels de ces documents étaient fastidieux, sujets à des erreurs et gourmands en ressources. Le défi était de développer une solution automatisée capable d&rsquo;extraire avec précision des points de données spécifiques, de générer des résumés concis et de compiler ces informations dans des rapports professionnels, faciles à lire.</p>
+<h2 id="étapes-pour-résoudre-le-problème">Étapes pour Résoudre le Problème<a hidden class="anchor" aria-hidden="true" href="#étapes-pour-résoudre-le-problème">#</a></h2>
+<ol>
+<li>
+<p><strong>Collecte des Exigences</strong> : Collaboration avec le client pour définir les besoins clés en matière d&rsquo;extraction, tels que les dates des documents, les numéros, et les lignes d&rsquo;objet, ainsi que le format des rapports finaux.</p>
+</li>
+<li>
+<p><strong>Conception et Développement</strong> :</p>
+<ul>
+<li>Conception de l&rsquo;application incluant un module OCR capable de traiter le texte arabe.</li>
+<li>Intégration de LLMs avec de l&rsquo;ingénierie de prompts pour extraire les détails pertinents et générer des résumés.</li>
+<li>Développement d&rsquo;un système de modèles utilisant HTML pour le formatage des rapports, avec des capacités de conversion en PDF pour la sortie finale.</li>
+</ul>
+</li>
+<li>
+<p><strong>Mise en Œuvre</strong> :</p>
+<ul>
+<li>Mise en place de la fonctionnalité OCR en utilisant Tesseract pour une extraction précise du texte.</li>
+<li>Utilisation de modèles GPT-4 pour gérer l&rsquo;extraction des données et la génération de résumés basés sur des prompts spécifiques guidant le modèle pour identifier les sections pertinentes et inférer les objets manquants si nécessaire.</li>
+<li>Utilisation de Jinja2 et pdfkit pour générer des rapports PDF bien structurés à partir des données traitées.</li>
+</ul>
+</li>
+<li>
+<p><strong>Tests et Optimisation</strong> : Réalisation de tests approfondis pour valider la précision des sorties OCR et LLM, affiner les prompts et améliorer la conception du modèle en fonction des retours du client.</p>
+</li>
+<li>
+<p><strong>Déploiement et Formation</strong> : Livraison de la solution et organisation de sessions de formation pour l&rsquo;équipe du client, assurant une intégration fluide dans leurs flux de travail existants.</p>
+</li>
+</ol>
+<h2 id="fonctionnalités-clés">Fonctionnalités Clés<a hidden class="anchor" aria-hidden="true" href="#fonctionnalités-clés">#</a></h2>
+<ul>
+<li><strong>Traitement OCR Arabe</strong> : Convertit les documents arabes scannés en texte modifiable, assurant une grande précision dans la reconnaissance de divers scripts et formats.</li>
+<li><strong>Extraction de Données Avancée</strong> : Utilise GPT-4 avec des prompts spécialisés pour extraire les dates, numéros de documents et sujets, en inférant même les informations manquantes si nécessaire.</li>
+<li><strong>Résumé de Contenu</strong> : Génère automatiquement des résumés concis du contenu des documents, en mettant en avant les points clés et les détails pertinents.</li>
+<li><strong>Génération Automatique de Rapports</strong> : Compile les données extraites et les résumés dans un rapport PDF formaté professionnellement en utilisant des modèles HTML personnalisables.</li>
+</ul>
+<h2 id="flux-de-travail-détaillé">Flux de Travail Détaillé<a hidden class="anchor" aria-hidden="true" href="#flux-de-travail-détaillé">#</a></h2>
+<h3 id="1-extraction-de-données">1. <strong>Extraction de Données</strong><a hidden class="anchor" aria-hidden="true" href="#1-extraction-de-données">#</a></h3>
+<ul>
+<li>Utilise Tesseract OCR pour numériser le texte arabe des documents scannés, le préparant pour une analyse ultérieure.</li>
+</ul>
+<h3 id="2-traitement-llm">2. <strong>Traitement LLM</strong><a hidden class="anchor" aria-hidden="true" href="#2-traitement-llm">#</a></h3>
+<ul>
+<li>Utilise des modèles GPT-4 pour extraire les points de données clés et générer des résumés en utilisant des techniques d&rsquo;ingénierie de prompts pour garantir des sorties précises et contextuellement pertinentes.</li>
+</ul>
+<h3 id="3-génération-de-rapports">3. <strong>Génération de Rapports</strong><a hidden class="anchor" aria-hidden="true" href="#3-génération-de-rapports">#</a></h3>
+<ul>
+<li>Rend les données extraites et les résumés dans des modèles HTML avec Jinja2, et les convertit en PDFs en utilisant pdfkit, aboutissant à des rapports propres et professionnels.</li>
+</ul>
+<h2 id="technologies-utilisées">Technologies Utilisées<a hidden class="anchor" aria-hidden="true" href="#technologies-utilisées">#</a></h2>
+<h3 id="backend">Backend:<a hidden class="anchor" aria-hidden="true" href="#backend">#</a></h3>
+<ul>
+<li><strong>Python</strong>:
+<ul>
+<li><strong>Tesseract OCR</strong> : Pour extraire le texte des documents arabes.</li>
+<li><strong>OpenAI GPT-4</strong> : Pour l&rsquo;extraction de données et la génération de résumés à travers l&rsquo;ingénierie de prompts.</li>
+<li><strong>Jinja2</strong> : Pour créer des modèles HTML afin de formater dynamiquement le contenu des rapports.</li>
+<li><strong>pdfkit &amp; wkhtmltopdf</strong> : Pour convertir les modèles HTML en rapports PDF.</li>
+</ul>
+</li>
+</ul>
+<h3 id="frontend">Frontend:<a hidden class="anchor" aria-hidden="true" href="#frontend">#</a></h3>
+<ul>
+<li><strong>HTML/CSS</strong> : Utilisé dans la modélisation des rapports pour une cohérence visuelle et une apparence professionnelle.</li>
+</ul>
+<h2 id="contact">Contact<a hidden class="anchor" aria-hidden="true" href="#contact">#</a></h2>
+<p>Pour plus d&rsquo;informations ou pour discuter de vos besoins de projet, <a href="/contact/">contactez-nous ici</a>.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/ocr/">OCR</a></li>
+      <li><a href="http://localhost:1313/tags/ia/">IA</a></li>
+      <li><a href="http://localhost:1313/tags/nlp/">NLP</a></li>
+      <li><a href="http://localhost:1313/tags/traitement-de-documents/">Traitement De Documents</a></li>
+      <li><a href="http://localhost:1313/tags/python/">Python</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Amine Maazizi | Étudiant-Chercheur</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

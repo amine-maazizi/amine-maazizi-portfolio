@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Education on Amine Maazizi | Research Student</title>
+    <link>http://localhost:1313/en/education/</link>
+    <description>Recent content in Education on Amine Maazizi | Research Student</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MSc. MVA — École Normale Supérieure Paris-Saclay</title>
+      <link>http://localhost:1313/en/education/edu_2/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/education/edu_2/</guid>
+      <description>&lt;h2 id=&#34;master-mva-mathematics-vision-learning&#34;&gt;Master MVA (Mathematics, Vision, Learning)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;École Normale Supérieure Paris-Saclay&lt;/strong&gt; | Université Paris-Saclay&lt;br&gt;
+&lt;em&gt;September 2025 – Present&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;The MVA (Mathématiques, Vision, Apprentissage) master&amp;rsquo;s program is one of Europe&amp;rsquo;s most prestigious programs in applied mathematics and machine learning, attracting top students and researchers worldwide.&lt;/p&gt;
+&lt;h3 id=&#34;curriculum-highlights&#34;&gt;Curriculum Highlights&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mathematical Foundations&lt;/strong&gt;: Probabilistic Graphical Models, Generative Graphical Models, Geoemtric Processing, Geometric Data Analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning&lt;/strong&gt;: Geometric Deep Learning, Multimodal XAI, Generative Models for Images&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>MSc. CS Engineering — ENSTA Paris</title>
+      <link>http://localhost:1313/en/education/edu_3/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/education/edu_3/</guid>
+      <description>&lt;h2 id=&#34;msc-in-computer-science-engineering&#34;&gt;MSc. in Computer Science Engineering&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ENSTA Paris&lt;/strong&gt; | Institut Polytechnique de Paris&lt;br&gt;
+&lt;em&gt;September 2023 – Present&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ENSTA Paris, established in 1741, is France&amp;rsquo;s oldest engineering school and consistently ranks among the nation&amp;rsquo;s top institutions.&lt;/p&gt;
+&lt;h3 id=&#34;curriculum-highlights&#34;&gt;Curriculum Highlights&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Core Engineering&lt;/strong&gt;: Applied mathematics, physics, mechanics, signal processing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computer Science Major (STIC)&lt;/strong&gt;: Object-oriented programming (C++, Java), microprocessor architecture, parallel programming, databases&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Artifical Intelligence Specialization&lt;/strong&gt;: Statistical Learning, Deep Learning, Machine learning, Image recognition, Language Modeling, Reinforcement Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;achievements&#34;&gt;Achievements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cummulative GPA 4.05/4.3&lt;/li&gt;
+&lt;li&gt;Admitted to MVA program as a dual degree&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Preparatory Classes MPSI/MP* — Moulay Youssef</title>
+      <link>http://localhost:1313/en/education/edu_1/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/education/edu_1/</guid>
+      <description>&lt;h2 id=&#34;classes-préparatoires-mpsimp&#34;&gt;Classes Préparatoires MPSI/MP*&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Moulay Youssef Preparatory School&lt;/strong&gt; | Rabat, Morocco&lt;br&gt;
+&lt;em&gt;September 2021 – June 2023&lt;/em&gt; | &lt;strong&gt;Top 5% National Ranking&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Intensive two-year program preparing for the highly competitive entrance examinations to France&amp;rsquo;s Grandes Écoles.&lt;/p&gt;
+&lt;h3 id=&#34;-curriculum-highlights&#34;&gt;### Curriculum Highlights&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mathematics&lt;/strong&gt;: Calculus, linear algebra, probability, differential equations, topology&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Physics&lt;/strong&gt;: Classical mechanics, electromagnetism, thermodynamics, optics, quantum physics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computer Science&lt;/strong&gt;: Algorithms, data structures, complexity theory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;achievements&#34;&gt;Achievements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Top 5% ranking in national competitive examinations&lt;/li&gt;
+&lt;li&gt;Admitted to ENSTA Paris through the French Grandes Écoles entrance examination&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

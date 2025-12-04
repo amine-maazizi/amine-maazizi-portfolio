@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OCR on Amine Maazizi | Étudiant-Chercheur</title>
+    <link>http://localhost:1313/tags/ocr/</link>
+    <description>Recent content in OCR on Amine Maazizi | Étudiant-Chercheur</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 03 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ocr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Étude de Cas : Solution de Résumé et Génération de Rapports pour les Documents Arabes</title>
+      <link>http://localhost:1313/projets/project_4/</link>
+      <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/project_4/</guid>
+      <description>Une application qui automatise l&amp;#39;OCR sur les documents arabes, utilise des LLMs avec de l&amp;#39;ingénierie de prompts, et génère des rapports PDF bien formatés avec des données extraites et des résumés.</description>
+    </item>
+  </channel>
+</rss>

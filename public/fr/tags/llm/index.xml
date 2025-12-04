@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LLM on Amine Maazizi | Chercheur-Étudiant</title>
+    <link>http://localhost:1313/fr/tags/llm/</link>
+    <description>Recent content in LLM on Amine Maazizi | Chercheur-Étudiant</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>fr</language>
+    <atom:link href="http://localhost:1313/fr/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implémentation de PointLLM</title>
+      <link>http://localhost:1313/fr/projets/pointllm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/projets/pointllm/</guid>
+      <description>&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;
+&lt;p&gt;Implémentation de PointLLM basée sur l&amp;rsquo;article &lt;a href=&#34;https://arxiv.org/abs/2308.16911&#34;&gt;arXiv:2308.16911&lt;/a&gt;, intégrant des encodeurs de nuages de points avec des LLM pré-entraînés pour la compréhension 3D.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;contributions-principales&#34;&gt;Contributions Principales&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Intégration Multimodale&lt;/strong&gt; : Combinaison d&amp;rsquo;un encodeur de nuages de points avec un LLM pré-entraîné pour la compréhension 3D-langage&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Description 3D&lt;/strong&gt; : Génération automatique de descriptions en langage naturel pour les données de nuages de points 3D&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Classification&lt;/strong&gt; : Performance compétitive sur les benchmarks de classification d&amp;rsquo;objets 3D&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

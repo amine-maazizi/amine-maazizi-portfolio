@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Application Web on Amine Maazizi | Étudiant-Chercheur</title>
+    <link>http://localhost:1313/tags/application-web/</link>
+    <description>Recent content in Application Web on Amine Maazizi | Étudiant-Chercheur</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>fr</language>
+    <lastBuildDate>Sat, 10 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/application-web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Système de Gestion des Indices de Prix</title>
+      <link>http://localhost:1313/projets/project_2/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/project_2/</guid>
+      <description>Étude de Cas : Une application web interne développée avec Django pour gérer et mettre à jour les indices de prix des matériaux de construction dans le secteur des travaux publics.</description>
+    </item>
+  </channel>
+</rss>

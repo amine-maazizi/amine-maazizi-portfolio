@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projets on Amine Maazizi | Étudiant-Chercheur</title>
+    <link>http://localhost:1313/categories/projets/</link>
+    <description>Recent content in Projets on Amine Maazizi | Étudiant-Chercheur</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/projets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modèle de Support Client pour E-commerce</title>
+      <link>http://localhost:1313/projets/project_5/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/project_5/</guid>
+      <description>Un modèle LLaMA 3 70 affiné pour gérer les requêtes courantes du support client des plateformes e-commerce en utilisant le langage naturel.</description>
+    </item>
+    <item>
+      <title>Étude de Cas : Solution de Résumé et Génération de Rapports pour les Documents Arabes</title>
+      <link>http://localhost:1313/projets/project_4/</link>
+      <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/project_4/</guid>
+      <description>Une application qui automatise l&amp;#39;OCR sur les documents arabes, utilise des LLMs avec de l&amp;#39;ingénierie de prompts, et génère des rapports PDF bien formatés avec des données extraites et des résumés.</description>
+    </item>
+    <item>
+      <title>TrendViz : Tableau de bord analytique des meilleures ventes d&#39;Amazon</title>
+      <link>http://localhost:1313/projets/project_3/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/project_3/</guid>
+      <description>Un tableau de bord complet qui automatise l&amp;#39;extraction et l&amp;#39;analyse des données des meilleures ventes d&amp;#39;électronique sur Amazon, offrant des insights précieux grâce à des visualisations interactives et des rapports détaillés.</description>
+    </item>
+    <item>
+      <title>Système Automatisé de Génération de Factures et de Rapports</title>
+      <link>http://localhost:1313/projets/project_1/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/project_1/</guid>
+      <description>Une application de bureau conçue pour automatiser la génération de factures et de rapports avec une interface conviviale et des fonctionnalités d&amp;#39;automatisation avancées.</description>
+    </item>
+    <item>
+      <title>Système de Gestion des Indices de Prix</title>
+      <link>http://localhost:1313/projets/project_2/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/project_2/</guid>
+      <description>Étude de Cas : Une application web interne développée avec Django pour gérer et mettre à jour les indices de prix des matériaux de construction dans le secteur des travaux publics.</description>
+    </item>
+  </channel>
+</rss>

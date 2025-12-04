@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Système de Gestion des Indices de Prix | Amine Maazizi | Étudiant-Chercheur</title>
+<meta name="keywords" content="Django, Application Web, Gestion des Indices de Prix, Automatisation, Chatbot">
+<meta name="description" content="Étude de Cas : Une application web interne développée avec Django pour gérer et mettre à jour les indices de prix des matériaux de construction dans le secteur des travaux publics.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projets/project_2/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cac0557b96f2858efec5981114b7018699482c11802dbe72ba864b09323d3a8d.css" integrity="sha256-ysBVe5byhY7&#43;xZgRFLcBhplILBGALb5yuoZLCTI9Oo0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="fr" href="http://localhost:1313/projets/project_2/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Amine Maazizi | Étudiant-Chercheur (Alt + H)">Amine Maazizi | Étudiant-Chercheur</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="http://localhost:1313/en/" title="English"
+                            aria-label="English">En</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Accueil">
+                    <span>Accueil</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/a-propos/" title="À Propos">
+                    <span>À Propos</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projets/" title="Recherche">
+                    <span>Recherche</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/experience/" title="Expérience">
+                    <span>Expérience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/education/" title="Éducation">
+                    <span>Éducation</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Système de Gestion des Indices de Prix
+    </h1>
+    <div class="post-description">
+      Étude de Cas : Une application web interne développée avec Django pour gérer et mettre à jour les indices de prix des matériaux de construction dans le secteur des travaux publics.
+    </div>
+    <div class="post-meta"><span title='2024-08-10 00:00:00 +0000 UTC'>août 10, 2024</span>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://localhost:1313/images/project_2/se_connecter.png" alt="">
+        
+</figure>
+  <div class="post-content"><h2 id="aperçu">Aperçu<a hidden class="anchor" aria-hidden="true" href="#aperçu">#</a></h2>
+<p>Le <strong>Système de Gestion des Indices de Prix</strong> a été développé durant mon stage d’un mois au DATRP du Ministère de l&rsquo;Équipement et de l&rsquo;Eau. Cette application web interne est conçue pour rationaliser la gestion et la mise à jour des indices de prix des matériaux de construction utilisés dans les travaux publics. Elle améliore l&rsquo;efficacité opérationnelle en automatisant les tâches et en fournissant des outils avancés pour aider les responsables du DATRP.</p>
+<h2 id="problématique">Problématique<a hidden class="anchor" aria-hidden="true" href="#problématique">#</a></h2>
+<p>Les responsables du DATRP rencontraient des difficultés dans la gestion et la mise à jour des indices de prix des matériaux de construction en raison d&rsquo;un processus manuel et chronophage de création de canevas de valeurs à partir des fichiers Excel. Cela entraînait non seulement des inefficacités mais augmentait également le risque d&rsquo;inexactitudes et d&rsquo;erreurs dans les données, impactant la fiabilité des rapports de révision des prix et les processus de prise de décision.</p>
+<h2 id="galerie">Galerie<a hidden class="anchor" aria-hidden="true" href="#galerie">#</a></h2>
+<p>Voici quelques captures d&rsquo;écran montrant l&rsquo;application en action :</p>
+<p><img loading="lazy" src="/images/project_2/dashboard.png" alt="Tableau de Bord"  />
+
+<em>Le tableau de bord principal montrant les indicateurs clés et les options de navigation.</em></p>
+<p><img loading="lazy" src="/images/project_2/importer.png" alt="Importation Excel"  />
+
+<em>Interface d&rsquo;importation des données Excel avec validation et aperçu des données.</em></p>
+<p><img loading="lazy" src="/images/project_2/answer.png" alt="Chatbot"  />
+
+<em>Module de chatbot expérimental assistant dans les requêtes de révision des prix.</em></p>
+<p><img loading="lazy" src="/images/project_2/inscription.png" alt="Gestion des Utilisateurs"  />
+
+<em>Gestion sécurisée des utilisateurs pour la gestion des différents niveaux d&rsquo;accès.</em></p>
+<h2 id="étapes-pour-résoudre-le-problème">Étapes pour Résoudre le Problème<a hidden class="anchor" aria-hidden="true" href="#étapes-pour-résoudre-le-problème">#</a></h2>
+<ol>
+<li>
+<p><strong>Analyse des Besoins :</strong> Réalisation d&rsquo;une analyse détaillée du flux de travail existant pour comprendre les points de blocage et les besoins spécifiques des responsables du DATRP en matière de gestion des indices de prix.</p>
+</li>
+<li>
+<p><strong>Conception et Développement :</strong> Développement d&rsquo;une application web centralisée utilisant Django, intégrant toutes les fonctionnalités nécessaires pour gérer les indices de prix, automatiser les tâches courantes et améliorer la précision des données.</p>
+</li>
+<li>
+<p><strong>Automatisation de la Saisie de Données :</strong> Mise en œuvre d&rsquo;une interface d&rsquo;importation Excel avec validation des données pour rationaliser la saisie, minimiser l&rsquo;effort manuel et assurer la cohérence des données.</p>
+</li>
+<li>
+<p><strong>Amélioration de l&rsquo;Interaction Utilisateur :</strong> Intégration d&rsquo;un système d&rsquo;authentification sécurisé avec contrôle d&rsquo;accès basé sur les rôles pour protéger les informations sensibles et surveiller les activités des utilisateurs.</p>
+</li>
+<li>
+<p><strong>Introduction d&rsquo;Outils d&rsquo;IA Avancés :</strong> Développement d&rsquo;un module expérimental de chatbot pour assister dans les requêtes de révision des prix et d&rsquo;un prototype de détection de fraude, exploitant l&rsquo;IA pour améliorer l&rsquo;interaction utilisateur et l&rsquo;intégrité des données.</p>
+</li>
+<li>
+<p><strong>Tests et Itérations :</strong> Réalisation de tests approfondis de l&rsquo;application pour identifier et résoudre tout problème, suivis d&rsquo;améliorations itératives basées sur les retours des responsables du DATRP.</p>
+</li>
+</ol>
+<h2 id="objectifs">Objectifs<a hidden class="anchor" aria-hidden="true" href="#objectifs">#</a></h2>
+<ul>
+<li><strong>Rationaliser la Gestion des Indices de Prix :</strong> Simplifier le processus de mise à jour et de gestion des indices de prix via une plateforme centralisée.</li>
+<li><strong>Automatiser les Tâches Répétitives :</strong> Réduire la charge de travail manuel en automatisant les tâches de saisie et de validation de données.</li>
+<li><strong>Améliorer la Précision et la Sécurité des Données :</strong> Mettre en place une authentification sécurisée des utilisateurs et une validation des données pour minimiser les erreurs et protéger les informations sensibles.</li>
+<li><strong>Exploiter les Fonctionnalités Avancées d&rsquo;IA :</strong> Utiliser des outils basés sur l&rsquo;IA tels que des chatbots pour améliorer l&rsquo;interaction utilisateur et faciliter l&rsquo;apprentissage au sein de l&rsquo;organisation.</li>
+</ul>
+<h2 id="fonctionnalités-clés">Fonctionnalités Clés<a hidden class="anchor" aria-hidden="true" href="#fonctionnalités-clés">#</a></h2>
+<ul>
+<li><strong>Système d&rsquo;Authentification :</strong> Connexion sécurisée et gestion des utilisateurs avec différents niveaux d&rsquo;accès pour assurer la protection et le contrôle des données.</li>
+<li><strong>Tableau de Bord :</strong> Affiche les derniers utilisateurs ayant accédé à l&rsquo;application, améliorant les capacités de sécurité et de surveillance.</li>
+<li><strong>Interface d&rsquo;Importation Excel :</strong> Permet d&rsquo;importer des fichiers Excel avec les indices de prix, incluant un système robuste de validation et d&rsquo;aperçu des données pour garantir leur intégrité avant les mises à jour.</li>
+<li><strong>Vignettes d&rsquo;Automatisation :</strong> Propose un accès rapide aux tâches automatisées, y compris la création de canevas utilisés par la direction pour générer des rapports.</li>
+<li><strong>Fonctionnalités Expérimentales :</strong>
+<ul>
+<li><strong>Chatbot pour les Révisions de Prix :</strong> Un module expérimental utilisant un chatbot affiné avec l&rsquo;ingénierie des prompts et RAG sur un corpus spécifique au DATRP, aidant dans les processus de révision des prix.</li>
+<li><strong>Prototype de Détection de Fraude :</strong> Utilise un modèle de classification ML pour identifier les anomalies potentielles et les entrées de données frauduleuses.</li>
+</ul>
+</li>
+</ul>
+<h2 id="services-inclus">Services Inclus<a hidden class="anchor" aria-hidden="true" href="#services-inclus">#</a></h2>
+<p>Ce projet intègre plusieurs services clés de mon portefeuille, notamment :</p>
+<ul>
+<li><strong>Automatisation des Données et Aide à la Décision :</strong> Inclut des outils pour détecter les anomalies dans les données, visant à identifier de manière proactive les activités frauduleuses.</li>
+<li><strong>Intégration et Synchronisation des Données sur Mesure :</strong> Se connecte en toute transparence avec les systèmes existants pour garantir une gestion synchronisée des données à travers les plateformes.</li>
+<li><strong>Formation et Développement Personnalisés des Employés :</strong> Offre une formation personnalisée pilotée par l&rsquo;IA basée sur les interactions des utilisateurs au sein de l&rsquo;application.</li>
+</ul>
+<h2 id="technologies-utilisées">Technologies Utilisées<a hidden class="anchor" aria-hidden="true" href="#technologies-utilisées">#</a></h2>
+<h3 id="backend">Backend :<a hidden class="anchor" aria-hidden="true" href="#backend">#</a></h3>
+<ul>
+<li><strong>Python :</strong>
+<ul>
+<li><strong>Django :</strong> Framework pour construire le backend et gérer l&rsquo;application web.</li>
+<li><strong>Pandas :</strong> Utilisé pour la manipulation des données et la gestion des opérations Excel.</li>
+<li><strong>openpyxl :</strong> Gère la lecture et l&rsquo;écriture des fichiers Excel pour l&rsquo;importation et l&rsquo;exportation des données.</li>
+<li><strong>OpenAI GPT-4 :</strong> Alimente le chatbot, offrant des capacités conversationnelles avancées spécifiquement ajustées pour les sujets de révision des prix.</li>
+<li><strong>Scikit-Learn :</strong> Utilisé pour construire le modèle de classification pour la détection de fraude.</li>
+</ul>
+</li>
+</ul>
+<h3 id="frontend">Frontend :<a hidden class="anchor" aria-hidden="true" href="#frontend">#</a></h3>
+<ul>
+<li><strong>HTML/CSS/JavaScript :</strong> HTML, CSS et JS utilisés pour l&rsquo;interface frontend, gardant l&rsquo;expérience utilisateur simple et efficace.</li>
+</ul>
+<h2 id="contactez-moi">Contactez-moi<a hidden class="anchor" aria-hidden="true" href="#contactez-moi">#</a></h2>
+<p><a href="/contact/">Page de Contact</a> — Contactez-moi pour plus d&rsquo;informations ou pour planifier une démonstration.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/django/">Django</a></li>
+      <li><a href="http://localhost:1313/tags/application-web/">Application Web</a></li>
+      <li><a href="http://localhost:1313/tags/gestion-des-indices-de-prix/">Gestion Des Indices De Prix</a></li>
+      <li><a href="http://localhost:1313/tags/automatisation/">Automatisation</a></li>
+      <li><a href="http://localhost:1313/tags/chatbot/">Chatbot</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Amine Maazizi | Étudiant-Chercheur</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

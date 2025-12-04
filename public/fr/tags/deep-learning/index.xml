@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Deep Learning on Amine Maazizi | Chercheur-Étudiant</title>
+    <link>http://localhost:1313/fr/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on Amine Maazizi | Chercheur-Étudiant</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>fr</language>
+    <atom:link href="http://localhost:1313/fr/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implémentation de PointLLM</title>
+      <link>http://localhost:1313/fr/projets/pointllm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/projets/pointllm/</guid>
+      <description>&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;
+&lt;p&gt;Implémentation de PointLLM basée sur l&amp;rsquo;article &lt;a href=&#34;https://arxiv.org/abs/2308.16911&#34;&gt;arXiv:2308.16911&lt;/a&gt;, intégrant des encodeurs de nuages de points avec des LLM pré-entraînés pour la compréhension 3D.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;contributions-principales&#34;&gt;Contributions Principales&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Intégration Multimodale&lt;/strong&gt; : Combinaison d&amp;rsquo;un encodeur de nuages de points avec un LLM pré-entraîné pour la compréhension 3D-langage&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Description 3D&lt;/strong&gt; : Génération automatique de descriptions en langage naturel pour les données de nuages de points 3D&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Classification&lt;/strong&gt; : Performance compétitive sur les benchmarks de classification d&amp;rsquo;objets 3D&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clairvoyance — Lunettes Intelligentes pour Assistance Visuelle</title>
+      <link>http://localhost:1313/fr/projets/clairvoyance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/projets/clairvoyance/</guid>
+      <description>&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;
+&lt;p&gt;Système IA multimodal conçu pour assister les personnes malvoyantes en combinant reconnaissance d&amp;rsquo;objets, estimation de profondeur et OCR.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;contributions-principales&#34;&gt;Contributions Principales&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dataset Synthétique&lt;/strong&gt; : Génération d&amp;rsquo;un dataset complet de paires scène-requête couvrant divers scénarios réels&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Classification d&amp;rsquo;Intention&lt;/strong&gt; : Entraînement d&amp;rsquo;un classifieur d&amp;rsquo;intention basé sur les embeddings pour router les requêtes utilisateur&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Génération de Réponses&lt;/strong&gt; : Fine-tuning d&amp;rsquo;un modèle BART pour la génération de réponses verbales contextuelles&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mécanisme de Fallback&lt;/strong&gt; : Intégration d&amp;rsquo;un agent LLM pour gérer dynamiquement les tâches hors-scope&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;PyTorch&lt;/code&gt; &lt;code&gt;HuggingFace Transformers&lt;/code&gt; &lt;code&gt;BART&lt;/code&gt; &lt;code&gt;Vision par Ordinateur&lt;/code&gt; &lt;code&gt;OCR&lt;/code&gt; &lt;code&gt;Estimation de Profondeur&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

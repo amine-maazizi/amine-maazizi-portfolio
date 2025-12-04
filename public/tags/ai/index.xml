@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Amine Maazizi | Research Student</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <description>Recent content in AI on Amine Maazizi | Research Student</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SAGALang — Interpreted Programming Language</title>
+      <link>http://localhost:1313/projects/sagalang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sagalang/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Created an interpreted imperative programming language with a complete implementation stack from lexer to interpreter. The language follows a traditional interpreter pipeline with tokenization, parsing into an AST, and tree-walking interpretation, enhanced with modern ML-based developer tooling.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/amine-maazizi/SagaLang&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This project extends beyond concepts from &lt;a href=&#34;https://craftinginterpreters.com/&#34;&gt;Crafting Interpreters&lt;/a&gt; by Robert Nystrom&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Language Implementation&lt;/strong&gt;: Built a custom lexer, parser, and interpreter entirely in Python&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standard Library&lt;/strong&gt;: Developed a standard library supporting real-time graphics capabilities&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI-Powered Completion&lt;/strong&gt;: Integrated neural code completion using transformer models for intelligent suggestions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Python&lt;/code&gt; &lt;code&gt;Transformers&lt;/code&gt; &lt;code&gt;Language Design&lt;/code&gt; &lt;code&gt;Lexical Analysis&lt;/code&gt; &lt;code&gt;Parsing&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clairvoyance — Smart Glasses for Visual Assistance</title>
+      <link>http://localhost:1313/projects/clairvoyance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/clairvoyance/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Built a multimodal AI system designed to assist visually impaired users by combining object recognition, depth estimation, and OCR capabilities.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Synthetic Dataset&lt;/strong&gt;: Generated a comprehensive dataset of scene–query pairs covering diverse real-world scenarios and edge cases&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intent Classification&lt;/strong&gt;: Trained an embedding-based intent classifier to map user inquiries to appropriate visual or generative tasks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Response Generation&lt;/strong&gt;: Fine-tuned a BART model for context-aware verbal response generation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fallback Mechanism&lt;/strong&gt;: Integrated an LLM-powered agent to dynamically handle out-of-scope or unplanned tasks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;PyTorch&lt;/code&gt; &lt;code&gt;HuggingFace Transformers&lt;/code&gt; &lt;code&gt;BART&lt;/code&gt; &lt;code&gt;Computer Vision&lt;/code&gt; &lt;code&gt;OCR&lt;/code&gt; &lt;code&gt;Depth Estimation&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

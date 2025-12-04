@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Accueil on Amine Maazizi | Chercheur-Étudiant</title>
+    <link>http://localhost:1313/fr/</link>
+    <description>Recent content in Accueil on Amine Maazizi | Chercheur-Étudiant</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MSc. MVA — École Normale Supérieure Paris-Saclay</title>
+      <link>http://localhost:1313/fr/education/edu_2/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/education/edu_2/</guid>
+      <description>&lt;h2 id=&#34;master-mva-mathématiques-vision-apprentissage&#34;&gt;Master MVA (Mathématiques, Vision, Apprentissage)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;École Normale Supérieure Paris-Saclay&lt;/strong&gt; | Université Paris-Saclay&lt;br&gt;
+&lt;em&gt;Septembre 2025 – Présent&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Le master MVA est l&amp;rsquo;un des programmes les plus prestigieux d&amp;rsquo;Europe en mathématiques appliquées et apprentissage automatique, attirant les meilleurs étudiants et chercheurs du monde entier.&lt;/p&gt;
+&lt;h3 id=&#34;points-clés-du-cursus&#34;&gt;Points Clés du Cursus&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fondements Mathématiques&lt;/strong&gt; : Modèles Graphiques Probabilistes, Modèles Graphiques Génératifs, Traitement Géométrique, Analyse de Données Géométriques&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apprentissage&lt;/strong&gt; : Deep Learning Géométrique, XAI Multimodal, Modèles Génératifs pour Images&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Stagiaire de Recherche — Institut Pasteur</title>
+      <link>http://localhost:1313/fr/experience/research_pasteur/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/experience/research_pasteur/</guid>
+      <description>&lt;h2 id=&#34;stagiaire-de-recherche--collaborateur&#34;&gt;Stagiaire de Recherche / Collaborateur&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Institut Pasteur&lt;/strong&gt; | Unité d&amp;rsquo;Analyse d&amp;rsquo;Images Biologiques&lt;br&gt;
+&lt;em&gt;Paris, France — Juin 2025 – Présent&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;projet--modèles-de-correspondance-de-formes-pour-la-morphogenèse-membranaire&#34;&gt;Projet : Modèles de Correspondance de Formes pour la Morphogenèse Membranaire&lt;/h3&gt;
+&lt;p&gt;Développement de méthodes computationnelles à l&amp;rsquo;intersection du deep learning géométrique et de la biophysique pour analyser la dynamique de courbure membranaire.&lt;/p&gt;
+&lt;h3 id=&#34;contributions-principales&#34;&gt;Contributions Principales&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Modèles de Correspondance&lt;/strong&gt; : Développement d&amp;rsquo;algorithmes intégrant des contraintes biomécaniques (énergie de Helfrich) pour l&amp;rsquo;analyse de courbure membranaire&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Collaborateur de Recherche — NAIST</title>
+      <link>http://localhost:1313/fr/experience/research_naist/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/experience/research_naist/</guid>
+      <description>&lt;h2 id=&#34;collaborateur-de-recherche&#34;&gt;Collaborateur de Recherche&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Nara Institute of Science and Technology (NAIST)&lt;/strong&gt; | CARE Laboratory
+&lt;em&gt;Japon (Télétravail) — Octobre 2024 – Décembre 2024&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;projet--deep-learning-géométrique-pour-la-génération-de-contenu-3d&#34;&gt;Projet : Deep Learning Géométrique pour la Génération de Contenu 3D&lt;/h3&gt;
+&lt;p&gt;Réalisation d&amp;rsquo;une revue de littérature sur les approches de Deep Learning Géométrique pour la génération de modèles 3D en Réalité Virtuelle.&lt;/p&gt;
+&lt;h3 id=&#34;contributions-principales&#34;&gt;Contributions Principales&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Revue de Littérature&lt;/strong&gt; : Compilation d&amp;rsquo;une analyse structurée des solutions de DL géométrique pour la génération 3D à partir d&amp;rsquo;entrées multimodales (texte, images, nuages de points)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MSc. Ingénierie Informatique — ENSTA Paris</title>
+      <link>http://localhost:1313/fr/education/edu_3/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/education/edu_3/</guid>
+      <description>&lt;h2 id=&#34;msc-en-ingénierie-informatique&#34;&gt;MSc. en Ingénierie Informatique&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ENSTA Paris&lt;/strong&gt; | Institut Polytechnique de Paris&lt;br&gt;
+&lt;em&gt;Septembre 2023 – Présent&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;L&amp;rsquo;ENSTA Paris, fondée en 1741, est la plus ancienne école d&amp;rsquo;ingénieurs de France et figure parmi les institutions les plus prestigieuses du pays.&lt;/p&gt;
+&lt;h3 id=&#34;points-clés-du-cursus&#34;&gt;Points Clés du Cursus&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ingénierie Générale&lt;/strong&gt; : Mathématiques appliquées, physique, mécanique, traitement du signal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Majeure Informatique (STIC)&lt;/strong&gt; : Programmation orientée objet (C++, Java), architecture des microprocesseurs, programmation parallèle, bases de données&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spécialisation Intelligence Artificielle&lt;/strong&gt; : Apprentissage Statistique, Deep Learning, Machine Learning, Reconnaissance d&amp;rsquo;Images, Modélisation du Langage, Apprentissage par Renforcement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;réalisations&#34;&gt;Réalisations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;GPA cumulatif 4.05/4.3&lt;/li&gt;
+&lt;li&gt;Admission au programme MVA en double diplôme&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>SAGALang — Langage de Programmation Interprété</title>
+      <link>http://localhost:1313/fr/projets/sagalang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/projets/sagalang/</guid>
+      <description>&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;
+&lt;p&gt;Création d&amp;rsquo;un langage de programmation impératif interprété avec une implémentation complète du lexer à l&amp;rsquo;interpréteur. Le langage suit un pipeline d&amp;rsquo;interprétation traditionnel avec tokenisation, parsing en AST, et interprétation par parcours d&amp;rsquo;arbre, amélioré par des outils de développement basés sur le ML.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/amine-maazizi/SagaLang&#34;&gt;Dépôt GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ce projet étend les concepts de &lt;a href=&#34;https://craftinginterpreters.com/&#34;&gt;Crafting Interpreters&lt;/a&gt; par Robert Nystrom&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;caractéristiques-principales&#34;&gt;Caractéristiques Principales&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Implémentation du Langage&lt;/strong&gt; : Lexer, parser et interpréteur personnalisés entièrement en Python&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bibliothèque Standard&lt;/strong&gt; : Développement d&amp;rsquo;une bibliothèque standard avec support graphique temps réel&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Complétion IA&lt;/strong&gt; : Intégration de complétion de code neuronale utilisant des modèles transformers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Python&lt;/code&gt; &lt;code&gt;Transformers&lt;/code&gt; &lt;code&gt;Conception de Langages&lt;/code&gt; &lt;code&gt;Analyse Lexicale&lt;/code&gt; &lt;code&gt;Parsing&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stagiaire Développement — Ministère de l&#39;Équipement et de l&#39;Eau</title>
+      <link>http://localhost:1313/fr/experience/stage_1/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/experience/stage_1/</guid>
+      <description>&lt;h2 id=&#34;stagiaire-en-développement-logiciel&#34;&gt;Stagiaire en Développement Logiciel&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Ministère de l&amp;rsquo;Équipement et de l&amp;rsquo;Eau&lt;/strong&gt; | Direction des Affaires Techniques&lt;br&gt;
+&lt;em&gt;Rabat, Maroc — Juillet 2024 – Août 2024&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;projet--chatbot-interne-pour-lautomatisation-des-processus&#34;&gt;Projet : Chatbot Interne pour l&amp;rsquo;Automatisation des Processus&lt;/h3&gt;
+&lt;p&gt;Développement d&amp;rsquo;un système de chatbot intelligent pour automatiser les requêtes administratives et le remplissage de formulaires.&lt;/p&gt;
+&lt;h3 id=&#34;contributions-principales&#34;&gt;Contributions Principales&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Plateforme d&amp;rsquo;Automatisation&lt;/strong&gt; : Construction d&amp;rsquo;un chatbot automatisant les requêtes et le remplissage de formulaires, réduisant la charge de travail manuelle d&amp;rsquo;environ &lt;strong&gt;50%&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Classes Préparatoires MPSI/MP* — Moulay Youssef</title>
+      <link>http://localhost:1313/fr/education/edu_1/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/education/edu_1/</guid>
+      <description>&lt;h2 id=&#34;classes-préparatoires-mpsimp&#34;&gt;Classes Préparatoires MPSI/MP*&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Lycée Moulay Youssef&lt;/strong&gt; | Rabat, Maroc&lt;br&gt;
+&lt;em&gt;Septembre 2021 – Juin 2023&lt;/em&gt; | &lt;strong&gt;Top 5% National&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Programme intensif de deux ans préparant aux concours d&amp;rsquo;entrée des Grandes Écoles françaises.&lt;/p&gt;
+&lt;h3 id=&#34;points-clés-du-cursus&#34;&gt;Points Clés du Cursus&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mathématiques&lt;/strong&gt; : Calcul, algèbre linéaire, probabilités, équations différentielles, topologie&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Physique&lt;/strong&gt; : Mécanique classique, électromagnétisme, thermodynamique, optique, physique quantique&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Informatique&lt;/strong&gt; : Algorithmes, structures de données, complexité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;réalisations&#34;&gt;Réalisations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Classement Top 5% aux concours nationaux&lt;/li&gt;
+&lt;li&gt;Admission à l&amp;rsquo;ENSTA Paris via le concours des Grandes Écoles françaises&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Implémentation de PointLLM</title>
+      <link>http://localhost:1313/fr/projets/pointllm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/projets/pointllm/</guid>
+      <description>&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;
+&lt;p&gt;Implémentation de PointLLM basée sur l&amp;rsquo;article &lt;a href=&#34;https://arxiv.org/abs/2308.16911&#34;&gt;arXiv:2308.16911&lt;/a&gt;, intégrant des encodeurs de nuages de points avec des LLM pré-entraînés pour la compréhension 3D.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;contributions-principales&#34;&gt;Contributions Principales&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Intégration Multimodale&lt;/strong&gt; : Combinaison d&amp;rsquo;un encodeur de nuages de points avec un LLM pré-entraîné pour la compréhension 3D-langage&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Description 3D&lt;/strong&gt; : Génération automatique de descriptions en langage naturel pour les données de nuages de points 3D&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Classification&lt;/strong&gt; : Performance compétitive sur les benchmarks de classification d&amp;rsquo;objets 3D&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Développeur de Jeux Freelance</title>
+      <link>http://localhost:1313/fr/experience/freelance/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/experience/freelance/</guid>
+      <description>&lt;h2 id=&#34;développeur-de-jeux-freelance&#34;&gt;Développeur de Jeux Freelance&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Fiverr, Upwork, Freelancer.com&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Janvier 2022 – Décembre 2024&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;présentation&#34;&gt;Présentation&lt;/h3&gt;
+&lt;p&gt;Conception et livraison de jeux 2D/3D et d&amp;rsquo;outils interactifs avec Unity et Godot, en collaboration avec des clients internationaux.&lt;/p&gt;
+&lt;h3 id=&#34;types-de-projets&#34;&gt;Types de Projets&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement de jeux 2D et 3D&lt;/li&gt;
+&lt;li&gt;Outils interactifs et simulations&lt;/li&gt;
+&lt;li&gt;Optimisation des mécaniques de jeu bas niveau&lt;/li&gt;
+&lt;li&gt;Réseautage multijoueur&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Unity&lt;/code&gt; &lt;code&gt;Godot&lt;/code&gt; &lt;code&gt;C#&lt;/code&gt; &lt;code&gt;GDScript&lt;/code&gt; &lt;code&gt;Game Design&lt;/code&gt; &lt;code&gt;Modélisation 3D&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clairvoyance — Lunettes Intelligentes pour Assistance Visuelle</title>
+      <link>http://localhost:1313/fr/projets/clairvoyance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/projets/clairvoyance/</guid>
+      <description>&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;
+&lt;p&gt;Système IA multimodal conçu pour assister les personnes malvoyantes en combinant reconnaissance d&amp;rsquo;objets, estimation de profondeur et OCR.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;contributions-principales&#34;&gt;Contributions Principales&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dataset Synthétique&lt;/strong&gt; : Génération d&amp;rsquo;un dataset complet de paires scène-requête couvrant divers scénarios réels&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Classification d&amp;rsquo;Intention&lt;/strong&gt; : Entraînement d&amp;rsquo;un classifieur d&amp;rsquo;intention basé sur les embeddings pour router les requêtes utilisateur&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Génération de Réponses&lt;/strong&gt; : Fine-tuning d&amp;rsquo;un modèle BART pour la génération de réponses verbales contextuelles&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mécanisme de Fallback&lt;/strong&gt; : Intégration d&amp;rsquo;un agent LLM pour gérer dynamiquement les tâches hors-scope&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;PyTorch&lt;/code&gt; &lt;code&gt;HuggingFace Transformers&lt;/code&gt; &lt;code&gt;BART&lt;/code&gt; &lt;code&gt;Vision par Ordinateur&lt;/code&gt; &lt;code&gt;OCR&lt;/code&gt; &lt;code&gt;Estimation de Profondeur&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Analyse et Gestion des Contrats</title>
+      <link>http://localhost:1313/fr/services/service_12/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_12/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Utilisez des modèles de langage (LLMs) pour analyser les contrats en identifiant les termes clés, les obligations, les échéances et les risques, automatisant ainsi les flux de travail de révision et d&amp;rsquo;approbation des contrats afin de réduire la charge de travail manuelle et d&amp;rsquo;améliorer la précision.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Extraire automatiquement les termes clés d&amp;rsquo;un contrat et alerter les parties prenantes des échéances à venir ou des risques potentiels.&lt;/p&gt;
+&lt;h2 id=&#34;technologies-utilisées&#34;&gt;Technologies Utilisées&lt;/h2&gt;
+&lt;p&gt;Python, Traitement du Langage Naturel (NLP), OpenAI GPT, outils d&amp;rsquo;IA juridique.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automatisation de l&#39;Extraction et du Traitement des Données</title>
+      <link>http://localhost:1313/fr/services/service_15/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_15/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;L&amp;rsquo;extraction et l&amp;rsquo;automatisation ETL (Extract, Transform, Load) consistent à extraire des données de diverses sources telles que des sites web, des APIs ou des bases de données, à les transformer dans un format utilisable et à les charger dans un système pour analyse ou intégration. Ce service automatise la collecte de données, réduit les efforts manuels et assure la cohérence des données.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Extraire des données de prix des concurrents depuis plusieurs sites web et les charger dans une base de données centrale pour l&amp;rsquo;analyse concurrentielle et la stratégie de tarification.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automatisation des Analyses de Données et de la Prise de Décision</title>
+      <link>http://localhost:1313/fr/services/service_8/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_8/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Exploitez les modèles d&amp;rsquo;IA pour automatiser l&amp;rsquo;analyse des données et générer des insights, offrant un soutien à la décision pour les dirigeants ou les analystes de données.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Générer automatiquement des rapports d&amp;rsquo;analyse à partir des données de vente pour aider les dirigeants à prendre des décisions basées sur les données.&lt;/p&gt;
+&lt;h2 id=&#34;technologies-utilisées&#34;&gt;Technologies Utilisées&lt;/h2&gt;
+&lt;p&gt;Python, Jupyter, Hugging Face, Pandas, Scikit-Learn, Matplotlib.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automatisation des Emails et des Communications</title>
+      <link>http://localhost:1313/fr/services/service_3/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_3/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Automatisez les tâches de communication de routine telles que l&amp;rsquo;envoi de rappels, de suivis ou d&amp;rsquo;emails marketing basés sur des déclencheurs ou des calendriers spécifiques. Cela permet de maintenir l&amp;rsquo;engagement et de réduire la nécessité d&amp;rsquo;une intervention manuelle.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Mettre en place une séquence d&amp;rsquo;emails de suivi automatisée pour les prospects qui s&amp;rsquo;inscrivent via un formulaire sur le site web.&lt;/p&gt;
+&lt;h2 id=&#34;technologies-utilisées&#34;&gt;Technologies Utilisées&lt;/h2&gt;
+&lt;p&gt;Mailchimp, SendGrid, Python, JavaScript, Zapier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automatisation du Marketing</title>
+      <link>http://localhost:1313/fr/services/service_14/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_14/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;L&amp;rsquo;automatisation du marketing consiste à utiliser des logiciels et des outils pour automatiser des tâches marketing telles que les campagnes d&amp;rsquo;emailing, la publication sur les réseaux sociaux et la gestion des leads. Cette automatisation permet de cibler le bon public avec du contenu personnalisé, de gagner du temps et d&amp;rsquo;augmenter l&amp;rsquo;efficacité globale du marketing.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Configurer des campagnes d&amp;rsquo;emailing automatisées qui envoient des messages personnalisés aux prospects en fonction de leurs interactions, telles que les clics ou les inscriptions, pour les accompagner tout au long du parcours d&amp;rsquo;achat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automatisation du Support Client avec IA</title>
+      <link>http://localhost:1313/fr/services/service_6/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_6/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Développez des chatbots ou assistants virtuels utilisant des modèles d&amp;rsquo;IA pour gérer les demandes des clients, résoudre les problèmes et effectuer des tâches complexes avec une compréhension contextuelle.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Déployer un chatbot pour gérer les requêtes de service client, fournir des réponses instantanées et escalader les problèmes complexes vers des agents humains.&lt;/p&gt;
+&lt;h2 id=&#34;technologies-utilisées&#34;&gt;Technologies Utilisées&lt;/h2&gt;
+&lt;p&gt;Python, Hugging Face Transformers, Rasa, API OpenAI, Stable Baselines3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automatisation et Gestion des Documents</title>
+      <link>http://localhost:1313/fr/services/service_4/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_4/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Automatisez la création, le classement et la gestion de documents tels que les factures, contrats ou propositions. Cela garantit la cohérence, réduit le travail manuel et minimise les erreurs dans la gestion des documents.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Créer des modèles de factures automatisés qui se remplissent automatiquement avec les données des clients et sont envoyés à la finalisation de la commande.&lt;/p&gt;
+&lt;h2 id=&#34;technologies-utilisées&#34;&gt;Technologies Utilisées&lt;/h2&gt;
+&lt;p&gt;Suite Microsoft Office, Google Workspace, Python, API DocuSign.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automatisation Intelligente des Réunions et des Notes</title>
+      <link>http://localhost:1313/fr/services/service_13/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_13/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Transcrire automatiquement les notes de réunion, résumer les points clés, attribuer des actions à effectuer et rédiger des emails de suivi à l&amp;rsquo;aide de modèles de langage (LLMs), améliorant ainsi l&amp;rsquo;efficacité des réunions et garantissant qu&amp;rsquo;aucun détail ne soit omis.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;S&amp;rsquo;intégrer aux outils de visioconférence pour automatiser la capture des minutes de réunion, générer des résumés et envoyer des emails de suivi aux participants.&lt;/p&gt;
+&lt;h2 id=&#34;technologies-utilisées&#34;&gt;Technologies Utilisées&lt;/h2&gt;
+&lt;p&gt;Python, API OpenAI, outils de reconnaissance vocale (Speech-to-Text), Traitement du Langage Naturel (NLP), intégrations Zapier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Formation et Développement Personnalisés des Employés</title>
+      <link>http://localhost:1313/fr/services/service_11/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_11/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Créez du contenu de formation personnalisé piloté par l&amp;rsquo;IA pour les employés en fonction de leurs rôles, de leurs progrès d&amp;rsquo;apprentissage et de leurs données de performance.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Développer des programmes de formation dynamiques qui s&amp;rsquo;adaptent aux performances des employés et fournissent un contenu sur mesure.&lt;/p&gt;
+&lt;h2 id=&#34;technologies-utilisées&#34;&gt;Technologies Utilisées&lt;/h2&gt;
+&lt;p&gt;Python, Machine Learning, Apprentissage par Renforcement, plateformes LMS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Génération Automatisée de Contenu</title>
+      <link>http://localhost:1313/fr/services/service_9/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_9/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Utilisez des modèles de langage (LLMs) pour générer du contenu tel que des articles de blog, des descriptions de produits, des emails ou des mises à jour sur les réseaux sociaux, assurant une communication cohérente et engageante.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Automatiser la création d&amp;rsquo;articles de blog mensuels adaptés à des segments de clientèle spécifiques.&lt;/p&gt;
+&lt;h2 id=&#34;technologies-utilisées&#34;&gt;Technologies Utilisées&lt;/h2&gt;
+&lt;p&gt;Python, OpenAI GPT, Hugging Face Transformers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Génération Automatisée de Rapports</title>
+      <link>http://localhost:1313/fr/services/service_2/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_2/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Les services de génération automatisée de rapports créent des rapports réguliers en extrayant des données de diverses sources, en effectuant les calculs nécessaires et en formatant les résultats. Cela réduit l&amp;rsquo;effort manuel et garantit des rapports cohérents et ponctuels.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Générer des rapports hebdomadaires de performance des ventes en extrayant des données de plusieurs canaux de vente et en les présentant dans un format unifié.&lt;/p&gt;
+&lt;h2 id=&#34;technologies-utilisées&#34;&gt;Technologies Utilisées&lt;/h2&gt;
+&lt;p&gt;Python, Pandas, Excel VBA, API Google Sheets, SQL.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gestion et Récupération des Connaissances</title>
+      <link>http://localhost:1313/fr/services/service_10/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_10/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Développez des systèmes alimentés par l&amp;rsquo;IA qui résument des documents, répondent aux questions et extraient des informations pertinentes de vastes bases de connaissances pour améliorer la productivité.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Automatiser la création de bases de connaissances internes et la récupération d&amp;rsquo;informations à la demande pour les employés.&lt;/p&gt;
+&lt;h2 id=&#34;technologies-utilisées&#34;&gt;Technologies Utilisées&lt;/h2&gt;
+&lt;p&gt;Python, Hugging Face Transformers, API OpenAI.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Intégration et Synchronisation de Données Personnalisées</title>
+      <link>http://localhost:1313/fr/services/service_1/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_1/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Les services d&amp;rsquo;intégration et de synchronisation de données personnalisées connectent plusieurs plateformes logicielles, bases de données ou API pour assurer un flux de données fluide entre les systèmes. Cette automatisation réduit la saisie manuelle des données, améliore l&amp;rsquo;exactitude et garantit que tous les systèmes sont mis à jour en temps réel.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Intégrer un CRM avec une plateforme de marketing par email pour synchroniser automatiquement les données clients et optimiser les campagnes par email.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maintenance Prédictive et Détection d&#39;Anomalies</title>
+      <link>http://localhost:1313/fr/services/service_7/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_7/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Utilisez des modèles de machine learning pour prédire les défaillances d&amp;rsquo;équipements ou détecter des anomalies dans les données opérationnelles, aidant les entreprises à réduire les temps d&amp;rsquo;arrêt et les coûts de maintenance.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Analyser les données historiques des capteurs des équipements de fabrication pour prédire les pannes avant qu&amp;rsquo;elles ne surviennent.&lt;/p&gt;
+&lt;h2 id=&#34;technologies-utilisées&#34;&gt;Technologies Utilisées&lt;/h2&gt;
+&lt;p&gt;Python, TensorFlow, PyTorch, outils d&amp;rsquo;analyse de séries temporelles, bibliothèques de visualisation de données.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Traitement Intelligent de Documents (IDP)</title>
+      <link>http://localhost:1313/fr/services/service_5/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/services/service_5/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Le traitement intelligent de documents (IDP) utilise l&amp;rsquo;IA et le machine learning pour automatiser l&amp;rsquo;extraction, la classification et le traitement des données à partir de documents, réduisant ainsi l&amp;rsquo;effort manuel et améliorant la précision.&lt;/p&gt;
+&lt;h2 id=&#34;exemple-dutilisation&#34;&gt;Exemple d&amp;rsquo;Utilisation&lt;/h2&gt;
+&lt;p&gt;Automatiser l&amp;rsquo;extraction des points de données clés des contrats et mettre à jour un système CRM avec ces informations.&lt;/p&gt;
+&lt;h2 id=&#34;technologies-utilisées&#34;&gt;Technologies Utilisées&lt;/h2&gt;
+&lt;p&gt;Python, TensorFlow, PyTorch, OpenCV, outils OCR comme Tesseract, GPT-3.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

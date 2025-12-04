@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web Scraping on Amine Maazizi | Research Student</title>
+    <link>http://localhost:1313/en/tags/web-scraping/</link>
+    <description>Recent content in Web Scraping on Amine Maazizi | Research Student</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/web-scraping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TrendViz: Amazon Best Sellers Analytics Dashboard</title>
+      <link>http://localhost:1313/en/projects/project_3/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/project_3/</guid>
+      <description>A comprehensive dashboard that automates the extraction and analysis of Amazon&amp;#39;s best-selling electronics data, providing valuable insights through interactive visualizations and detailed reports.</description>
+    </item>
+  </channel>
+</rss>

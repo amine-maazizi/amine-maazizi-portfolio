@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Éducation on Amine Maazizi | Chercheur-Étudiant</title>
+    <link>http://localhost:1313/fr/education/</link>
+    <description>Recent content in Éducation on Amine Maazizi | Chercheur-Étudiant</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MSc. MVA — École Normale Supérieure Paris-Saclay</title>
+      <link>http://localhost:1313/fr/education/edu_2/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/education/edu_2/</guid>
+      <description>&lt;h2 id=&#34;master-mva-mathématiques-vision-apprentissage&#34;&gt;Master MVA (Mathématiques, Vision, Apprentissage)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;École Normale Supérieure Paris-Saclay&lt;/strong&gt; | Université Paris-Saclay&lt;br&gt;
+&lt;em&gt;Septembre 2025 – Présent&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Le master MVA est l&amp;rsquo;un des programmes les plus prestigieux d&amp;rsquo;Europe en mathématiques appliquées et apprentissage automatique, attirant les meilleurs étudiants et chercheurs du monde entier.&lt;/p&gt;
+&lt;h3 id=&#34;points-clés-du-cursus&#34;&gt;Points Clés du Cursus&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fondements Mathématiques&lt;/strong&gt; : Modèles Graphiques Probabilistes, Modèles Graphiques Génératifs, Traitement Géométrique, Analyse de Données Géométriques&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apprentissage&lt;/strong&gt; : Deep Learning Géométrique, XAI Multimodal, Modèles Génératifs pour Images&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>MSc. Ingénierie Informatique — ENSTA Paris</title>
+      <link>http://localhost:1313/fr/education/edu_3/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/education/edu_3/</guid>
+      <description>&lt;h2 id=&#34;msc-en-ingénierie-informatique&#34;&gt;MSc. en Ingénierie Informatique&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ENSTA Paris&lt;/strong&gt; | Institut Polytechnique de Paris&lt;br&gt;
+&lt;em&gt;Septembre 2023 – Présent&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;L&amp;rsquo;ENSTA Paris, fondée en 1741, est la plus ancienne école d&amp;rsquo;ingénieurs de France et figure parmi les institutions les plus prestigieuses du pays.&lt;/p&gt;
+&lt;h3 id=&#34;points-clés-du-cursus&#34;&gt;Points Clés du Cursus&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ingénierie Générale&lt;/strong&gt; : Mathématiques appliquées, physique, mécanique, traitement du signal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Majeure Informatique (STIC)&lt;/strong&gt; : Programmation orientée objet (C++, Java), architecture des microprocesseurs, programmation parallèle, bases de données&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spécialisation Intelligence Artificielle&lt;/strong&gt; : Apprentissage Statistique, Deep Learning, Machine Learning, Reconnaissance d&amp;rsquo;Images, Modélisation du Langage, Apprentissage par Renforcement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;réalisations&#34;&gt;Réalisations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;GPA cumulatif 4.05/4.3&lt;/li&gt;
+&lt;li&gt;Admission au programme MVA en double diplôme&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Classes Préparatoires MPSI/MP* — Moulay Youssef</title>
+      <link>http://localhost:1313/fr/education/edu_1/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/education/edu_1/</guid>
+      <description>&lt;h2 id=&#34;classes-préparatoires-mpsimp&#34;&gt;Classes Préparatoires MPSI/MP*&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Lycée Moulay Youssef&lt;/strong&gt; | Rabat, Maroc&lt;br&gt;
+&lt;em&gt;Septembre 2021 – Juin 2023&lt;/em&gt; | &lt;strong&gt;Top 5% National&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Programme intensif de deux ans préparant aux concours d&amp;rsquo;entrée des Grandes Écoles françaises.&lt;/p&gt;
+&lt;h3 id=&#34;points-clés-du-cursus&#34;&gt;Points Clés du Cursus&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mathématiques&lt;/strong&gt; : Calcul, algèbre linéaire, probabilités, équations différentielles, topologie&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Physique&lt;/strong&gt; : Mécanique classique, électromagnétisme, thermodynamique, optique, physique quantique&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Informatique&lt;/strong&gt; : Algorithmes, structures de données, complexité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;réalisations&#34;&gt;Réalisations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Classement Top 5% aux concours nationaux&lt;/li&gt;
+&lt;li&gt;Admission à l&amp;rsquo;ENSTA Paris via le concours des Grandes Écoles françaises&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

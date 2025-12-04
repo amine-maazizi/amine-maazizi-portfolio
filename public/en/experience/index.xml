@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Experience on Amine Maazizi | Research Student</title>
+    <link>http://localhost:1313/en/experience/</link>
+    <description>Recent content in Experience on Amine Maazizi | Research Student</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Intern — Institut Pasteur</title>
+      <link>http://localhost:1313/en/experience/research_pasteur/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/experience/research_pasteur/</guid>
+      <description>&lt;h2 id=&#34;research-intern--collaborator&#34;&gt;Research Intern / Collaborator&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Institut Pasteur&lt;/strong&gt; | Biological Image Analysis Unit&lt;br&gt;
+&lt;em&gt;Paris, France — June 2025 – Present&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-shape-matching-models-for-membrane-morphogenesis&#34;&gt;Project: Shape-Matching Models for Membrane Morphogenesis&lt;/h3&gt;
+&lt;p&gt;Developing computational methods at the intersection of geometric deep learning and biophysics to analyze membrane curvature dynamics.&lt;/p&gt;
+&lt;h3 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Shape-Matching Models&lt;/strong&gt;: Developed novel algorithms incorporating biomechanical constraints (Helfrich energy) to analyze membrane curvature with high precision&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Computational Framework&lt;/strong&gt;: Built an optimized pipeline for large-scale molecular simulations, achieving &lt;strong&gt;10× speed-up&lt;/strong&gt; over legacy implementations&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research Collaborator — NAIST</title>
+      <link>http://localhost:1313/en/experience/research_naist/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/experience/research_naist/</guid>
+      <description>&lt;h2 id=&#34;research-collaborator&#34;&gt;Research Collaborator&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Nara Institute of Science and Technology (NAIST)&lt;/strong&gt; | CARE Laboratory
+&lt;em&gt;Japan (Remote) — October 2024 – December 2024&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-geometric-deep-learning-for-3d-content-generation&#34;&gt;Project: Geometric Deep Learning for 3D Content Generation&lt;/h3&gt;
+&lt;p&gt;Conducted a comprehensive literature survey on state-of-the-art Geometric Deep Learning approaches for generating 3D models in Virtual Reality environments.&lt;/p&gt;
+&lt;h3 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Literature Survey&lt;/strong&gt;: Compiled a structured review of Geometric DL solutions for generating 3D models from multimodal inputs (text, images, point clouds)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Software Development Intern — Ministry of Equipment &amp; Water</title>
+      <link>http://localhost:1313/en/experience/internship_1/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/experience/internship_1/</guid>
+      <description>&lt;h2 id=&#34;software-development-intern&#34;&gt;Software Development Intern&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Ministry of Equipment &amp;amp; Water&lt;/strong&gt; | Directorate of Technical Affairs&lt;br&gt;
+&lt;em&gt;Rabat, Morocco — July 2024 – August 2024&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-internal-chatbot-for-process-automation&#34;&gt;Project: Internal Chatbot for Process Automation&lt;/h3&gt;
+&lt;p&gt;Developed an intelligent chatbot system to automate routine administrative queries and form-filling processes.&lt;/p&gt;
+&lt;h3 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Automation Platform&lt;/strong&gt;: Built an internal chatbot automating queries and form-filling, reducing manual workload by approximately &lt;strong&gt;50%&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LLM Fine-tuning&lt;/strong&gt;: Fine-tuned a GPT-4 model specifically for price revision in the context of public works contracts in Morocco&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Freelance Game Developer</title>
+      <link>http://localhost:1313/en/experience/freelancing/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/experience/freelancing/</guid>
+      <description>&lt;h2 id=&#34;freelance-game-developer&#34;&gt;Freelance Game Developer&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Fiverr, Upwork, Freelancer.com&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;January 2022 – December 2024&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;Designed and shipped 2D/3D games and interactive tools using Unity and Godot, collaborating with international clients on diverse projects.&lt;/p&gt;
+&lt;h3 id=&#34;project-types&#34;&gt;Project Types&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2D and 3D game development&lt;/li&gt;
+&lt;li&gt;Interactive tools and simulations&lt;/li&gt;
+&lt;li&gt;Low-level game mechanics optimization&lt;/li&gt;
+&lt;li&gt;Multiplayer networking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Unity&lt;/code&gt; &lt;code&gt;Godot&lt;/code&gt; &lt;code&gt;C#&lt;/code&gt; &lt;code&gt;GDScript&lt;/code&gt; &lt;code&gt;Game Design&lt;/code&gt; &lt;code&gt;3D Modeling&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

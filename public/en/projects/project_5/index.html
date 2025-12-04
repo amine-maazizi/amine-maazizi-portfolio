@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>E-commerce Customer Support Language Model | Amine Maazizi | Research Student</title>
+<meta name="keywords" content="AI, NLP, Customer Support, Chatbot">
+<meta name="description" content="A fine-tuned LLaMA 3 70 model designed to handle common customer support queries for e-commerce platforms using natural language.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/en/projects/project_5/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2990740e45c371b74997ad539bbb8e0c36e620bfa40bbdfefe1eb1172c973e5e.css" integrity="sha256-KZB0DkXDcbdJl61Tm7uODDbmIL&#43;kC73&#43;/h6xFyyXPl4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/en/projects/project_5/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/en/" accesskey="h" title="Amine Maazizi | Research Student (Alt + H)">Amine Maazizi | Research Student</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="http://localhost:1313/" title="Français"
+                            aria-label="Français">Fr</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/en/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/projects/" title="Research">
+                    <span>Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/experience/" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/education/" title="Education">
+                    <span>Education</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      E-commerce Customer Support Language Model
+    </h1>
+    <div class="post-description">
+      A fine-tuned LLaMA 3 70 model designed to handle common customer support queries for e-commerce platforms using natural language.
+    </div>
+    <div class="post-meta"><span title='2024-09-06 00:00:00 +0000 UTC'>September 6, 2024</span>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://localhost:1313/images/project_5/guide.png" alt="">
+        
+</figure>
+  <div class="post-content"><h2 id="overview">Overview<a hidden class="anchor" aria-hidden="true" href="#overview">#</a></h2>
+<p>Large language models (LLMs) are increasingly being leveraged by major companies to automate tasks such as customer support, training new recruits, and knowledge retrieval. This project involved developing a customer support language model using LLaMA 3 70, fine-tuned on the Bitext Customer Support LLM Chatbot Training Dataset. This model is specifically tailored to handle frequent customer queries in e-commerce, enhancing support efficiency by providing quick and accurate responses, thus improving overall customer satisfaction.</p>
+<h2 id="objectives">Objectives<a hidden class="anchor" aria-hidden="true" href="#objectives">#</a></h2>
+<ul>
+<li><strong>Reduce Response Time</strong>: Cut down response times for common customer inquiries by 50%, ensuring quicker resolution of customer issues.</li>
+<li><strong>Improve Accuracy</strong>: Achieve a response accuracy rate of 95% for typical customer support queries, enhancing the quality of customer interactions.</li>
+<li><strong>Seamless Integration</strong>: Ensure the model integrates smoothly into existing e-commerce support workflows, providing a seamless customer service experience.</li>
+</ul>
+<h2 id="key-features">Key Features<a hidden class="anchor" aria-hidden="true" href="#key-features">#</a></h2>
+<ul>
+<li><strong>Natural Language Understanding</strong>: Capable of accurately interpreting customer questions and delivering relevant answers in a human-like manner.</li>
+<li><strong>Contextual Responses</strong>: Maintains context across multi-turn conversations, allowing for coherent and helpful support dialogues.</li>
+<li><strong>Customizable and Scalable</strong>: Easily adaptable to different e-commerce platforms, scalable to handle increasing volumes of customer queries.</li>
+</ul>
+<h2 id="example-query">Example Query<a hidden class="anchor" aria-hidden="true" href="#example-query">#</a></h2>
+<ul>
+<li><strong>Client</strong>: I want to refund the item I bought that cost $90.</li>
+<li><strong>Bot</strong>: I&rsquo;m sorry to hear that you&rsquo;re seeking a refund for the item you purchased for $90. To assist you with the refund process, could you please provide me with the {{Order Number}} or {{Tracking Number}}? This information will help me locate your order and guide you through the necessary steps to initiate the refund. I&rsquo;m here to help you every step of the way. Thank you for reaching out, and I appreciate your patience as we resolve this matter.</li>
+</ul>
+<h2 id="technologies-used">Technologies Used<a hidden class="anchor" aria-hidden="true" href="#technologies-used">#</a></h2>
+<h3 id="backend">Backend:<a hidden class="anchor" aria-hidden="true" href="#backend">#</a></h3>
+<ul>
+<li><strong>Python</strong>: The core language used for building and deploying the model.
+<ul>
+<li><strong>transformers</strong>: Utilized for model loading, tokenization, and interfacing with the LLaMA 3 70 model.</li>
+<li><strong>datasets</strong>: Employed for loading and managing the Bitext Customer Support dataset efficiently.</li>
+<li><strong>perf</strong>: Used for performance monitoring and optimization of the model inference process.</li>
+<li><strong>pytorch</strong>: Provides the deep learning framework for model training and fine-tuning.</li>
+<li><strong>trl</strong>: Aids in implementing reinforcement learning from human feedback (RLHF) for further refining model responses.</li>
+</ul>
+</li>
+</ul>
+<h2 id="model-details">Model Details<a hidden class="anchor" aria-hidden="true" href="#model-details">#</a></h2>
+<ul>
+<li><strong>Model Availability</strong>: The model is publicly available under the MIT license, making it easy for others to adapt and deploy in their own projects.</li>
+<li><strong>Model Link</strong>: <a href="https://huggingface.co/amine-maazizi/llama-3-8b-chat-customer-support">LLaMA 3 70 - Customer Support Model</a></li>
+</ul>
+<h2 id="contact">Contact<a hidden class="anchor" aria-hidden="true" href="#contact">#</a></h2>
+<p>For more information or to discuss your project requirements, <a href="/en/contact/">contact us here</a>.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/en/tags/ai/">AI</a></li>
+      <li><a href="http://localhost:1313/en/tags/nlp/">NLP</a></li>
+      <li><a href="http://localhost:1313/en/tags/customer-support/">Customer Support</a></li>
+      <li><a href="http://localhost:1313/en/tags/chatbot/">Chatbot</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/en/">Amine Maazizi | Research Student</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Programming Languages on Amine Maazizi | Research Student</title>
+    <link>http://localhost:1313/tags/programming-languages/</link>
+    <description>Recent content in Programming Languages on Amine Maazizi | Research Student</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/programming-languages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SAGALang — Interpreted Programming Language</title>
+      <link>http://localhost:1313/projects/sagalang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sagalang/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Created an interpreted imperative programming language with a complete implementation stack from lexer to interpreter. The language follows a traditional interpreter pipeline with tokenization, parsing into an AST, and tree-walking interpretation, enhanced with modern ML-based developer tooling.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/amine-maazizi/SagaLang&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This project extends beyond concepts from &lt;a href=&#34;https://craftinginterpreters.com/&#34;&gt;Crafting Interpreters&lt;/a&gt; by Robert Nystrom&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Language Implementation&lt;/strong&gt;: Built a custom lexer, parser, and interpreter entirely in Python&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standard Library&lt;/strong&gt;: Developed a standard library supporting real-time graphics capabilities&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI-Powered Completion&lt;/strong&gt;: Integrated neural code completion using transformer models for intelligent suggestions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Python&lt;/code&gt; &lt;code&gt;Transformers&lt;/code&gt; &lt;code&gt;Language Design&lt;/code&gt; &lt;code&gt;Lexical Analysis&lt;/code&gt; &lt;code&gt;Parsing&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
