@@ -1,20 +1,20 @@
 ---
-title: "Diplôme d'Ingénieur MSc à l'ENSTA Paris"
-date: 2023-09-01
+title: "MSc. MVA — École Normale Supérieure Paris-Saclay"
+date: 2025-09-01
 endDate: actuel
+weight: 1
 ---
 
-> Je suis actuellement en deuxième année de spécialisation en informatique à l'ENSTA Paris, avec un focus sur les technologies de l'information et de la communication.
+## Master MVA (Mathématiques, Vision, Apprentissage)
 
-## Points Forts de l'École
-- Fondée en 1741, l'ENSTA Paris est la plus ancienne école d'ingénieurs de France.
-- Régulièrement classée parmi les 5 meilleures écoles d'ingénieurs en France, elle occupe la 2ᵉ place dans le Classement Étudiant 2023.
+**École Normale Supérieure Paris-Saclay** | Université Paris-Saclay  
+*Septembre 2025 – Présent*
 
-### Compétences Acquises
+---
 
-- **Première Année** : Formation générale en ingénierie couvrant les mathématiques appliquées, la physique, la mécanique et les outils d'ingénierie (MATLAB, ingénierie des systèmes, traitement du signal, algorithmes et programmation).
-- **Deuxième Année** : Majeure en **Sciences et Technologies de l'Information et de la Communication (STIC)**, axée sur :
-  - Développement logiciel orienté objet (C++, Java)
-  - Architecture des microprocesseurs, systèmes d'exploitation et programmation parallèle
-  - Théorie de l'information, réseaux, bases de données et analyse statistique des données
-- **Mineure** : **IA & Cyber-physique** préparant aux spécialisations en IA et Robotique.
+Le master MVA est l'un des programmes les plus prestigieux d'Europe en mathématiques appliquées et apprentissage automatique, attirant les meilleurs étudiants et chercheurs du monde entier.
+
+### Points Clés du Cursus
+
+- **Fondements Mathématiques** : Modèles Graphiques Probabilistes, Modèles Graphiques Génératifs, Traitement Géométrique, Analyse de Données Géométriques
+- **Apprentissage** : Deep Learning Géométrique, XAI Multimodal, Modèles Génératifs pour Images

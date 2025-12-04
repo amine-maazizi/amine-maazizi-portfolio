@@ -1,17 +1,26 @@
 ---
-title: "Preparatory Classes MPSI/MP*"
+title: "Preparatory Classes MPSI/MP* — Moulay Youssef"
 date: 2021-09-01
 endDate: 2023-09-01
+weight: 3
 ---
 
-### Learned
+## Classes Préparatoires MPSI/MP*
 
-- **Mathematics**: Calculus, linear algebra, probability, statistics, differential equations, logic.
-- **Physics**: Mechanics, electromagnetism, thermodynamics, optics, quantum physics.
-- **Computer Science**: algorithms and data structures.
+**Moulay Youssef Preparatory School** | Rabat, Morocco  
+*September 2021 – June 2023* | **Top 5% National Ranking**
+
+---
+
+Intensive two-year program preparing for the highly competitive entrance examinations to France's Grandes Écoles.
+
+### ### Curriculum Highlights
+
+- **Mathematics**: Calculus, linear algebra, probability, differential equations, topology
+- **Physics**: Classical mechanics, electromagnetism, thermodynamics, optics, quantum physics
+- **Computer Science**: Algorithms, data structures, complexity theory
 
 ### Achievements
 
-- Exceptional rankings in the Moroccan entrance exam.
-- Exceptional rankings in the French entrance exam.
-- Integrated ENSTA Paris, one of France's leading engineering schools.
+- Top 5% ranking in national competitive examinations
+- Admitted to ENSTA Paris through the French Grandes Écoles entrance examination

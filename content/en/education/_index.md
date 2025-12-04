@@ -1,5 +1,4 @@
 ---
 title: "Education"
-description: "Here is an overview of academic endeavors."
+description: "Academic background and qualifications."
 ---
-

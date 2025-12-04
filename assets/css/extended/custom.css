@@ -1,0 +1,20 @@
+/* Custom styles for profile image - crop to square */
+.profile .profile_inner img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center 65%;
+    border-radius: 50%;
+}
+
+/* Allow scrolling past profile section to see content */
+.profile {
+    min-height: auto;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+/* Ensure main content is visible below profile */
+.main {
+    min-height: auto;
+}

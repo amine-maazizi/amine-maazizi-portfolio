@@ -1,13 +1,8 @@
 ---
 title: "Home"
-description: "Welcome to Amine Maazizi's Portfolio"
+description: "Amine Maazizi | Research Student in Geometric Deep Learning & Generative AI"
 ---
 
+## Research Interests
 
-# Welcome to My Portfolio
-
-
-Hi, I'm Amine Maazizi, an Engineering student at ENSTA Paris with experience in Automation and Artificial Intelligence.
-
-
-
+My research lies at the intersection of **Geometric Deep Learning** and **Generative AI**, with a focus on developing computational methods that leverage geometric priors for shape analysis and molecular modeling.

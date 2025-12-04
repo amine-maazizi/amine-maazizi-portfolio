@@ -1,42 +1,38 @@
 baseURL = 'https://amine-maazizi-portfolio.netlify.app/'
 theme = "PaperMod"
-DefaultContentLanguage = "fr"
+DefaultContentLanguage = "en"
 languageCode = "en-us"
 
 [languages]
   [languages.en]
-    title = "Amine Maazizi's Portfolio"
+    title = "Amine Maazizi | Research Student"
     weight = 1
     languageName = "English"
     contentDir = "content/en"
     [languages.en.params]
-      description = "Portfolio of Amine Maazizi, AI Engineering student and Automation specialist"
+      description = "Amine Maazizi, MSc. MVA @ ENS Paris-Saclay & MSc. CS @ ENSTA Paris | Geometric Deep Learning & Generative AI"
       # Profile Mode Configuration
       [languages.en.params.profileMode]
         enabled = true
         title = "Amine Maazizi"
-        subtitle = "AI Engineering student and Automation specialist"
+        subtitle = "MSc. MVA @ ENS Paris-Saclay • MSc. CS @ ENSTA Paris\n\nResearch Interests: Geometric Deep Learning × Generative AI"
         imageTitle = "Profile Picture of Amine Maazizi"
-        imageUrl = "images/profile.png" 
-        imageWidth = 325
-        imageHeight = -1
+        imageUrl = "images/profile.jpg"
 
   [languages.fr]
-    title = "Portfolio d'Amine Maazizi"
+    title = "Amine Maazizi | Chercheur-Étudiant"
     weight = 2
     languageName = "Français"
     contentDir = "content/fr"
     [languages.fr.params]
-      description = "Portfolio d'Amine Maazizi, étudiant en ingénierie de l'IA et spécialiste de l'automatisation"
+      description = "Amine Maazizi, MSc. MVA @ ENS Paris-Saclay & MSc. CS @ ENSTA Paris | Deep Learning Géométrique & IA Générative"
       # Configuration du mode profil
       [languages.fr.params.profileMode]
         enabled = true
         title = "Amine Maazizi"
-        subtitle = "Étudiant en ingénierie de l'IA et spécialiste de l'automatisation"
+        subtitle = "MSc. MVA @ ENS Paris-Saclay • MSc. CS @ ENSTA Paris\n\nIntérêts de Recherche: Deep Learning Géométrique × IA Générative"
         imageTitle = "Photo de profil d'Amine Maazizi"
-        imageUrl = "images/profile.png" 
-        imageWidth = 325
-        imageHeight = -1
+        imageUrl = "images/profile.jpg"
 
 # Social Icons Configuration (applies to all languages)
 [[params.socialIcons]]
@@ -59,7 +55,7 @@ languageCode = "en-us"
     weight = 1
 
   [[languages.en.menu.main]]
-    name = "About"
+    name = "News"
     url = "/about/"
     weight = 2
 
@@ -69,24 +65,19 @@ languageCode = "en-us"
     weight = 3
 
   [[languages.en.menu.main]]
-    name = "Services"
-    url = "/services/"
-    weight = 4
-
-  [[languages.en.menu.main]]
     name = "Experience"
     url = "/experience/"
-    weight = 5
+    weight = 4
 
   [[languages.en.menu.main]]
     name = "Education"
     url = "/education/"
-    weight = 6
+    weight = 5
 
   [[languages.en.menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 7
+    weight = 6
 
   # French Menu
   [[languages.fr.menu.main]]
@@ -95,7 +86,7 @@ languageCode = "en-us"
     weight = 1
 
   [[languages.fr.menu.main]]
-    name = "À Propos"
+    name = "Actualités"
     url = "/a-propos/"
     weight = 2
 
@@ -105,21 +96,16 @@ languageCode = "en-us"
     weight = 3
 
   [[languages.fr.menu.main]]
-    name = "Services"
-    url = "/services/"
-    weight = 4
-
-  [[languages.fr.menu.main]]
     name = "Expérience"
     url = "/experience/"
-    weight = 5
+    weight = 4
 
   [[languages.fr.menu.main]]
     name = "Éducation"
     url = "/education/"
-    weight = 6
+    weight = 5
 
   [[languages.fr.menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 7
+    weight = 6

@@ -1,15 +1,32 @@
 ---
-title: "Internship at the Ministry of Equipment and Water"
-date: 2024-07-10
-endDate: 2024-08-10
+title: "Software Development Intern — Ministry of Equipment & Water"
+date: 2024-07-01
+endDate: 2024-08-31
+weight: 3
 ---
 
-## Internship at the Ministry of Equipment and Water
+## Software Development Intern
 
-> I completed my first-year operator internship at **ENSTA Paris** within the **Directorate of Technical Affairs and Relations with the Profession** at the **Ministry of Equipment and Water** in Morocco.
+**Ministry of Equipment & Water** | Directorate of Technical Affairs  
+*Rabat, Morocco — July 2024 – August 2024*
 
-### Key Responsibilities
+---
 
-- Participated in daily operations within the Directorate of Technical Affairs and Relations with Professionals.
-- Developed an automation platform to optimize repetitive tasks, including data entry for the price index.
-- Fine-tuned a GPT-4 model specifically for the revision of prices in the context of public works contracts in Morocco, enhancing the accuracy and efficiency of data analysis.
+### Project: Internal Chatbot for Process Automation
+
+Developed an intelligent chatbot system to automate routine administrative queries and form-filling processes.
+
+### Key Contributions
+
+- **Automation Platform**: Built an internal chatbot automating queries and form-filling, reducing manual workload by approximately **50%**
+
+- **LLM Fine-tuning**: Fine-tuned a GPT-4 model specifically for price revision in the context of public works contracts in Morocco
+
+- **Data Processing**: Developed automation tools for data entry related to price index management
+
+---
+
+### Technologies
+
+`Python` `GPT-4` `NLP` `Automation` `Data Processing`
+

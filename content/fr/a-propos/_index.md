@@ -1,10 +1,43 @@
 ---
-title: "À Propos de Moi"
+title: "Actualités & Publications"
 ---
 
-> **Je suis Amine Maazizi**, un étudiant passionné par la technologie et son potentiel à transformer la vie quotidienne. Mon parcours a commencé à l'âge de 15 ans lorsque j'ai découvert les langages de programmation et que je me suis rapidement fasciné par leur capacité à automatiser les tâches quotidiennes. Depuis, j'ai exploré une grande variété de langages et d'outils de programmation, notamment **Python, C, C++, Java, JavaScript, Go, Rust, Lua,** et bien d'autres. Cette exploration a affiné mes compétences dans l'utilisation des ressources computationnelles pour relever des défis de plus en plus complexes.
+## Actualités
 
-> Ma passion pour l'automatisation m'a naturellement conduit vers le domaine de **l'intelligence artificielle**, où j'ai exploré un large éventail de domaines, notamment l'apprentissage automatique général, le deep learning, l'apprentissage par renforcement et les algorithmes génétiques pour les tâches d'optimisation. Je me suis également spécialisé dans le fine-tuning de grands modèles de langage, le développement de solutions de vision par ordinateur, et plus récemment, j'ai développé un vif intérêt pour l'IA générative. Ce parcours diversifié a considérablement enrichi mes compétences, me permettant de concevoir et de mettre en œuvre des solutions d'automatisation de pointe qui repoussent les limites de la technologie.
+- *(Sep 2025 - Présent)* **Collaboration à l'Institut Pasteur** : Démonstration que les forces induites par la courbure sont des moteurs clés de la morphogenèse membranaire, poursuivant le travail initié lors de mon stage.
 
+---
 
-> Actuellement, je poursuis un **diplôme d'ingénierie en intelligence artificielle à l'ENSTA Paris**, la plus ancienne école d'ingénieurs de France et l'une de ses institutions les plus prestigieuses. Mes études ici continuent d'alimenter ma passion et ma détermination, alors que je vise à repousser les limites de ce que la technologie peut accomplir.
+## Prix & Distinctions
+
+- *(Nov 2025)* **Finaliste — Prix du Meilleur Projet de Recherche** — SAE  
+Finaliste parmi 340 projets étudiants pour la recherche sur l'analyse de courbure membranaire
+
+- *(Oct 2025)* **1ère Place, Automathon Hackathon** — Centrale Supélec  
+Classé 1er sur 100 participants ; score F4 de 0.75 sur la détection d'événements sonores
+
+- *(Mai 2025)* **Prix de la Créativité, Global AI Hackathon** — MIT Sloan AI & ML Club  
+Classé 13ème sur 800+ participants de 30+ pays pour [SkincAIre](https://github.com/amine-maazizi)
+
+- *(2023 - 2026)* **Bourse de Mérite** — Ministère de l'Éducation du Maroc
+Décernée pour l'excellence académique en Classes Préparatoires
+
+---
+
+## Publications
+
+### En Rédaction
+
+Nardi et al. **"Morphodynamic study of the hematopoietic stem cell emergence using shape matching methods involving mechanical constraints"** — *Deuxième auteur*
+
+### En Préparation
+
+Maazizi et al. **"Diffusion-Enhanced Deep Neural Networks for Multimodal Deepfake Detection"** — *Premier auteur*
+
+Maazizi et al. **"Variational Autoencoders for Handling Missing Data"** — *Premier auteur*
+
+Maazizi et al. **"Comparative Study of Pseudoinverse-Based Updates in Stochastic Wasserstein Barycenter Computation"** — *Premier auteur*
+
+### Rapports Techniques
+
+Maazizi et al. **"Clairvoyance: Smart Glasses for the Visually Impaired in Indoor Environment"** — *Premier auteur, Non publié*

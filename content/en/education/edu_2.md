@@ -1,20 +1,20 @@
 ---
-title: "Engineering Degree MSc at ENSTA Paris"
-date: 2023-09-01
+title: "MSc. MVA — École Normale Supérieure Paris-Saclay"
+date: 2025-09-01
 endDate: current
+weight: 1
 ---
 
-> I am currently a second-year computer science major at ENSTA Paris, specializing in information and communication technologies.
+## Master MVA (Mathematics, Vision, Learning)
 
-## School Highlights
-- Established in 1741, ENSTA Paris is the oldest engineering school in France.
-- Consistently ranked among the top 5 engineering schools in France, holding the 2nd position in the 2023 Classement Étudiant.
+**École Normale Supérieure Paris-Saclay** | Université Paris-Saclay  
+*September 2025 – Present*
 
-### Learned
+---
 
-- **First Year**: Generalist engineering curriculum covering applied mathematics, physics, mechanics, and engineering tools (MATLAB, systems engineering, signal processing, algorithms, and programming).
-- **Second Year**: Major in **Sciences et Technologies de l'Information et de la Communication (STIC)**, focusing on:
-  - Object-oriented software development (C++, Java)
-  - Microprocessor architecture, operating systems, and parallel programming
-  - Information theory, networking, databases, and statistical data analysis
-- **Minor**: **IA & Cyber-physique** preparing for specializations in AI and Robotics.
+The MVA (Mathématiques, Vision, Apprentissage) master's program is one of Europe's most prestigious programs in applied mathematics and machine learning, attracting top students and researchers worldwide.
+
+### Curriculum Highlights
+
+- **Mathematical Foundations**: Probabilistic Graphical Models, Generative Graphical Models, Geoemtric Processing, Geometric Data Analysis
+- **Learning**: Geometric Deep Learning, Multimodal XAI, Generative Models for Images

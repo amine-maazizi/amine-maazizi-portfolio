@@ -1,10 +1,44 @@
 ---
-title: "About Me"
+title: "News & Publications"
 ---
 
-> **I'm Amine Maazizi**, a dedicated student with a deep passion for technology and its potential to transform everyday life. My journey began at the age of 15 when I discovered programming languages and quickly became fascinated by their power to automate daily tasks. Since then, I have explored a wide range of programming languages and tools, including **Python, C, C++, Java, JavaScript, Go, Rust, Lua,** and many more. This exploration has honed my skills in utilizing computational resources to tackle increasingly complex challenges.
+## News
 
-> My passion for automation naturally guided me into the realm of **artificial intelligence**, where I have explored a broad spectrum of areas, including general machine learning, deep learning, reinforcement learning, and genetic algorithms for optimization. I have also specialized in fine-tuning large language models, developing computer vision solutions, and more recently, I have developed a strong interest in generative AI. This diverse journey has profoundly enhanced my skills, enabling me to design and implement cutting-edge automation solutions that push the boundaries of technology.
+- *(Sep 2025 - Present)* **Collaboration at Institut Pasteur** : Currently demonstrating that curvature-induced forces are key drivers of membrane morphogenesis, extending work initiated during my internship.
 
+---
 
-> Currently, I am pursuing an **AI Engineering degree at ENSTA Paris**, the oldest engineering school in France and one of its most prestigious institutions. My studies here continue to fuel my passion and drive as I aim to push the boundaries of what technology can achieve.
+## Awards & Honors
+
+- *(Nov 2025)* **Finalist — Best Research Project Award** — SAE  
+Finalist out of 340 student projects for research on membrane curvature analysis
+
+- *(Oct 2025)* **1st Place, Automathon Hackathon** — Centrale Supélec  
+Ranked 1st out of 100 participants; achieved 0.75 F4 score on sound event detection
+
+- *(Mai 2025)* **Creativity Award, Global AI Hackathon** — MIT Sloan AI & ML Club  
+Ranked 13th out of 800+ participants from 30+ countries for [SkincAIre](https://github.com/amine-maazizi)
+
+- *(2023 - 2026)* **Bourse de Mérite Scholarship** — Ministry of Education of Morocco
+Awarded for academic excellence in Preparatory Classes
+
+---
+
+## Publications
+
+### Drafting
+
+Nardi et al. **"Morphodynamic study of the hematopoietic stem cell emergence using shape matching methods involving mechanical constraints"** — *Second author*
+
+### In Preparation
+
+Maazizi et al. **"Diffusion-Enhanced Deep Neural Networks for Multimodal Deepfake Detection"** — *First author*
+
+Maazizi et al. **"Variational Autoencoders for Handling Missing Data"** — *First author*
+
+Maazizi et al. **"Comparative Study of Pseudoinverse-Based Updates in Stochastic Wasserstein Barycenter Computation"** — *First author*
+
+### Technical Reports
+
+Maazizi et al. **"Clairvoyance: Smart Glasses for the Visually Impaired in Indoor Environment"** — *First author, Unpublished*
+
