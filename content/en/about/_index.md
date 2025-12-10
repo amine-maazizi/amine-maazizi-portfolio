@@ -4,6 +4,10 @@ title: "News & Publications"
 
 ## News
 
+- *(Dec 2025)* **Technical Report Published** : Released [Efficient Wasserstein Barycenter Computation with Application to Texture Mixing](/doc/Ewerthon_MELZANI_Amine_MAAZIZI_Sammy_OUKACI.pdf.pdf)
+
+- *(Dec 2025)* **Open-Sourced PointLLM Implementation** : Made public my [PointLLM Contrastive Learning implementation](https://github.com/amine-maazizi/PointLLM-Contrastive)
+
 - *(Sep 2025 - Present)* **Collaboration at Institut Pasteur** : Currently demonstrating that curvature-induced forces are key drivers of membrane morphogenesis, extending work initiated during my internship.
 
 ---
@@ -39,6 +43,8 @@ Maazizi et al. **"Variational Autoencoders for Handling Missing Data"** — *Fir
 Maazizi et al. **"Comparative Study of Pseudoinverse-Based Updates in Stochastic Wasserstein Barycenter Computation"** — *First author*
 
 ### Technical Reports
+
+Maazizi et al. **["Efficient Wasserstein Barycenter Computation with Application to Texture Mixing"](/doc/Ewerthon_MELZANI_Amine_MAAZIZI_Sammy_OUKACI.pdf.pdf)** — *First author*
 
 Maazizi et al. **"Clairvoyance: Smart Glasses for the Visually Impaired in Indoor Environment"** — *First author, Unpublished*
 
