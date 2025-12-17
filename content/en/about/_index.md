@@ -4,11 +4,21 @@ title: "News & Publications"
 
 ## News
 
-- *(Dec 2025)* **Technical Report Published** : Released [Efficient Wasserstein Barycenter Computation with Application to Texture Mixing](/doc/Ewerthon_MELZANI_Amine_MAAZIZI_Sammy_OUKACI.pdf.pdf)
+- 🆕 *(Dec 2025)* **Paper: not-MIWAE — Deep Generative Modelling with Missing Not at Random Data and a Supervised MNAR Extension (sup-not-MIWAE)** : Introduced the unsupervised not-MIWAE for robust missing-data inference and its supervised extension sup-not-MIWAE that couples target prediction with high-quality imputations; [Paper PDF](/doc/VAE_for_missing_data_MVA.pdf).
 
-- *(Dec 2025)* **Open-Sourced PointLLM Implementation** : Made public my [PointLLM Contrastive Learning implementation](https://github.com/amine-maazizi/PointLLM-Contrastive)
+- 🆕 *(Dec 2025)* **Poster Presentation — not-MIWAE** : I am presenting the poster; poster session on December 18th at ENS Paris-Saclay (Atrium). [Poster PDF](/doc/Poster_notmiwae.pdf).
 
-- *(Sep 2025 - Present)* **Collaboration at Institut Pasteur** : Currently demonstrating that curvature-induced forces are key drivers of membrane morphogenesis, extending work initiated during my internship.
+- 🆕 *(Dec 2025)* **Technical Report Published** : Released [Efficient Wasserstein Barycenter Computation with Application to Texture Mixing](/doc/Ewerthon_MELZANI_Amine_MAAZIZI_Sammy_OUKACI.pdf.pdf)
+
+- 🆕 *(Dec 2025)* **Open-Sourced PointLLM Implementation** : Made public my [PointLLM Contrastive Learning implementation](https://github.com/amine-maazizi/PointLLM-Contrastive)
+
+- 🆕 *(Sep 2025 - Present)* **Collaboration at Institut Pasteur** : Currently demonstrating that curvature-induced forces are key drivers of membrane morphogenesis, extending work initiated during my internship.
+
+---
+
+## Code & Resources
+
+- 🆕 **Open-source release of not-MIWAE / sup-not-MIWAE** : Code on [GitHub](https://github.com/Adam-Ousse/notmiwae_pytorch) and Python package on [PyPI](https://pypi.org/project/notmiwae-pytorch/) for easy installation.
 
 ---
 
@@ -30,6 +40,12 @@ Awarded for academic excellence in Preparatory Classes
 
 ## Publications
 
+### New
+
+**not-MIWAE: Deep Generative Modelling with Missing Not at Random Data and a Supervised MNAR Extension (sup-not-MIWAE)** — Unsupervised variant learns a missing-data-aware latent model; supervised extension jointly trains on targets to improve imputations and predictive accuracy; presented at ENS Paris-Saclay (Atrium) poster session on December 18th. [Paper PDF](/doc/VAE_for_missing_data_MVA.pdf) · [Poster PDF](/doc/Poster_notmiwae.pdf)
+
+Maazizi et al. **["Efficient Wasserstein Barycenter Computation with Application to Texture Mixing"](/doc/Ewerthon_MELZANI_Amine_MAAZIZI_Sammy_OUKACI.pdf.pdf)** — *First author*
+
 ### Drafting
 
 Nardi et al. **"Morphodynamic study of the hematopoietic stem cell emergence using shape matching methods involving mechanical constraints"** — *Second author*
@@ -38,13 +54,7 @@ Nardi et al. **"Morphodynamic study of the hematopoietic stem cell emergence usi
 
 Maazizi et al. **"Diffusion-Enhanced Deep Neural Networks for Multimodal Deepfake Detection"** — *First author*
 
-Maazizi et al. **"Variational Autoencoders for Handling Missing Data"** — *First author*
-
-Maazizi et al. **"Comparative Study of Pseudoinverse-Based Updates in Stochastic Wasserstein Barycenter Computation"** — *First author*
-
 ### Technical Reports
-
-Maazizi et al. **["Efficient Wasserstein Barycenter Computation with Application to Texture Mixing"](/doc/Ewerthon_MELZANI_Amine_MAAZIZI_Sammy_OUKACI.pdf.pdf)** — *First author*
 
 Maazizi et al. **"Clairvoyance: Smart Glasses for the Visually Impaired in Indoor Environment"** — *First author, Unpublished*
 
